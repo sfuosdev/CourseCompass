@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Outlines</title>
+</head>
+<body>
+  <h1>Course Outlines</h1>
+
+  <label for="yearSelect">Select Year:</label>
+  <select id="yearSelect" onchange="populateTerms()"></select>
+
+  <label for="termSelect">Select Term:</label>
+  <select id="termSelect" onchange="populateDepartments()"></select>
+
+  <label for="departmentSelect">Select Department:</label>
+  <select id="departmentSelect" onchange="populateCourseNumbers()"></select>
+
+  <label for="courseNumberSelect">Select Course Number:</label>
+  <select id="courseNumberSelect" onchange="populateSections()"></select>
+
+  <label for="sectionSelect">Select Section:</label>
+  <select id="sectionSelect"></select>
+
+  <button onclick="fetchCourseOutline()">Fetch Course Outline</button>
+
+  <div id="courseOutline"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
