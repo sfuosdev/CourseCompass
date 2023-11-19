@@ -1,12 +1,11 @@
+// CoursesPage.js
 "use client";
-
 import CourseOutline from "@/components/CourseOutline";
 import SelectionMenu from "@/components/SelectionMenu";
 import { useState } from "react";
-import { Outline } from "@/components/CourseOutline";
 
-export default function Home() {
-  const [outline, setOutline] = useState<Outline | null>();
+export default function CoursesPage() {
+  const [outline, setOutline] = useState();
 
   return (
     <div>
