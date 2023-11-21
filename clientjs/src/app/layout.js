@@ -5,6 +5,7 @@ import NavBar from '@/components/NavBar'; // Import the NavBar component
 import Footer from '@/components/Footer';
 import './globals.css';
 
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -19,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NavBar />
+        <main className='mt-[140px]'>
         {children}
+        </main>
         <Footer />
       </body>
     </html>
