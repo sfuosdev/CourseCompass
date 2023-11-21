@@ -2,30 +2,8 @@
 
 import React from "react";
 
-export type Info = {
-  name: string;
-  term: string;
-  title: string;
-  section: string;
-  classNumber: string;
-  prerequisites: string;
-  corequisites: string;
-  degreeLevel: string;
-  deliveryMethod: string;
-  departmentalUgradNotes: string;
-  dept: string;
-  description: string;
-  designation: string;
-  notes: string;
-  number: string;
-  outlinePath: string;
-  registrarNotes: string;
-  requiredReadingNotes: string;
-  specialTopic: string;
-  type: string;
-};
 
-const CourseInfo = (info: Info) => {
+const CourseInfo = (info) => {
   return (
     <div>
       {`Course Info: `}

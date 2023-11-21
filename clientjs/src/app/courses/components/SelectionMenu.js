@@ -3,33 +3,12 @@
 import React, { useEffect, useState } from "react";
 import Dropdown from "./Dropdown";
 import axios from "axios";
-import { Outline } from "./CourseOutline";
 
-type APIData = {
-  value: string;
-};
-
-export type OutlineSelections = {
-  year: string | null;
-  term: string | null;
-  department: string | null;
-  courseNumber: string | null;
-  section: string | null;
-  lastChanged: string | null;
-};
-
-function getValues(apiResponse: any): string[] {
-  return apiResponse.data.map(({ value }: APIData) => value);
+function getValues(apiResponse) {
+  return apiResponse.data.map(({ value }) => value);
 }
-async function fetchData(
-  setProperty: (property: string[]) => void,
-  year: string | null,
-  term: string | null,
-  department: string | null,
-  courseNumber: string | null,
-  section: string | null
-) {
-  var url: string = `http://www.sfu.ca/bin/wcm/course-outlines`;
+export async function fetchData(year, term, department, courseNumber, section) {
+  var url = `http://www.sfu.ca/bin/wcm/course-outlines`;
 
   if (year && !term) {
     url += `?${year}`;
@@ -41,26 +20,23 @@ async function fetchData(
     url += `?${year}/${term}/${department}/${courseNumber}`;
   }
 
-  const values = getValues(await axios.get(url));
+  const values = await axios.get(url);
+  // console.log(values.data);
+  // const values = getValues(res);
 
-  setProperty(values);
+  // setProperty(values.data);
 
-  return values;
+  return values.data;
 }
 
-interface SelectioMenuProps {
-  outline: Outline | undefined;
-  setOutline: (outline: Outline) => void | undefined;
-}
+const SelectionMenu = ({ outline, setOutline }) => {
+  const [years, setYears] = useState([]);
+  const [terms, setTerms] = useState([]);
+  const [departments, setDepartments] = useState([]);
+  const [courseNumbers, setCourseNumbers] = useState([]);
+  const [sections, setSections] = useState([]);
 
-const SelectionMenu = ({ outline, setOutline }: SelectioMenuProps) => {
-  const [years, setYears] = useState<string[]>([]);
-  const [terms, setTerms] = useState<string[]>([]);
-  const [departments, setDepartments] = useState<string[]>([]);
-  const [courseNumbers, setCourseNumbers] = useState<string[]>([]);
-  const [sections, setSections] = useState<string[]>([]);
-
-  const [selectedOptions, setSelectedOptions] = useState<OutlineSelections>({
+  const [selectedOptions, setSelectedOptions] = useState({
     year: null,
     term: null,
     department: null,
@@ -69,7 +45,7 @@ const SelectionMenu = ({ outline, setOutline }: SelectioMenuProps) => {
     lastChanged: null,
   });
 
-  async function updateParameters(options: OutlineSelections) {
+  async function updateParameters(options) {
     setOutline(null);
 
     if (!options.year) {
@@ -155,7 +131,7 @@ const SelectionMenu = ({ outline, setOutline }: SelectioMenuProps) => {
         `http://www.sfu.ca/bin/wcm/course-outlines?${selectedOptions.year}/${selectedOptions.term}/${selectedOptions.department}/${selectedOptions.courseNumber}/${selectedOptions.section}`
       )
       .then((response) => {
-        const outlineData = response.data as Outline;
+        const outlineData = response.data;
         setOutline(outlineData);
       });
   };

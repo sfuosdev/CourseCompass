@@ -2,19 +2,8 @@
 
 import React from "react";
 
-export type Instructor = {
-  commonName: string;
-  email: string;
-  firstName: string;
-  lastName: string;
-  office: string;
-  officeHours: string;
-  phone: string;
-  profileUrl: string;
-  roleCode: string;
-};
 
-const InstructorInfo = (instructor: Instructor) => {
+const InstructorInfo = (instructor) => {
   return (
     <div>
       {`Instructor: `}

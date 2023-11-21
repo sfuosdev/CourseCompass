@@ -1,14 +1,6 @@
 import React from "react";
 
-export type CourseSchedule = {
-  days: string;
-  startDate: string;
-  endDate: string;
-  isExam: boolean;
-  sectionCode: string;
-};
-
-const CourseScheduleInfo = (courseSchedule: CourseSchedule) => {
+const CourseScheduleInfo = (courseSchedule) => {
   return (
     <div>
       {`Course Schedule: `}
