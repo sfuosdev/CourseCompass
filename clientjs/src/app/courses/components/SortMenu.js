@@ -42,6 +42,18 @@ const SortMenu = ({ filterOptions, setFilterOptions }) => {
           />
           <span>Upper Division Courses</span>
         </div>
+        <div className="flex flex-row pl-[5px] gap-[10px]">
+          <input
+            type="checkbox"
+            onChange={(e) => {
+              setFilterOptions({
+                ...filterOptions,
+                graduateLevel: !filterOptions.graduateLevel,
+              });
+            }}
+          />
+          <span>Graduate Level Courses</span>
+        </div>
       </div>
     </div>
   );

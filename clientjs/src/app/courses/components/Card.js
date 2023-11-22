@@ -11,14 +11,19 @@ const Card = ({ course }) => {
       </div>
 
       <hr class="h-px my-[5px] bg-black"></hr>
-      <div className="flex justify-between inline-block text-[15px]">
+      <div className="flex justify-between inline-block text-[15px] h-[25%]">
         <span>Professor:</span>
         <div className="flex flex-col text-right">
-          <span>John Edgar</span>
-          <span>David Murphy</span>
+          {course.instructor.length == 0 ? (
+            <span>TBD</span>
+          ) : (
+            course.instructor.map((instructor) => {
+              return <span>{instructor}</span>;
+            })
+          )}
         </div>
       </div>
-      <a className="underline underline-offset-4 text-[10px] text-[#4570E6] text-right pt-[18px]">
+      <a className="underline underline-offset-4 text-[10px] text-[#4570E6] text-right pb-[5px]">
         View complete course page
       </a>
     </div>
