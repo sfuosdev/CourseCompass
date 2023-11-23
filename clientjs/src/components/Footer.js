@@ -2,8 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    //footer bottom of page
-    <footer className="flex justify-between item-center w-full fixed bottom-0 h-[25px] bg-secondary-gray">
+    <footer className="relative flex justify-between item-center bottom-0 h-[25px] pl-8 pb-4">
       <p>Copyright CourseCompass© 2023</p>
     </footer>
   );
