@@ -15,115 +15,91 @@ const TimedCarousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
-    centerMode: true,
-    centerPadding: "70px",
+    autoplaySpeed: 7000,
+    pauseOnHover: false,
     appendDots: (dots) => (
-      <div style={{ bottom: "10px" }}>
+      <div style={{ bottom: "24px" }}>
         <ul style={{ display: "flex", justifyContent: "center" }}>{dots}</ul>
       </div>
     ),
     customPaging: (i) => (
       <div
-        className={`m-2 h-2 w-2 border border-secondary-darkBlue rounded-full cursor-pointer mx-2 ${
+        className={`m-2 h-2 w-2 border border-secondary-darkBlue rounded-full cursor-pointer mx-2 relative ${
           currentSlide === i ? "bg-secondary-darkBlue" : "bg-white"
         }`}
         onClick={() => {
           sliderRef.current.slickGoTo(i);
           setCurrentSlide(i);
-          sliderRef.current.slickPlay();
         }}
-      />
+        >
+        <div className="absolute top-[-5px] bottom-[-5px] left-[-5px] right-[-5px]"></div>{/*click error for dots*/}
+        
+      </div>
     ),
     afterChange: (current) => {
       setCurrentSlide(current);
     },
   };
 
+  const SlideContent = ({ title, text, buttonText, buttonLink, imageName }) => (
+    <div className="border w-full h-fill bg-primary-whiteBlue">
+      <div className="flex flex-row w-[80rem] items-center justify-start">
+        <div className="flex flex-col ml-[4rem] p-2 pl-20 items-start space-y-2">
+          <h1 className="font-family-MabryPro font-bold">{title}</h1>
+          <p className=" font-family-MabryPro object-cover w-[60vw] lg:w-[30rem]" dangerouslySetInnerHTML={{ __html: text }}>{}</p>
+          <Link
+            href={buttonLink}
+            className="text-white rounded-full px-4 py-2 bg-primary-blue hover:text-black hover:bg-primary-yellow"
+          >
+            {buttonText}
+          </Link>
+        </div>
+        <img className="hidden lg:scale-75" src={imageName} alt="generic image" />
+      </div>
+    </div>
+  );
+
   return (
     <Slider ref={sliderRef} {...settings}>
-      {/* slide 1*/}
-      <div className="w-full h-[23rem] bg-primary-whiteBlue grid grid-cols-2 gap-4">
-        <div className="flex flex-row items-center justify-end p-2">
-          <p className="font-MabryPro">
-            Course Compass is a platform that
-            <br />
-            allows you to plan, not just your next
-            <br />
-            semester, but{" "}
-            <span className="text-secondary-blue">
-              your entire degree by
-              <br />
-              predicting future course offering
-            </span>{" "}
-            dates and
-            <br />
-            guiding you through your next
-            <br />
-            courses.
-          </p>
-          <img
-            className="scale-75"
-            src="/slide1-presentation.png"
-            alt="generic image"
-          />
-        </div>
-      </div>
-      {/* slide 2*/}
-      <div className="w-full h-[23rem] bg-primary-whiteBlue grid grid-cols-2 gap-4">
-        <div className="flex flex-row items-center justify-end p-2">
-          <div className="flex flex-col items-center justify-end p-2">
-            <h1 className="font-family-MabryPro font-bold">What Next?</h1>
-            <p className="font-MabryPro p-2">
-              Unsure how to plan your academic journey? Find out which semester
-              <br /> the courses you need are being offered next - this updated
-              list has the
-              <br /> pre-reqs, anticipated dates of offerings and let’s you know
-              what courses
-              <br /> you can take next!
-              <br />{" "}
-            </p>
-            <Link
-              href="/Courses"
-              className=" text-white rounded-full p-2 bg-primary-blue 
-                          hover:text-black hover:bg-primary-yellow"
-            >
-              Start Search
-            </Link>
-          </div>
-          <img
-            className="scale-75"
-            src="/slide2-courses.png"
-            alt="generic image"
-          />
-        </div>
-      </div>
-      {/* slide 3*/}
-      <div className="w-full h-[23rem] bg-primary-whiteBlue grid grid-cols-2 gap-4">
-        <div className="flex flex-row items-center justify-end p-2">
-          <div className="flex flex-col items-center justify-end p-2">
-            <h1 className="font-family-MabryPro font-bold">Reviews</h1>
-            <p className="font-MabryPro p-2">
-              Learn more about each course through student experiences. Help the
-              <br /> next student by sharing your own experience, and upvoting
-              or downvoting
-              <br /> existing reviews!{" "}
-            </p>
-            <Link
-              href="#"
-              className="text-white rounded-full p-2 bg-primary-blue 
-                            hover:text-black hover:bg-primary-yellow"
-            >
-              Leave a Review
-            </Link>
-          </div>
-          <img
-            className="scale-75"
-            src="/slide3-reviews.png"
-            alt="generic image"
-          />
-        </div>
-      </div>
+      {SlideContent({
+        title: "About",
+        text: `
+          Course Compass is a platform that allows you 
+          to plan, not just your next semester, but <span class="text-secondary-blue">your entire 
+          degree by predicting future course offering dates </span>
+          and guiding you through your next courses.
+                    
+        `,
+        buttonText: "Credits",
+        buttonLink: "#",
+        imageName: "/slide1-presentation.png",
+      })}
+
+      {SlideContent({
+        title: "What Next?",
+        text: `
+          Unsure how to plan your academic journey? Find out which semester
+          the courses you need are being offered next - this updated list has the
+          pre-reqs, anticipated dates of offerings and let’s you know what courses
+          you can take next!
+          
+        `,
+        buttonText: "Start Search",
+        buttonLink: "/courses",
+        imageName: "/slide2-courses.png",
+      })}
+
+      {SlideContent({
+        title: "Reviews",
+        text: `
+          Learn more about each course through student experiences.
+          Help the next student by sharing your own experience, and
+          upvoting or downvoting existing reviews!
+        `,
+        buttonText: "Leave a Review",
+        buttonLink: "#",
+        imageName: "/slide3-reviews.png",
+      })}
     </Slider>
   );
 };
