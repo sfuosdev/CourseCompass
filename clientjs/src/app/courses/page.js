@@ -22,6 +22,7 @@ import Card from "./components/Card";
 import axios from "axios";
 import SortMenu from "./components/SortMenu";
 // import Dropdown from "./components/Dropdown";
+import CardFlip from "./components/CardFlip";
 
 const page = () => {
   const [courses, setCourses] = useState([]);
@@ -70,7 +71,7 @@ const page = () => {
               (filterOptions.upperDivision && Number(course.value[0]) > 2) ||
               (filterOptions.graduateLevel && Number(course.value[0]) > 4)
             ) {
-              return <Card course={course} />;
+              return <CardFlip course={course} />;
             }
           })}
         </div>
