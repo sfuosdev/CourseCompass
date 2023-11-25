@@ -22,6 +22,7 @@ import Card from "./components/Card";
 import axios from "axios";
 import SortMenu from "./components/SortMenu";
 // import Dropdown from "./components/Dropdown";
+import CardFlip from "./components/CardFlip";
 
 const page = () => {
   const [courses, setCourses] = useState([]);
@@ -29,10 +30,12 @@ const page = () => {
   const [filterOptions, setFilterOptions] = useState({
     lowerDivision: false,
     upperDivision: false,
+    graduateLevel: false,
   });
 
   const fetchCourses = async () => {
-    var url = `http://www.sfu.ca/bin/wcm/course-outlines`;
+    // var url = `http://www.sfu.ca/bin/wcm/course-outlines`;
+    const url = "http://localhost:3000/api/courses";
     return await axios.get(`${url}?2024/spring/cmpt`).then((res) => {
       console.log(res.data);
       return res.data;
@@ -42,7 +45,7 @@ const page = () => {
   useEffect(() => {
     fetchCourses().then((res) => {
       console.log(res);
-      setCourses(res);
+      setCourses(res.courses);
     });
     // console.log(courseValues);
   }, []);
@@ -61,11 +64,14 @@ const page = () => {
         <div className="grid grid-cols-3 gap-12 w-[80%]">
           {courses.map((course) => {
             if (
-              (!filterOptions.lowerDivision && !filterOptions.upperDivision) ||
+              (!filterOptions.lowerDivision &&
+                !filterOptions.upperDivision &&
+                !filterOptions.graduateLevel) ||
               (filterOptions.lowerDivision && Number(course.value[0]) < 3) ||
-              (filterOptions.upperDivision && Number(course.value[0]) > 2)
+              (filterOptions.upperDivision && Number(course.value[0]) > 2) ||
+              (filterOptions.graduateLevel && Number(course.value[0]) > 4)
             ) {
-              return <Card course={course} />;
+              return <CardFlip course={course} />;
             }
           })}
         </div>
