@@ -36,10 +36,12 @@ const page = () => {
   const fetchCourses = async () => {
     // var url = `http://www.sfu.ca/bin/wcm/course-outlines`;
     const url = "http://localhost:3000/api/courses";
-    return await axios.get(`${url}?2024/spring/cmpt`).then((res) => {
-      console.log(res.data);
-      return res.data;
-    });
+    return await axios
+      .get(`${url}?year=2024&term=spring&dept=cmpt`)
+      .then((res) => {
+        console.log(res.data);
+        return res.data;
+      });
   };
 
   useEffect(() => {
