@@ -31,9 +31,9 @@ const TimedCarousel = () => {
           sliderRef.current.slickGoTo(i);
           setCurrentSlide(i);
         }}
-        >
-        <div className="absolute top-[-5px] bottom-[-5px] left-[-5px] right-[-5px]"></div>{/*click error for dots*/}
-        
+      >
+        <div className="absolute top-[-5px] bottom-[-5px] left-[-5px] right-[-5px]"></div>
+        {/*click error for dots*/}
       </div>
     ),
     afterChange: (current) => {
@@ -46,7 +46,10 @@ const TimedCarousel = () => {
       <div className="flex flex-row w-[80rem] items-center justify-start">
         <div className="flex flex-col ml-[4rem] p-2 pl-20 items-start space-y-2">
           <h1 className="font-family-MabryPro font-bold">{title}</h1>
-          <p className=" font-family-MabryPro object-cover w-[60vw] lg:w-[30rem]" dangerouslySetInnerHTML={{ __html: text }}>{}</p>
+          <p
+            className=" font-family-MabryPro object-cover w-[60vw] lg:w-[30rem]"
+            dangerouslySetInnerHTML={{ __html: text }}
+          ></p>
           <Link
             href={buttonLink}
             className="text-white rounded-full px-4 py-2 bg-primary-blue hover:text-black hover:bg-primary-yellow"
@@ -54,7 +57,11 @@ const TimedCarousel = () => {
             {buttonText}
           </Link>
         </div>
-        <img className="hidden lg:scale-75" src={imageName} alt="generic image" />
+        <img
+          className="hidden lg:scale-75"
+          src={imageName}
+          alt="generic image"
+        />
       </div>
     </div>
   );
