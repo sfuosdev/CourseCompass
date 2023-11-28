@@ -1,28 +1,10 @@
 // CoursesPage.js
 "use client";
-// import CourseOutline from "@/components/CourseOutline";
-// import SelectionMenu from "@/components/SelectionMenu";
-// import { useState } from "react";
-
-// export default function CoursesPage() {
-//   const [outline, setOutline] = useState();
-
-//   return (
-//     <div>
-//       <SelectionMenu {...{ outline, setOutline }} />
-//       <CourseOutline {...outline} />
-
-//     </div>
-//   );
-// }
 import React, { useState, useEffect } from "react";
 
-// import { fetchData } from "./components/SelectionMenu";
 import Card from "./components/Card";
 import axios from "axios";
 import SortMenu from "./components/SortMenu";
-// import Dropdown from "./components/Dropdown";
-import CardFlip from "./components/CardFlip";
 
 const Page = () => {
   const [courses, setCourses] = useState([]);
@@ -73,10 +55,10 @@ const Page = () => {
               (filterOptions.upperDivision && Number(course.value[0]) > 2) ||
               (filterOptions.graduateLevel && Number(course.value[0]) > 4)
             ) {
-              return <CardFlip course={course} />;
+              return <Card course={course} key={course.title} />;
             }
           })}
-        </div> 
+        </div>
         <div className="flex flex-col">
           <SortMenu
             filterOptions={filterOptions}
