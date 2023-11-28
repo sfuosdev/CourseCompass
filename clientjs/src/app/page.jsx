@@ -1,6 +1,7 @@
 // Landing
 "use client";
-import TimedCarousel from "@/components/TimedCarousel";
+import Navbar from "@/components/NavBar";
+import LandingPage from "@/components/LandingPage";
 import Link from "next/link";
 
 export default function Home() {
@@ -8,7 +9,8 @@ export default function Home() {
     <main style={{ overflowY: 'hidden', overflowX: 'hidden' }}>
       {/* <h1>Welcome</h1>
     <Link href="/CoursesPage">courses</Link> */}
-      <TimedCarousel />
+      <Navbar showSearchBar={false}/>
+      <LandingPage />
     </main>
   );
 }

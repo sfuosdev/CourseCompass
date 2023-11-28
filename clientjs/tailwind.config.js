@@ -24,6 +24,9 @@ module.exports = {
         },
       },
     },
+    plugins: [
+      require("tailwindcss-3d")({ legacy: true }),
+      require('tailwind-scrollbar'),
+    ],
   },
-  plugins: [require("tailwindcss-3d")({ legacy: true })],
 };
