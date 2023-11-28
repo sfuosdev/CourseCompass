@@ -9,7 +9,6 @@ const Card = ({ course }) => {
         <span>Next Offering:</span>
         <span>Spring 2024</span>
       </div>
-
       <hr class="h-px my-[5px] bg-black"></hr>
       <div className="flex justify-between inline-block text-[15px] h-[25%]">
         <span>Professor:</span>
