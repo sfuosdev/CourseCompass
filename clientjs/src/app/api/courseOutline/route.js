@@ -1,30 +1,25 @@
 import { NextResponse } from "next/server";
-import { getCourses, getSections, getOutlines } from "./getCoursesInfo";
-// import { fs } from "fs";
+import {
+  getCourses,
+  getSections,
+  getOutlines,
+} from "../courses/getCoursesInfo";
 import fs, { writeFileSync, readFileSync } from "fs";
-// import CourseInfo from "@/app/courses/components/CourseInfo";
 
 export async function POST(req, res) {
-  //   console.log(await (await getCourses("2024", "spring", "cmpt")).json());
-
-  // const { query } = req;
-
-  // console.log(req);
-
-  // const { url } = req;
-  const { year, term, dept } = await req.json();
-  // console.log(data);
-  // console.log(url.indexOf("?"));
-
-  // const year = getQueryVariable(url, "year");
-  // const term = getQueryVariable(url, "term");
-  // const dept = getQueryVariable(url, "dept");
-
+  const { year, term, dept, course } = await req.json();
+  console.log(course);
   try {
     const coursesJson = readFileSync(
       `data/${year}/${term}/${dept}/courses.json`
     );
-    return NextResponse.json(JSON.parse(coursesJson));
+    const { courses } = JSON.parse(coursesJson);
+
+    var courseOutline = courses.filter((courseOutline) => {
+      return courseOutline.value == course;
+    });
+
+    return NextResponse.json(courseOutline);
   } catch {
     const courseArray = await getCourses(year, term, dept);
     // console.log(courseArray);
@@ -76,8 +71,6 @@ export async function POST(req, res) {
         (value, index, array) => array.indexOf(value) === index
       );
 
-      // console.log(course);
-      // courseArray[index] = course;
       courseArray[i++] = course;
     }
 
@@ -99,8 +92,13 @@ export async function POST(req, res) {
       coursesString,
       "utf-8"
     );
-    // console.log(coursesString);
 
-    return NextResponse.json(coursesObj);
+    const { courses } = JSON.parse(coursesObj);
+
+    var courseOutline = courses.filter((courseOutline) => {
+      return courseOutline.value == course;
+    });
+
+    return NextResponse.json(courseOutline);
   }
 }

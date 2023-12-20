@@ -1042,6 +1042,7 @@
       "title": "Data Structures and Algorithms",
       "instructor": [
         "Qianping Gu",
+        "Sessional",
         "Kay C Wiese"
       ],
       "prerequisites": "CMPT 225, (MACM 201 or CMPT 210), (MATH 150 or MATH 151), and (MATH 232 or MATH 240), all with a minimum grade of C-. MATH 154 or MATH 157 with a grade of at least B+ may be substituted for MATH 150 or MATH 151.",
@@ -1270,14 +1271,6 @@
       "prerequisites": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
       "corequisites": "",
       "sections": [
-        {
-          "text": "D100",
-          "value": "d100",
-          "title": "Database Systems I",
-          "classType": "e",
-          "sectionCode": "LEC",
-          "associatedClass": "2"
-        },
         {
           "text": "E100",
           "value": "e100",
@@ -2515,19 +2508,18 @@
       "value": "459",
       "title": "Special Topics in Database Systems",
       "instructor": [
-        "Zhengjie Miao",
         "Martin Ester"
       ],
       "prerequisites": "CMPT 354 with a minimum grade of C-.",
       "corequisites": "",
       "sections": [
         {
-          "text": "D100",
-          "value": "d100",
+          "text": "D200",
+          "value": "d200",
           "title": "Special Topics in Database Systems",
           "classType": "e",
           "sectionCode": "LEC",
-          "associatedClass": "1"
+          "associatedClass": "3"
         },
         {
           "text": "E200",
@@ -2810,20 +2802,12 @@
       "value": "479",
       "title": "Special Topics in Computing Systems",
       "instructor": [
-        "William Sumner",
-        "Deepak Rout"
+        "Deepak Rout",
+        "William Sumner"
       ],
       "prerequisites": "CMPT 300 with a minimum grade of C-.",
       "corequisites": "",
       "sections": [
-        {
-          "text": "D100",
-          "value": "d100",
-          "title": "Special Topics in Computing Systems",
-          "classType": "e",
-          "sectionCode": "LEC",
-          "associatedClass": "1"
-        },
         {
           "text": "D200",
           "value": "d200",
@@ -2831,6 +2815,14 @@
           "classType": "e",
           "sectionCode": "LEC",
           "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Special Topics in Computing Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "3"
         }
       ],
       "description": "Current topics in computing systems depending on faculty and student interest.",
@@ -2839,11 +2831,52 @@
         {
           "endDate": "Fri Apr 12 00:00:00 PDT 2024",
           "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "13:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        },
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
           "days": "Th",
           "sectionCode": "LEC",
-          "startTime": "16:30",
+          "startTime": "12:30",
           "isExam": false,
-          "endTime": "19:20",
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "493",
+      "value": "493",
+      "title": "Digital Media Practicum",
+      "instructor": [
+        "John Edgar"
+      ],
+      "prerequisites": "CMPT 275 or CMPT 276, at least 80 units, CGPA and UDGPA over 3.0, enrolled in any CS major program. Participation in the practicum is competitive and an application must be submitted to the Undergraduate Chair by a defined due date announced each term.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Digital Media Practicum",
+          "classType": "e",
+          "sectionCode": "PRA",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "The design and implementation of interactive digital media systems using modern processes and tools. Projects are provided by external clients or vetted entrepreneurial pitches and are developed by interdisciplinary teams composed of one CMPT 493 student and multiple Master of Digital Media students.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "PRA",
+          "isExam": false,
           "startDate": "Mon Jan 08 00:00:00 PST 2024"
         }
       ]
@@ -2897,7 +2930,11 @@
       "text": "495",
       "value": "495",
       "title": "Software Systems Capstone Project II",
-      "instructor": [],
+      "instructor": [
+        "Ouldooz Baghban Karimi",
+        "Keval Vora",
+        "William Sumner"
+      ],
       "prerequisites": "CMPT 494 with a minimum grade of C-. CMPT 495 must be taken in the term immediately following the successful completion of CMPT 494 and must be for the same project and faculty supervisor.",
       "corequisites": "",
       "sections": [
@@ -2933,6 +2970,37 @@
           "endDate": "Fri Apr 12 00:00:00 PDT 2024",
           "days": "",
           "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "496",
+      "value": "496",
+      "title": "Directed Studies",
+      "instructor": [
+        "Lawrence Kim"
+      ],
+      "prerequisites": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the undergraduate chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Directed Studies",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Independent study in topics selected in consultation with the supervising instructor(s) that are not covered by existing course offerings. Students must submit a proposal to the undergraduate chair, including the name and signature of the supervising faculty member(s). The proposal must include details of the material to be covered and the work to be submitted.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "SEM",
           "isExam": false,
           "startDate": "Mon Jan 08 00:00:00 PST 2024"
         }
@@ -4394,20 +4462,20 @@
           "associatedClass": "1"
         },
         {
-          "text": "G200",
-          "value": "g200",
-          "title": "Special Topics in Networks and Systems",
-          "classType": "e",
-          "sectionCode": "LEC",
-          "associatedClass": "2"
-        },
-        {
           "text": "G201",
           "value": "g201",
           "title": "Special Topics in Networks and Systems",
           "classType": "n",
           "sectionCode": "LAB",
           "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Special Topics in Networks and Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "3"
         }
       ],
       "deliveryMethod": "In Person",
@@ -4415,11 +4483,21 @@
         {
           "endDate": "Fri Apr 12 00:00:00 PDT 2024",
           "campus": "Burnaby",
-          "days": "Th",
-          "sectionCode": "LAB",
-          "startTime": "14:30",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
           "isExam": false,
-          "endTime": "16:20",
+          "endTime": "13:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        },
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "14:20",
           "startDate": "Mon Jan 08 00:00:00 PST 2024"
         }
       ]
@@ -4493,12 +4571,21 @@
           "classType": "e",
           "sectionCode": "LEC",
           "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Special Topics in Databases, Data Mining, Computational Biology",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
         }
       ],
       "deliveryMethod": "In Person",
       "courseSchedule": [
         {
           "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
           "days": "We",
           "sectionCode": "LEC",
           "startTime": "15:30",
@@ -4512,7 +4599,7 @@
           "sectionCode": "LEC",
           "startTime": "15:30",
           "isExam": false,
-          "endTime": "16:20",
+          "endTime": "17:20",
           "startDate": "Mon Jan 08 00:00:00 PST 2024"
         }
       ]
