@@ -74,7 +74,7 @@ export default function Review({ review, user }) {
     );
 
     return (
-        <div className="relative md:p-4 mx-5 my-2 md:w-3/4 flex flex-row border-b-4 border-black hover:bg-gray">
+        <div className="relative md:p-4 mx-5 my-2 md:w-3/4 flex flex-row border-b-2 border-black hover:bg-gray">
             <div className="flex flex-col justify-around  md:justify-between w-1/2">
                 <div className="flex flex-col items-stretch text-[10px] md:text-[20px]">
                     {`${review.day}/${review.month}/${review.year}`}
@@ -90,7 +90,7 @@ export default function Review({ review, user }) {
                 </div>
             </div>
             <div className="p-3 md:p-0 flex flex-col w-auto justify-between">
-                <div className="lg:py-3 text-[10px] md:text-[18px]">{review.comment}</div>
+                <div className="py-1 lg:py-3 text-[10px] md:text-[18px]">{review.comment}</div>
                 <div className="grid grid-cols-3 text-[10px] md:text-[18px]">
                     <div className="font-semibold">Professor: <span className="font-normal">{review.professor}</span></div>
                     <div className="font-semibold">Clarity: <span className="font-normal">{`${review.clarity}/5`}</span></div>

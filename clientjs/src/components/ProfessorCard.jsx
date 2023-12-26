@@ -3,46 +3,71 @@ import { useState } from "react";
 
 // Fix tailwind
 {/* <div className={`grid grid-cols-2`}> 
-<ProfessorCard course={courses[0]} />
-<ProfessorCard course={courses[1]}/>
+<ProfessorCard courses={courses[0]} />
+<ProfessorCard courses={courses[1]}/>
 </div> */}
-const ProfessorCard = ({course}) => {
+const ProfessorCard = ({ courses }) => {
     const [view, setView] = useState('');
     const [flip, setFlip] = useState(false);
 
-    // if(course.length > 1)
+
+    // if(courses.length > 1)
     //     setView()
-console.log(course)
+
+    const layout = courses.map(course => (
+        <div className="flex flex-col round rounded-2xl w-[270px] h-[360px] bg-[#F3F4FA] pl-[18px] pr-[18px] pt-[25px] hover:bg-[#AAC2FD] hover:shadow-lg focus-within:bg-[#AAC2FD]" key={course.professor}>
+            <div className="text-[30px] font-medium">{course.professor === 'TBA' ? "TBA" : course.professor}</div>
+            <div className="inline-block font-medium text-[15px] h-[5%]">Class Schedule:</div>
+            <div className="flex flex-col h-[50%]">
+                <span className="h-[10%]">map time 1</span>
+                <span className="h-[10%]">map time 2</span>
+            </div>
+            <div className="flex flex-col justify-between">
+                <div className="">Clarity<span>S s s s s</span></div>
+                <div className="">Engagement<span>S s s s s</span></div>
+            </div>
+
+        </div>
+    ));
+
+    const thing = (
+        <div className={`p-3 grid grid-cols-${courses.length}`}>
+
+        </div>
+    )
 
     return (
-        
-        <div className="p-2 w-80 h-[360px] flex">
-            <div className="flex flex-col round rounded-2xl w-[270px] h-[360px] bg-[#F3F4FA] pl-[18px] pr-[18px] pt-[25px] hover:bg-[#AAC2FD] hover:shadow-lg focus-within:bg-[#AAC2FD]">
-                <div className="text-[30px] font-medium">{course[0].professor === 'TBA'? "TBA" : course[0].professor}</div>
-                    <div className="inline-block font-medium text-[15px] h-[40%]">Class Schedule:</div>
-                        <div className="flex justify-between inline-block text-[15px] font-bold">
-                            <span>Lecture Section: {course[0].sections[0]}</span>
-                            <span>Dates</span>
-                            <span>{course.sectionCode == 'LAB'? 'Lab Section': 'Tutorial Sections'}</span>
-                        </div>
-                        <hr className="h-px my-[5px] bg-black"></hr>
-                    <div className="flex justify-between inline-block text-[15px] h-[25%]">
-                    <span>Professor:</span>
-                    <div className="flex flex-col text-right">
-                        <span>Professor</span>
-                    </div>
-                </div>
-                <Link
-                href={`/courses/2024/spring/cmpt/225`}
-                className="underline underline-offset-4 text-[10px] text-[#4570E6] text-right pb-[5px] hover:text-[#F7C750]"
-                >
-                View complete professor ratings
-                </Link>
-            </div>
+        <div className={`p-3 grid grid-cols-${courses.length}`}>
+            {layout}
         </div>
     );
 }
 export default ProfessorCard;
+
+{/* <div className="p-2 w-80 h-[360px] flex">
+<div className="flex flex-col round rounded-2xl w-[270px] h-[360px] bg-[#F3F4FA] pl-[18px] pr-[18px] pt-[25px] hover:bg-[#AAC2FD] hover:shadow-lg focus-within:bg-[#AAC2FD]">
+    <div className="text-[30px] font-medium">{courses[0].professor === 'TBA' ? "TBA" : courses[0].professor}</div>
+    <div className="inline-block font-medium text-[15px] h-[40%]">Class Schedule:</div>
+    <div className="flex justify-between inline-block text-[15px] font-bold">
+        <span>Lecture Section: {courses[0].sections[0]}</span>
+        <span>Dates</span>
+        <span>{courses.sectionCode == 'LAB' ? 'Lab Section' : 'Tutorial Sections'}</span>
+    </div>
+    <hr className="h-px my-[5px] bg-black"></hr>
+    <div className="flex justify-between inline-block text-[15px] h-[25%]">
+        <span>Professor:</span>
+        <div className="flex flex-col text-right">
+            <span>Professor</span>
+        </div>
+    </div>
+    <Link
+        href={`/coursess/2024/spring/cmpt/225`}
+        className="underline underline-offset-4 text-[10px] text-[#4570E6] text-right pb-[5px] hover:text-[#F7C750]"
+    >
+        View complete professor ratings
+    </Link>
+</div>
+</div> */}
 
 // {
 //     "text": "225",
@@ -202,7 +227,7 @@ export default ProfessorCard;
 //     ],
 //     "description": "Introduction to a variety of practical and important data structures and methods for implementation and for experimental and analytical evaluation. Topics include: stacks, queues and lists; search trees; hash tables and algorithms; efficient sorting; object-oriented programming; time and space efficiency analysis; and experimental evaluation. ",
 //     "deliveryMethod": "In Person",
-//     "courseSchedule": [
+//     "coursesSchedule": [
 //       {
 //         "endDate": "Fri Oct 06 00:00:00 PDT 2023",
 //         "campus": "Surrey",

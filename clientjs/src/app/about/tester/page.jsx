@@ -1,7 +1,7 @@
 "use client";
 
-import ProfessorCard from "@/components/ProfessorCard"
-import Review from "@/components/ReviewList"
+import ProfessorCard from "@/components/ProfessorCard";
+import Review from "@/components/ReviewList";
 
 const reviewComment = [{
     // date: "16/01/2023",
@@ -94,7 +94,7 @@ export default function tester() {
                     <div className="textplace">
                     </div>
                     <div className="p-6">Teaching</div>
-                    <ProfessorCard course={courses} />
+                    <ProfessorCard courses={courses} />
                 </div>
                 <div className="Considerations">
 
