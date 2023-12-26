@@ -10,8 +10,9 @@ const ProfessorCard = ({course}) => {
     const [view, setView] = useState('');
     const [flip, setFlip] = useState(false);
 
-    if(course.length > 1)
-        console.log(1);
+    // if(course.length > 1)
+    //     setView()
+console.log(course)
 
     return (
         
