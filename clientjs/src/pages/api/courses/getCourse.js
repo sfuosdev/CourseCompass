@@ -1,5 +1,5 @@
 // pages/api/course/getCourse.js
-import dbConnect from '../../../utils/dbConnect';
+import dbConnect from '../../../app/utils/dbConnect';
 import Course from '../../../models/Course';
 
 export default async function handler(req, res) {

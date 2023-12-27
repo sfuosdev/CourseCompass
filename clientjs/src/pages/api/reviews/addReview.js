@@ -1,5 +1,5 @@
 // api/reviews/addReview.js
-import dbConnect from '../../../utils/dbConnect';
+import dbConnect from '../../../app/utils/dbConnect';
 import Review from '../../../models/Review';
 import Course from '../../../models/Course';
 import User from '../../../models/User';

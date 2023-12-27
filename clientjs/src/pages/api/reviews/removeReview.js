@@ -1,5 +1,5 @@
 // api/reviews/removeReview.js
-import dbConnect from '../../../utils/dbConnect';
+import dbConnect from '../../../app/utils/dbConnect';
 import User from '../../../models/User';
 import Review from '../../../models/Review';
 

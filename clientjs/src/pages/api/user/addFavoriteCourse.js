@@ -1,7 +1,7 @@
 // api/user/addFavoriteCourse.js
 import User from '../../../models/User';
 import Course from '../../../models/Course';
-import dbConnect from '../../../utils/dbConnect';
+import dbConnect from '../../../app/utils/dbConnect'
 
 export default async function handler(req, res) {
     await dbConnect();
