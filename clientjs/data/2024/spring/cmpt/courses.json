@@ -4,8 +4,37 @@
       "text": "105W",
       "value": "105w",
       "title": "Social Issues and Communication Strategies in Computing Science",
-      "instructor": [
-        "Tara Immell"
+      "offerings": [
+        {
+          "instructor": "Tara Immell",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -49,10 +78,191 @@
       "text": "120",
       "value": "120",
       "title": "Introduction to Computing Science and Programming I",
-      "instructor": [
-        "Frederick Popowich",
-        "Anne Lavergne",
-        "Victor Cheung"
+      "offerings": [
+        {
+          "instructor": "Frederick Popowich",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Anne Lavergne",
+          "sections": [
+            "D300"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Victor Cheung",
+          "sections": [
+            "D400",
+            "D401",
+            "D402",
+            "D403",
+            "D404",
+            "D405",
+            "D406",
+            "D407",
+            "D408"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "OPL",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "OPL",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "OPL",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "OPL",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "OPL",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "OPL",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "OPL",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "OPL",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "BC Math 12 or equivalent is recommended.",
       "corequisites": "",
@@ -166,9 +376,295 @@
       "text": "125",
       "value": "125",
       "title": "Introduction to Computing Science and Programming II",
-      "instructor": [
-        "Janice Regan",
-        "Sessional"
+      "offerings": [
+        {
+          "instructor": "Janice Regan",
+          "sections": [
+            "D100",
+            "D101",
+            "D102",
+            "D103",
+            "D104",
+            "D105",
+            "D106",
+            "D107",
+            "D108"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LAB",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LAB",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LAB",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LAB",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LAB",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LAB",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Sessional",
+          "sections": [
+            "D200",
+            "D201",
+            "D202",
+            "D203",
+            "D204",
+            "D205",
+            "D206",
+            "D207",
+            "D208"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LAB",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LAB",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LAB",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LAB",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LAB",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LAB",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LAB",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LAB",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Toby Donaldson",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
       "corequisites": "",
@@ -338,8 +834,131 @@
       "text": "135",
       "value": "135",
       "title": "Introduction to Computer Programming II",
-      "instructor": [
-        "Toby Donaldson"
+      "offerings": [
+        {
+          "instructor": "Toby Donaldson",
+          "sections": [
+            "D100",
+            "D101",
+            "D102",
+            "D103",
+            "D104",
+            "D105",
+            "D106",
+            "D107",
+            "D108"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 130 with a minimum grade of C-.",
       "corequisites": "",
@@ -437,8 +1056,50 @@
       "text": "201",
       "value": "201",
       "title": "Systems Programming",
-      "instructor": [
-        "Steven Ko"
+      "offerings": [
+        {
+          "instructor": "Steven Ko",
+          "sections": [
+            "D100",
+            "D101"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "(CMPT 125 or CMPT 135) and MACM 101, both with a minimum grade of C-.",
       "corequisites": "",
@@ -480,8 +1141,37 @@
       "text": "210",
       "value": "210",
       "title": "Probability and Computing",
-      "instructor": [
-        "Sharan Vaswani"
+      "offerings": [
+        {
+          "instructor": "Sharan Vaswani",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "MACM 101, MATH 152, CMPT 125 or CMPT 135, and (MATH 240 or MATH 232), all with a minimum grade of C-.",
       "corequisites": "",
@@ -524,8 +1214,27 @@
       "text": "213",
       "value": "213",
       "title": "Object Oriented Design in Java",
-      "instructor": [
-        "Brian Fraser"
+      "offerings": [
+        {
+          "instructor": "Brian Fraser",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 with a minimum grade of C-.",
       "corequisites": "",
@@ -559,9 +1268,265 @@
       "text": "225",
       "value": "225",
       "title": "Data Structures and Programming",
-      "instructor": [
-        "David Mitchell",
-        "Anne Lavergne"
+      "offerings": [
+        {
+          "instructor": "David Mitchell",
+          "sections": [
+            "D200",
+            "D201",
+            "D202",
+            "D203",
+            "D204",
+            "D205",
+            "D206",
+            "D207",
+            "D208"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Anne Lavergne",
+          "sections": [
+            "E100",
+            "E101",
+            "E102",
+            "E103",
+            "E104",
+            "E105",
+            "E106",
+            "E107",
+            "E108"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "18:30",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LAB",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
       "corequisites": "",
@@ -730,9 +1695,67 @@
       "text": "276",
       "value": "276",
       "title": "Introduction to Software Engineering",
-      "instructor": [
-        "Saba Alimadadi Jani",
-        "Bobby Chan"
+      "offerings": [
+        {
+          "instructor": "Saba Alimadadi Jani",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Bobby Chan",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "One W course, CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (MATH 151 or MATH 150), all with a minimum grade of C-. MATH 154 or MATH 157 with at least a B+ may be substituted for MATH 151 or MATH 150.",
       "corequisites": "",
@@ -784,8 +1807,288 @@
       "text": "295",
       "value": "295",
       "title": "Introduction to Computer Systems",
-      "instructor": [
-        "Anne Lavergne"
+      "offerings": [
+        {
+          "instructor": "Anne Lavergne",
+          "sections": [
+            "D100",
+            "D101",
+            "D102",
+            "D103",
+            "D104",
+            "D105",
+            "D106",
+            "D107",
+            "D108"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LAB",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LAB",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LAB",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LAB",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LAB",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LAB",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Arrvindh Shriraman",
+          "sections": [
+            "D200",
+            "D200",
+            "D201",
+            "D202",
+            "D203",
+            "D204",
+            "D205",
+            "D206",
+            "D207",
+            "D208"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LAB",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
       "corequisites": "",
@@ -954,8 +2257,50 @@
       "text": "300",
       "value": "300",
       "title": "Operating Systems I",
-      "instructor": [
-        "Harinder Khangura"
+      "offerings": [
+        {
+          "instructor": "Harinder Khangura",
+          "sections": [
+            "D200",
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 and (CMPT 295 or ENSC 254), all with a minimum grade of C-.",
       "corequisites": "",
@@ -996,8 +2341,37 @@
       "text": "305",
       "value": "305",
       "title": "Computer Simulation and Modelling",
-      "instructor": [
-        "Alaa Alameldeen"
+      "offerings": [
+        {
+          "instructor": "Alaa Alameldeen",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (STAT 270 or STAT 271), all with a minimum grade of C-.",
       "corequisites": "",
@@ -1040,10 +2414,117 @@
       "text": "307",
       "value": "307",
       "title": "Data Structures and Algorithms",
-      "instructor": [
-        "Qianping Gu",
-        "Sessional",
-        "Kay C Wiese"
+      "offerings": [
+        {
+          "instructor": "Qianping Gu",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Sessional",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Toby Donaldson",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Kay C Wiese",
+          "sections": [
+            "D300"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225, (MACM 201 or CMPT 210), (MATH 150 or MATH 151), and (MATH 232 or MATH 240), all with a minimum grade of C-. MATH 154 or MATH 157 with a grade of at least B+ may be substituted for MATH 150 or MATH 151.",
       "corequisites": "",
@@ -1102,8 +2583,37 @@
       "text": "310",
       "value": "310",
       "title": "Introduction to Artificial Intelligence",
-      "instructor": [
-        "Steve Pearce"
+      "offerings": [
+        {
+          "instructor": "Steve Pearce",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
       "corequisites": "",
@@ -1146,8 +2656,37 @@
       "text": "318",
       "value": "318",
       "title": "Special Topics in Computing Science",
-      "instructor": [
-        "Uwe Glaesser"
+      "offerings": [
+        {
+          "instructor": "Uwe Glaesser",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 with a minimum grade of C-. Additional prerequisites to be determined by the instructor subject to approval by the undergraduate program chair.",
       "corequisites": "",
@@ -1190,8 +2729,34 @@
       "text": "340",
       "value": "340",
       "title": "Biomedical Computing",
-      "instructor": [
-        "Ghassan Hamarneh"
+      "offerings": [
+        {
+          "instructor": "Ghassan Hamarneh",
+          "sections": [
+            "OL01"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "OLC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "Completion of 60 units including one of CMPT 125, 126, 128, 135, with a minimum grade of C- or CMPT 102 with a grade of B or higher.",
       "corequisites": "",
@@ -1231,8 +2796,27 @@
       "text": "353",
       "value": "353",
       "title": "Computational Data Science",
-      "instructor": [
-        "Steven Bergner"
+      "offerings": [
+        {
+          "instructor": "Steven Bergner",
+          "sections": [
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 and (STAT 101, STAT 270, STAT 271, ENSC 280, or MSE 210), with a minimum grade of C-.",
       "corequisites": "",
@@ -1265,8 +2849,37 @@
       "text": "354",
       "value": "354",
       "title": "Database Systems I",
-      "instructor": [
-        "Evgenia Ternovska"
+      "offerings": [
+        {
+          "instructor": "Evgenia Ternovska",
+          "sections": [
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
       "corequisites": "",
@@ -1309,9 +2922,67 @@
       "text": "361",
       "value": "361",
       "title": "Introduction to Visual Computing",
-      "instructor": [
-        "Xue Bin Jason Peng",
-        "Yagiz Aksoy"
+      "offerings": [
+        {
+          "instructor": "Xue Bin Jason Peng",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Yagiz Aksoy",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 and MATH 232 or 240, all with a minimum grade of C-.",
       "corequisites": "",
@@ -1354,9 +3025,67 @@
       "text": "363",
       "value": "363",
       "title": "User Interface Design",
-      "instructor": [
-        "Victor Cheung",
-        "Parmit Kaur Chilana"
+      "offerings": [
+        {
+          "instructor": "Victor Cheung",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Parmit Kaur Chilana",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 and CMPT 263, both with a minimum grade of C-.",
       "corequisites": "",
@@ -1407,8 +3136,47 @@
       "text": "365",
       "value": "365",
       "title": "Multimedia Systems",
-      "instructor": [
-        "Sessional"
+      "offerings": [
+        {
+          "instructor": "Sessional",
+          "sections": [
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Toby Donaldson",
+          "sections": [
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 with a minimum grade of C-.",
       "corequisites": "",
@@ -1441,8 +3209,27 @@
       "text": "371",
       "value": "371",
       "title": "Data Communications and Networking",
-      "instructor": [
-        "Balbir Gill"
+      "offerings": [
+        {
+          "instructor": "Balbir Gill",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "17:00",
+                "isExam": false,
+                "endTime": "19:50",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 and (MATH 151 or MATH 150), with a minimum grade of C-. MATH 154 or MATH 157 with a grade of at least B+ may be substituted for MATH 151 (MATH 150).",
       "corequisites": "",
@@ -1475,8 +3262,37 @@
       "text": "372",
       "value": "372",
       "title": "Web II - Server-side Development",
-      "instructor": [
-        "Bobby Chan"
+      "offerings": [
+        {
+          "instructor": "Bobby Chan",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 272 and CMPT 225, both with a minimum grade of C-.",
       "corequisites": "",
@@ -1520,9 +3336,97 @@
       "text": "376W",
       "value": "376w",
       "title": "Professional Responsibility and Technical Writing",
-      "instructor": [
-        "Steve Pearce",
-        "Sessional"
+      "offerings": [
+        {
+          "instructor": "Steve Pearce",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Parsa Rajabi",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Chris Kerslake",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 105W and (CMPT 275 or CMPT 276), with a minimum grade of C-.",
       "corequisites": "",
@@ -1573,8 +3477,37 @@
       "text": "383",
       "value": "383",
       "title": "Comparative Programming Languages",
-      "instructor": [
-        "Yuepeng Wang"
+      "offerings": [
+        {
+          "instructor": "Yuepeng Wang",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
       "corequisites": "",
@@ -1617,8 +3550,27 @@
       "text": "404",
       "value": "404",
       "title": "Cryptography and Cryptographic Protocols",
-      "instructor": [
-        "Andrei Bulatov"
+      "offerings": [
+        {
+          "instructor": "Andrei Bulatov",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "(MACM 201 or CMPT 210) with a minimum grade of C-. CMPT 307 and 308 are recommended.",
       "corequisites": "",
@@ -1651,8 +3603,27 @@
       "text": "405",
       "value": "405",
       "title": "Design and Analysis of Computing Algorithms",
-      "instructor": [
-        "Qianping Gu"
+      "offerings": [
+        {
+          "instructor": "Qianping Gu",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 307 with a minimum grade of C-.",
       "corequisites": "",
@@ -1685,8 +3656,37 @@
       "text": "409",
       "value": "409",
       "title": "Special Topics in Theoretical Computing Science",
-      "instructor": [
-        "Evgenia Ternovska"
+      "offerings": [
+        {
+          "instructor": "Evgenia Ternovska",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "SEM",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "SEM",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 307 with a minimum grade of C-.",
       "corequisites": "",
@@ -1729,8 +3729,37 @@
       "text": "410",
       "value": "410",
       "title": "Machine Learning",
-      "instructor": [
-        "Mo Chen"
+      "offerings": [
+        {
+          "instructor": "Mo Chen",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:50",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:50",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 310 and MACM 316, both with a minimum grade of C-.",
       "corequisites": "",
@@ -1774,8 +3803,37 @@
       "text": "413",
       "value": "413",
       "title": "Computational Linguistics",
-      "instructor": [
-        "Angel Chang"
+      "offerings": [
+        {
+          "instructor": "Angel Chang",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
       "corequisites": "",
@@ -1818,7 +3876,42 @@
       "text": "415",
       "value": "415",
       "title": "Special Research Projects",
-      "instructor": [],
+      "offerings": [
+        {
+          "instructor": "Brian Fraser",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Xingdong Yang",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
       "prerequisites": "Permission of Instructor and School.",
       "corequisites": "",
       "sections": [
@@ -1895,7 +3988,42 @@
       "text": "416",
       "value": "416",
       "title": "Special Research Projects",
-      "instructor": [],
+      "offerings": [
+        {
+          "instructor": "Lawrence Kim",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Brian Fraser",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
       "prerequisites": "Permission of the department.",
       "corequisites": "",
       "sections": [
@@ -1956,9 +4084,67 @@
       "text": "419",
       "value": "419",
       "title": "Special Topics in Artificial Intelligence",
-      "instructor": [
-        "Angelica Lim",
-        "Nicholas Vincent"
+      "offerings": [
+        {
+          "instructor": "Angelica Lim",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Nicholas Vincent",
+          "sections": [
+            "E200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -2009,8 +4195,37 @@
       "text": "420",
       "value": "420",
       "title": "Deep Learning",
-      "instructor": [
-        "Oliver Schulte"
+      "offerings": [
+        {
+          "instructor": "Oliver Schulte",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 410 or CMPT 419 (Machine Learning), with a minimum grade of C-.",
       "corequisites": "",
@@ -2054,9 +4269,141 @@
       "text": "426",
       "value": "426",
       "title": "Practicum I",
-      "instructor": [
-        "Tanya Behrisch",
-        "Stephanie Greaves"
+      "offerings": [
+        {
+          "instructor": "Tanya Behrisch",
+          "sections": [
+            "D100",
+            "D200",
+            "D300",
+            "D400",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Stephanie Greaves",
+          "sections": [
+            "D100",
+            "D200",
+            "D300",
+            "D400",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "Students must complete Bridging Online (visit www.sfu.ca/coop/bol for further details) at least two terms before their anticipated co-op placement. Students must then enroll with the co-op program by the second week of the term preceding the work term. Normally, students will have completed a minimum of 45 units by the end of the term of application, CMPT 275 or 276, and have a minimum CGPA of 2.50.",
       "corequisites": "",
@@ -2120,9 +4467,141 @@
       "text": "427",
       "value": "427",
       "title": "Practicum II",
-      "instructor": [
-        "Tanya Behrisch",
-        "Stephanie Greaves"
+      "offerings": [
+        {
+          "instructor": "Tanya Behrisch",
+          "sections": [
+            "D100",
+            "D200",
+            "D300",
+            "D400",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Stephanie Greaves",
+          "sections": [
+            "D100",
+            "D200",
+            "D300",
+            "D400",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 426, CGPA of 2.50.",
       "corequisites": "",
@@ -2186,9 +4665,141 @@
       "text": "428",
       "value": "428",
       "title": "Practicum III",
-      "instructor": [
-        "Tanya Behrisch",
-        "Stephanie Greaves"
+      "offerings": [
+        {
+          "instructor": "Tanya Behrisch",
+          "sections": [
+            "D100",
+            "D200",
+            "D300",
+            "D400",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Stephanie Greaves",
+          "sections": [
+            "D100",
+            "D200",
+            "D300",
+            "D400",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 427, CGPA of 2.50.",
       "corequisites": "",
@@ -2252,9 +4863,141 @@
       "text": "429",
       "value": "429",
       "title": "Practicum IV",
-      "instructor": [
-        "Tanya Behrisch",
-        "Stephanie Greaves"
+      "offerings": [
+        {
+          "instructor": "Tanya Behrisch",
+          "sections": [
+            "D100",
+            "D200",
+            "D300",
+            "D400",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Stephanie Greaves",
+          "sections": [
+            "D100",
+            "D200",
+            "D300",
+            "D400",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 428, CGPA of 2.50.",
       "corequisites": "",
@@ -2318,9 +5061,141 @@
       "text": "430",
       "value": "430",
       "title": "Practicum V",
-      "instructor": [
-        "Tanya Behrisch",
-        "Stephanie Greaves"
+      "offerings": [
+        {
+          "instructor": "Tanya Behrisch",
+          "sections": [
+            "D100",
+            "D200",
+            "D300",
+            "D400",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Stephanie Greaves",
+          "sections": [
+            "D100",
+            "D200",
+            "D300",
+            "D400",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "Mo, Tu, We, Th, Fr",
+                "sectionCode": "COP",
+                "startTime": "8:00",
+                "isExam": false,
+                "endTime": "20:00",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 429, CGPA of 2.50.",
       "corequisites": "",
@@ -2384,8 +5259,37 @@
       "text": "431",
       "value": "431",
       "title": "Distributed Systems",
-      "instructor": [
-        "Alaa Alameldeen"
+      "offerings": [
+        {
+          "instructor": "Alaa Alameldeen",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 300, 371, both with a minimum grade of C-.",
       "corequisites": "",
@@ -2429,8 +5333,27 @@
       "text": "433",
       "value": "433",
       "title": "Embedded Systems",
-      "instructor": [
-        "Brian Fraser"
+      "offerings": [
+        {
+          "instructor": "Brian Fraser",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 295 and CMPT 300, with a minimum grade of C-.",
       "corequisites": "",
@@ -2463,8 +5386,37 @@
       "text": "454",
       "value": "454",
       "title": "Database Systems II",
-      "instructor": [
-        "Ke Wang"
+      "offerings": [
+        {
+          "instructor": "Ke Wang",
+          "sections": [
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 300 and 354, with a minimum grade of C-.",
       "corequisites": "",
@@ -2507,8 +5459,60 @@
       "text": "459",
       "value": "459",
       "title": "Special Topics in Database Systems",
-      "instructor": [
-        "Martin Ester"
+      "offerings": [
+        {
+          "instructor": "Martin Ester",
+          "sections": [
+            "D200",
+            "E200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 354 with a minimum grade of C-.",
       "corequisites": "",
@@ -2559,8 +5563,37 @@
       "text": "461",
       "value": "461",
       "title": "Computational Photography and Image Manipulation",
-      "instructor": [
-        "Yagiz Aksoy"
+      "offerings": [
+        {
+          "instructor": "Yagiz Aksoy",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 361 with a minimum grade of C-.",
       "corequisites": "",
@@ -2603,9 +5636,47 @@
       "text": "469",
       "value": "469",
       "title": "Special Topics in Computer Graphics",
-      "instructor": [
-        "Andrea Tagliasacchi",
-        "Xingdong Yang"
+      "offerings": [
+        {
+          "instructor": "Andrea Tagliasacchi",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Xingdong Yang",
+          "sections": [
+            "D300"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 361 with a minimum grade of C-.",
       "corequisites": "",
@@ -2646,7 +5717,7 @@
       "text": "471",
       "value": "471",
       "title": "Networking II",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "CMPT 300 and 371, with a minimum grade of C-.",
       "corequisites": "",
       "sections": [
@@ -2688,8 +5759,37 @@
       "text": "474",
       "value": "474",
       "title": "Web Systems Architecture",
-      "instructor": [
-        "Ouldooz Baghban Karimi"
+      "offerings": [
+        {
+          "instructor": "Ouldooz Baghban Karimi",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 371 with a minimum grade of C-.",
       "corequisites": "",
@@ -2732,8 +5832,27 @@
       "text": "475",
       "value": "475",
       "title": "Requirements Engineering",
-      "instructor": [
-        "Sessional"
+      "offerings": [
+        {
+          "instructor": "Dan Ridinger",
+          "sections": [
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 275 or CMPT 276, (MACM 201 or CMPT 210) , all with a minimum grade of C- and 15 units of upper division courses. Recommended: Co-op experience.",
       "corequisites": "",
@@ -2766,8 +5885,27 @@
       "text": "476",
       "value": "476",
       "title": "Introduction to Quantum Algorithms",
-      "instructor": [
-        "Matthew Amy"
+      "offerings": [
+        {
+          "instructor": "Matthew Amy",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "MATH 232 or MATH 240, with a minimum grade of C-.",
       "corequisites": "",
@@ -2801,9 +5939,57 @@
       "text": "479",
       "value": "479",
       "title": "Special Topics in Computing Systems",
-      "instructor": [
-        "Deepak Rout",
-        "William Sumner"
+      "offerings": [
+        {
+          "instructor": "Deepak Rout",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "William Sumner",
+          "sections": [
+            "D300"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 300 with a minimum grade of C-.",
       "corequisites": "",
@@ -2854,8 +6040,24 @@
       "text": "493",
       "value": "493",
       "title": "Digital Media Practicum",
-      "instructor": [
-        "John Edgar"
+      "offerings": [
+        {
+          "instructor": "John Edgar",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "PRA",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 275 or CMPT 276, at least 80 units, CGPA and UDGPA over 3.0, enrolled in any CS major program. Participation in the practicum is competitive and an application must be submitted to the Undergraduate Chair by a defined due date announced each term.",
       "corequisites": "",
@@ -2885,7 +6087,25 @@
       "text": "494",
       "value": "494",
       "title": "Software Systems Program Capstone Project I",
-      "instructor": [],
+      "offerings": [
+        {
+          "instructor": "Tianzheng Wang",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "CAP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
       "prerequisites": "Students must have completed at least 15 units of upper division CMPT courses. Successful Capstone Project Proposal.",
       "corequisites": "",
       "sections": [
@@ -2930,10 +6150,58 @@
       "text": "495",
       "value": "495",
       "title": "Software Systems Capstone Project II",
-      "instructor": [
-        "Ouldooz Baghban Karimi",
-        "Keval Vora",
-        "William Sumner"
+      "offerings": [
+        {
+          "instructor": "Ouldooz Baghban Karimi",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "CAP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Keval Vora",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "CAP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "William Sumner",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "CAP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 494 with a minimum grade of C-. CMPT 495 must be taken in the term immediately following the successful completion of CMPT 494 and must be for the same project and faculty supervisor.",
       "corequisites": "",
@@ -2979,8 +6247,24 @@
       "text": "496",
       "value": "496",
       "title": "Directed Studies",
-      "instructor": [
-        "Lawrence Kim"
+      "offerings": [
+        {
+          "instructor": "Lawrence Kim",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "SEM",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the undergraduate chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
       "corequisites": "",
@@ -3010,8 +6294,24 @@
       "text": "497",
       "value": "497",
       "title": "Dual Degree Program Capstone Project",
-      "instructor": [
-        "Rob Cameron"
+      "offerings": [
+        {
+          "instructor": "Rob Cameron",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "Submission of a satisfactory capstone project proposal.",
       "corequisites": "",
@@ -3041,7 +6341,7 @@
       "text": "498",
       "value": "498",
       "title": "Honours Research Project",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the Undergraduate Chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
       "corequisites": "",
       "sections": [
@@ -3086,7 +6386,7 @@
       "text": "628",
       "value": "628",
       "title": "Graduate Co-op III",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "CMPT 627 and a CGPA of at least 3.0. Department Consent is required for enrollment.",
       "corequisites": "",
       "sections": [
@@ -3139,7 +6439,7 @@
       "text": "629",
       "value": "629",
       "title": "Graduate Project",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "Permission of the Graduate Program Chair.",
       "corequisites": "",
       "sections": [
@@ -3168,7 +6468,7 @@
       "text": "631",
       "value": "631",
       "title": "Industrial Internship",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "12 units of CMPT course work with an SFU CGPA of at least 3.0. Approval of supervisor and a GPC representative is required prior to applying for, or accepting an internship.",
       "corequisites": "",
       "sections": [
@@ -3197,8 +6497,37 @@
       "text": "700",
       "value": "700",
       "title": "Technical Writing and Research Communication",
-      "instructor": [
-        "Angelica Lim"
+      "offerings": [
+        {
+          "instructor": "Angelica Lim",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3241,8 +6570,37 @@
       "text": "701",
       "value": "701",
       "title": "Computability and Logic",
-      "instructor": [
-        "Evgenia Ternovska"
+      "offerings": [
+        {
+          "instructor": "Evgenia Ternovska",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3285,8 +6643,27 @@
       "text": "705",
       "value": "705",
       "title": "Design and Analysis of Algorithms",
-      "instructor": [
-        "Qianping Gu"
+      "offerings": [
+        {
+          "instructor": "Qianping Gu",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3320,8 +6697,37 @@
       "text": "713",
       "value": "713",
       "title": "Natural Language Processing",
-      "instructor": [
-        "Angel Chang"
+      "offerings": [
+        {
+          "instructor": "Angel Chang",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3365,8 +6771,27 @@
       "text": "722",
       "value": "722",
       "title": "Rendering and Visual Computing for Artificial Intelligence",
-      "instructor": [
-        "Manolis Savva"
+      "offerings": [
+        {
+          "instructor": "Manolis Savva",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 361 or equivalent and CMPT 726.",
       "corequisites": "",
@@ -3399,8 +6824,37 @@
       "text": "724",
       "value": "724",
       "title": "Affective Computing",
-      "instructor": [
-        "Angelica Lim"
+      "offerings": [
+        {
+          "instructor": "Angelica Lim",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3443,8 +6897,37 @@
       "text": "726",
       "value": "726",
       "title": "Machine Learning",
-      "instructor": [
-        "Mo Chen"
+      "offerings": [
+        {
+          "instructor": "Mo Chen",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:50",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:50",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3487,8 +6970,37 @@
       "text": "727",
       "value": "727",
       "title": "Mathematical and Probabilistic Foundations of Machine Learning",
-      "instructor": [
-        "Maxwell Libbrecht"
+      "offerings": [
+        {
+          "instructor": "Maxwell Libbrecht",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3531,8 +7043,37 @@
       "text": "728",
       "value": "728",
       "title": "Deep Learning",
-      "instructor": [
-        "Oliver Schulte"
+      "offerings": [
+        {
+          "instructor": "Oliver Schulte",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "9:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3575,8 +7116,37 @@
       "text": "729",
       "value": "729",
       "title": "Reinforcement Learning",
-      "instructor": [
-        "Xue Bin Jason Peng"
+      "offerings": [
+        {
+          "instructor": "Xue Bin Jason Peng",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3619,8 +7189,53 @@
       "text": "733",
       "value": "733",
       "title": "Big Data Lab II",
-      "instructor": [
-        "Steven Bergner"
+      "offerings": [
+        {
+          "instructor": "Steven Bergner",
+          "sections": [
+            "G100",
+            "G101",
+            "G102"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We, Fr",
+                "sectionCode": "LAB",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "15:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We, Fr",
+                "sectionCode": "LAB",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 732.",
       "corequisites": "",
@@ -3669,8 +7284,27 @@
       "text": "741",
       "value": "741",
       "title": "Data Mining",
-      "instructor": [
-        "Ke Wang"
+      "offerings": [
+        {
+          "instructor": "Ke Wang",
+          "sections": [
+            "G200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3703,8 +7337,40 @@
       "text": "743",
       "value": "743",
       "title": "Visual Computing Lab II",
-      "instructor": [
-        "Ali Mahdavi Amiri"
+      "offerings": [
+        {
+          "instructor": "Ali Mahdavi Amiri",
+          "sections": [
+            "G100",
+            "G101"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LAB",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 742. This course is only available to students enrolled in the master of visual computing program.",
       "corequisites": "",
@@ -3745,8 +7411,37 @@
       "text": "756",
       "value": "756",
       "title": "Distributed and Cloud Systems",
-      "instructor": [
-        "Ouldooz Baghban Karimi"
+      "offerings": [
+        {
+          "instructor": "Ouldooz Baghban Karimi",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3789,8 +7484,27 @@
       "text": "757",
       "value": "757",
       "title": "Frontiers of Visual Computing",
-      "instructor": [
-        "Manolis Savva"
+      "offerings": [
+        {
+          "instructor": "Manolis Savva",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "SEM",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "This course is only available to students enrolled into the Visual Computing Specialization of the Professional Master's program in Computer Science.",
       "corequisites": "",
@@ -3823,8 +7537,37 @@
       "text": "769",
       "value": "769",
       "title": "Computational Photography and Image Manipulation",
-      "instructor": [
-        "Yagiz Aksoy"
+      "offerings": [
+        {
+          "instructor": "Yagiz Aksoy",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3868,8 +7611,27 @@
       "text": "783",
       "value": "783",
       "title": "Cybersecurity Lab II",
-      "instructor": [
-        "Tao Wang"
+      "offerings": [
+        {
+          "instructor": "Tao Wang",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "SEM",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "CMPT 782. This course is only available to students enrolled in the master of cybersecurity program.",
       "corequisites": "",
@@ -3910,8 +7672,60 @@
       "text": "785",
       "value": "785",
       "title": "Secure Software Design",
-      "instructor": [
-        "Mohammad Tayebi"
+      "offerings": [
+        {
+          "instructor": "Mohammad Tayebi",
+          "sections": [
+            "G100",
+            "G200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3962,8 +7776,27 @@
       "text": "820",
       "value": "820",
       "title": "Multimedia Systems",
-      "instructor": [
-        "Jiangchuan Liu"
+      "offerings": [
+        {
+          "instructor": "Jiangchuan Liu",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -3997,7 +7830,7 @@
       "text": "827",
       "value": "827",
       "title": "Intelligent Systems",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "",
       "corequisites": "",
       "sections": [
@@ -4017,8 +7850,27 @@
       "text": "863",
       "value": "863",
       "title": "Advanced Topics in Human-Computer Interaction",
-      "instructor": [
-        "Xingdong Yang"
+      "offerings": [
+        {
+          "instructor": "Xingdong Yang",
+          "sections": [
+            "G200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -4052,7 +7904,28 @@
       "text": "889",
       "value": "889",
       "title": "Special Topics in Interdisciplinary Computing",
-      "instructor": [],
+      "offerings": [
+        {
+          "instructor": "Guillaume Colley",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
       "prerequisites": "",
       "corequisites": "",
       "sections": [
@@ -4083,8 +7956,41 @@
       "text": "894",
       "value": "894",
       "title": "Directed Reading",
-      "instructor": [
-        "Maxwell Libbrecht"
+      "offerings": [
+        {
+          "instructor": "Maxwell Libbrecht",
+          "sections": [
+            "G010"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Nicholas Vincent",
+          "sections": [
+            "G011"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -4226,7 +8132,7 @@
       "text": "895",
       "value": "895",
       "title": "Master Program Extended Essay",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "",
       "corequisites": "",
       "sections": [
@@ -4255,7 +8161,7 @@
       "text": "896",
       "value": "896",
       "title": "MSc Course Option Portfolio",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "",
       "corequisites": "",
       "sections": [
@@ -4284,7 +8190,7 @@
       "text": "897",
       "value": "897",
       "title": "MSc Project",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "",
       "corequisites": "",
       "sections": [
@@ -4313,7 +8219,7 @@
       "text": "898",
       "value": "898",
       "title": "MSc Thesis",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "",
       "corequisites": "",
       "sections": [
@@ -4342,7 +8248,7 @@
       "text": "899",
       "value": "899",
       "title": "PhD Thesis",
-      "instructor": [],
+      "offerings": [],
       "prerequisites": "",
       "corequisites": "",
       "sections": [
@@ -4371,8 +8277,27 @@
       "text": "980",
       "value": "980",
       "title": "Special Topics in Computing Science",
-      "instructor": [
-        "Deepak Rout"
+      "offerings": [
+        {
+          "instructor": "Deepak Rout",
+          "sections": [
+            "G200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "Instructor discretion.",
       "corequisites": "",
@@ -4413,8 +8338,27 @@
       "text": "981",
       "value": "981",
       "title": "Special Topics in Theoretical Computing Science",
-      "instructor": [
-        "Matthew Amy"
+      "offerings": [
+        {
+          "instructor": "Matthew Amy",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo, We, Fr",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -4446,9 +8390,67 @@
       "text": "982",
       "value": "982",
       "title": "Special Topics in Networks and Systems",
-      "instructor": [
-        "Uwe Glaesser",
-        "William Sumner"
+      "offerings": [
+        {
+          "instructor": "Uwe Glaesser",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "William Sumner",
+          "sections": [
+            "G300"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -4506,9 +8508,67 @@
       "text": "983",
       "value": "983",
       "title": "Special Topics in Artificial Intelligence",
-      "instructor": [
-        "Martin Ester",
-        "Ke Li"
+      "offerings": [
+        {
+          "instructor": "Martin Ester",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Ke Li",
+          "sections": [
+            "G200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -4558,8 +8618,41 @@
       "text": "984",
       "value": "984",
       "title": "Special Topics in Databases, Data Mining, Computational Biology",
-      "instructor": [
-        "Zhengjie Miao"
+      "offerings": [
+        {
+          "instructor": "Zhengjie Miao",
+          "sections": [
+            "G100",
+            "G100",
+            "G200"
+          ],
+          "courseSchedule": [
+            null,
+            null,
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",
@@ -4595,6 +8688,7 @@
         },
         {
           "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
           "days": "Fr",
           "sectionCode": "LEC",
           "startTime": "15:30",
@@ -4608,8 +8702,27 @@
       "text": "985",
       "value": "985",
       "title": "Special Topics in Graphics, HCI, Visualization, Vision, Multimedia",
-      "instructor": [
-        "Andrea Tagliasacchi"
+      "offerings": [
+        {
+          "instructor": "Andrea Tagliasacchi",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
       ],
       "prerequisites": "",
       "corequisites": "",

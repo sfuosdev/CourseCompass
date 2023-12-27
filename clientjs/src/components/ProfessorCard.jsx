@@ -1,50 +1,57 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // Fix tailwind
-{/* <div className={`grid grid-cols-2`}> 
+{
+  /* <div className={`grid grid-cols-2`}> 
 <ProfessorCard courses={courses[0]} />
 <ProfessorCard courses={courses[1]}/>
-</div> */}
-const ProfessorCard = ({ courses }) => {
-    const [view, setView] = useState('');
-    const [flip, setFlip] = useState(false);
-
-
-    // if(courses.length > 1)
-    //     setView()
-
-    const layout = courses.map(course => (
-        <div className="flex flex-col round rounded-2xl w-[270px] h-[360px] bg-[#F3F4FA] pl-[18px] pr-[18px] pt-[25px] hover:bg-[#AAC2FD] hover:shadow-lg focus-within:bg-[#AAC2FD]" key={course.professor}>
-            <div className="text-[30px] font-medium">{course.professor === 'TBA' ? "TBA" : course.professor}</div>
-            <div className="inline-block font-medium text-[15px] h-[5%]">Class Schedule:</div>
-            <div className="flex flex-col h-[50%]">
-                <span className="h-[10%]">map time 1</span>
-                <span className="h-[10%]">map time 2</span>
-            </div>
-            <div className="flex flex-col justify-between">
-                <div className="">Clarity<span>S s s s s</span></div>
-                <div className="">Engagement<span>S s s s s</span></div>
-            </div>
-
-        </div>
-    ));
-
-    const thing = (
-        <div className={`p-3 grid grid-cols-${courses.length}`}>
-
-        </div>
-    )
-
-    return (
-        <div className={`p-3 grid grid-cols-${courses.length}`}>
-            {layout}
-        </div>
-    );
+</div> */
 }
+const ProfessorCard = ({ course }) => {
+  return (
+    <div className={`flex flex-row gap-[20px]`}>
+      {course?.offerings.map((offering) => (
+        <div
+          className="flex flex-col round rounded-2xl w-[270px] h-[360px] bg-[#F3F4FA] pl-[18px] pr-[18px] pt-[25px] hover:bg-[#AAC2FD] hover:shadow-lg focus-within:bg-[#AAC2FD]"
+          key={offering.instructor}
+        >
+          <div className="text-[30px] font-medium">{offering.instructor}</div>
+          <div className="inline-block font-medium text-[15px] h-[5%] mb-[5px]">
+            Class Schedule:
+          </div>
+          {offering.courseSchedule.map((sectionSchedule, idx) => (
+            <div
+              key={`${offering.name}-${offering.sections[idx]}`}
+              className="flex flex-col mb-[10px]"
+            >
+              {offering.sections[idx]}:
+              {sectionSchedule.map((dailySchedule, idx2) => (
+                <div key={`${offering.name}-${offering.sections[idx]}-${idx2}`}>
+                  {dailySchedule.days}: {dailySchedule.startTime}-
+                  {dailySchedule.endTime}
+                </div>
+              ))}
+            </div>
+          ))}
+
+          <div className="flex flex-col justify-between">
+            <div className="">
+              Clarity<span>S s s s s</span>
+            </div>
+            <div className="">
+              Engagement<span>S s s s s</span>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
 export default ProfessorCard;
 
-{/* <div className="p-2 w-80 h-[360px] flex">
+{
+  /* <div className="p-2 w-80 h-[360px] flex">
 <div className="flex flex-col round rounded-2xl w-[270px] h-[360px] bg-[#F3F4FA] pl-[18px] pr-[18px] pt-[25px] hover:bg-[#AAC2FD] hover:shadow-lg focus-within:bg-[#AAC2FD]">
     <div className="text-[30px] font-medium">{courses[0].professor === 'TBA' ? "TBA" : courses[0].professor}</div>
     <div className="inline-block font-medium text-[15px] h-[40%]">Class Schedule:</div>
@@ -67,7 +74,8 @@ export default ProfessorCard;
         View complete professor ratings
     </Link>
 </div>
-</div> */}
+</div> */
+}
 
 // {
 //     "text": "225",

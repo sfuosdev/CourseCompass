@@ -32,7 +32,7 @@ export async function POST(req, res) {
     for (let course of courseArray) {
       const sectionsArray = await getSections(year, term, dept, course.value);
 
-      course.instructor = [];
+      course.offerings = [];
       course.prerequisites = "";
       course.corequisites = "";
 
@@ -47,9 +47,28 @@ export async function POST(req, res) {
           section.value
         );
         // console.log(outlineRes);
+
         if (outlineRes.instructor) {
           for (let instructor of outlineRes.instructor) {
-            course.instructor.push(instructor.name);
+            // console.log(instructor.name);
+            const idx = course.offerings.findIndex((offering) => {
+              console.log(offering.instructor);
+              console.log(instructor.name);
+              return offering.instructor == instructor.name;
+            });
+            // console.log(course.offerings);
+            console.log(`idx: ${idx}`);
+            if (idx != -1) {
+              course.offerings[idx].sections.push(section.text);
+              course.offerings[idx].courseSchedule.push(
+                outlineRes.courseSchedule
+              );
+            } else
+              course.offerings.push({
+                instructor: instructor.name,
+                sections: [section.text],
+                courseSchedule: [outlineRes.courseSchedule],
+              });
           }
         }
         if (outlineRes.info.prerequisites) {
@@ -72,7 +91,7 @@ export async function POST(req, res) {
         }
       }
 
-      course.instructor = course.instructor.filter(
+      course.offerings = course.offerings.filter(
         (value, index, array) => array.indexOf(value) === index
       );
 

@@ -34,10 +34,6 @@ const Page = ({ params }) => {
     });
   }, []);
 
-  // useEffect(() => {
-  //   console.log(filterOptions);
-  // }, [filterOptions]);
-
   return (
     <div className="m-[30px]">
       <h2 className="text-xl ">Faculty of Applied Science</h2>
