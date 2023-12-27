@@ -1,13 +1,13 @@
-import fetch from 'node-fetch';
-import mongoose from 'mongoose';
-import Course from '../../../models/Course';
-import dbConnect from '../../../app/utils/dbConnect';
+import fetch from "node-fetch";
+import mongoose from "mongoose";
+import Course from "../../../models/Course";
+import dbConnect from "../../../app/utils/dbConnect";
 
 export default async function handler(req, res) {
   try {
     await dbConnect();
-    const year = '2022';
-    const term = 'fall';
+    const year = "2024";
+    const term = "spring";
 
     const departmentsUrl = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}`;
     const departmentsResponse = await fetch(departmentsUrl);
@@ -30,17 +30,45 @@ export default async function handler(req, res) {
           const detail = await detailResponse.json();
 
           const combinedCourseCode = `${department.value}${course.value}`;
-          const existingCourse = await Course.findOne({ courseCode: combinedCourseCode });
+          const existingCourse = await Course.findOne({
+            courseCode: combinedCourseCode,
+          });
+
+          const offerings = [];
+          for (const section of sections) {
+            const outlineResponse = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department.value}/${course.value}/${section.value}`;
+            if (outlineResponse.instructor) {
+              console.log(outlineResponse.instructor);
+              for (let instructor of outlineResponse.instructor) {
+                const idx = offerings.findIndex((offering) => {
+                  return offering.instructor == instructor.name;
+                });
+                if (idx != -1) {
+                  offerings[idx].sections.push(section.text);
+                  offerings[idx].courseSchedule.push(
+                    outlineResponse.courseSchedule
+                  );
+                } else
+                  offerings.push({
+                    instructor: instructor.name,
+                    sections: [section.text],
+                    courseSchedule: [outlineResponse.courseSchedule],
+                  });
+              }
+            }
+          }
+
           if (!existingCourse) {
             const newCourse = new Course({
               courseCode: combinedCourseCode,
               name: course.text,
               credits: detail?.info?.units || 0,
-              prerequisites: detail?.info?.prerequisites || '',
-              corequisites: detail?.info?.corequisites || '',
-              courseDetails: detail?.info?.description || '',
-              designation: detail?.info?.designation || '',
-              dept: department.value
+              prerequisites: detail?.info?.prerequisites || "",
+              corequisites: detail?.info?.corequisites || "",
+              courseDetails: detail?.info?.description || "",
+              designation: detail?.info?.designation || "",
+              dept: department.value,
+              offerings: offerings,
             });
 
             await newCourse.save();
@@ -49,9 +77,12 @@ export default async function handler(req, res) {
       }
     }
 
-    res.status(200).json({ success: true, message: 'Courses imported successfully from SFU API' });
+    res.status(200).json({
+      success: true,
+      message: "Courses imported successfully from SFU API",
+    });
   } catch (error) {
-    console.error('Failed to import courses', error);
+    console.error("Failed to import courses", error);
     res.status(500).json({ success: false, error: error.message });
   }
 }
