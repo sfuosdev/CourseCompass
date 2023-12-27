@@ -4,66 +4,54 @@ import Course from '../../../models/Course';
 import dbConnect from '../../../app/utils/dbConnect';
 
 export default async function handler(req, res) {
-  if (req.method === 'GET') {
-    try {
-      await dbConnect();
-      
-      const year = '2022';
-      const term = 'fall';
-      const department = 'cmpt';
-      
-      const departmentUrl = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}`; // e.g., http://www.sfu.ca/bin/wcm/course-outlines?2022/fall/cmpt
-      const departmentResponse = await fetch(departmentUrl);
-      const departments = await departmentResponse.json();
-      console.log(departments);
+  try {
+    await dbConnect();
+    const year = '2022';
+    const term = 'fall';
 
-      const courseListUrl = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department}`;
+    const departmentsUrl = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}`;
+    const departmentsResponse = await fetch(departmentsUrl);
+    const departments = await departmentsResponse.json();
+
+    for (const department of departments) {
+      const courseListUrl = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department.value}`;
       const courseListResponse = await fetch(courseListUrl);
       const courseList = await courseListResponse.json();
 
       for (const course of courseList) {
-        const sectionUrl = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department}/${course.text}`;
+        const sectionUrl = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department.value}/${course.value}`;
         const sectionResponse = await fetch(sectionUrl);
         const sections = await sectionResponse.json();
 
         if (sections.length > 0) {
           const firstSection = sections[0];
-          const sectionDetailsUrl = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department}/${course.text}/${firstSection.value}`;
+          const sectionDetailsUrl = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department.value}/${course.value}/${firstSection.value}`;
           const detailResponse = await fetch(sectionDetailsUrl);
           const detail = await detailResponse.json();
 
-          const credits = detail?.info?.units;
-          const prerequisites = detail?.info?.prerequisites;
-          const corequisites = detail?.info?.corequisites;
-          const courseDetails = detail?.info?.description;
-          const designation = detail?.info?.designation;
-
-          const combinedCourseCode = `${department}${course.text}`;
+          const combinedCourseCode = `${department.value}${course.value}`;
           const existingCourse = await Course.findOne({ courseCode: combinedCourseCode });
           if (!existingCourse) {
             const newCourse = new Course({
               courseCode: combinedCourseCode,
-              name: course.title,
-              credits: credits || 0,
-              prerequisites: prerequisites || '',
-              corequisites: corequisites || '',
-              courseDetails: courseDetails || '',
-              designation: designation || '',
-              dept: department
+              name: course.text,
+              credits: detail?.info?.units || 0,
+              prerequisites: detail?.info?.prerequisites || '',
+              corequisites: detail?.info?.corequisites || '',
+              courseDetails: detail?.info?.description || '',
+              designation: detail?.info?.designation || '',
+              dept: department.value
             });
 
             await newCourse.save();
           }
         }
       }
-
-      res.status(200).json({ success: true, message: 'CMPT courses imported successfully from SFU API' });
-    } catch (error) {
-      console.error('Failed to import CMPT courses', error);
-      res.status(500).json({ success: false, error: error.message });
     }
-  } else {
-    res.setHeader('Allow', ['GET']);
-    res.status(405).end(`Method ${req.method} Not Allowed`);
+
+    res.status(200).json({ success: true, message: 'Courses imported successfully from SFU API' });
+  } catch (error) {
+    console.error('Failed to import courses', error);
+    res.status(500).json({ success: false, error: error.message });
   }
 }
