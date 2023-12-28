@@ -1,10 +1,10 @@
 "use client";
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { ScrollToTopButton } from "@/components/LandingPage";
 
 async function fetchCourse(params) {
-  const url = `${process.env.NEXT_PUBLIC_API_URL}/courseOutline`;
+  const url = `http://localhost:3000/api/courseOutline`;
 
   if (!params.year || !params.term || !params.dept) return;
 
@@ -30,8 +30,9 @@ const Page = ({ params }) => {
   }, []);
 
   return (
-    <div className="m-[50px] flex flex-row">
-      <div className="w-[70%] pr-[50px]">
+    <div className="ml-[40px] m-[50px] flex flex-col lg:flex-row">
+      <ScrollToTopButton />
+      <div className="lg:w-[70%] pr-[50px]">
         <h2 className="text-xl">
           {params.dept.toUpperCase()}
           {course.value}
@@ -44,10 +45,12 @@ const Page = ({ params }) => {
           Next Offering: {params.term} {params.year}
         </p>
       </div>
-      <div className="w-[30%] mt-[50px]">
-        <h1>CONSIDERATIONS</h1>
-        <h2>Pre-requisites:</h2>
-        <p>{course.prerequisites}</p>
+      <div className="lg:w-[30%] mt-[50px] lg:mt-0">
+        <h1 className="text-xl lg:text-2xl">CONSIDERATIONS</h1>
+        <div className="lg:flex lg:flex-col">
+          <h2 className="text-base lg:text-xl">Pre-requisites:</h2>
+          <p className="text-sm lg:text-base">{course.prerequisites}</p>
+        </div>
       </div>
     </div>
   );
