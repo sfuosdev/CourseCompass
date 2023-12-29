@@ -29,6 +29,8 @@ const Page = ({ params }) => {
     });
   }, []);
 
+  console.log(course);
+
   return (
     <div className="m-[50px] flex flex-row">
       <div className="w-[70%] pr-[50px]">

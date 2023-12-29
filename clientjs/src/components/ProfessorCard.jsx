@@ -1,40 +1,49 @@
 import Link from "next/link";
 import { useState } from "react";
+// https://course-compass-vcos.vercel.app/api
 
-// Fix tailwind
-{/* <div className={`grid grid-cols-2`}> 
-<ProfessorCard courses={courses[0]} />
-<ProfessorCard courses={courses[1]}/>
-</div> */}
-const ProfessorCard = ({ courses }) => {
-    const [view, setView] = useState('');
-    const [flip, setFlip] = useState(false);
+function produceSections(course) {
+    let sectionLayout;
+    if (course.sections.length === 1)
+        sectionLayout = <div className="p-2">
+            <span className="h-[10%]">Lecture:</span>
+            <span className="h-[5%]">{`${course.sections[0]}` /* Time goes here*/}</span>
+        </div>
 
+    // sectionLayout = course.sections.map(section => (
+    //     <>
+
+    //     </>
+    // ))
+
+    return (
+        <>
+            <div className="">
+                <span className="font-semibold">Lecture:</span>
+                <span className="h-[5%]">{`${course.sections[0]}` /* Time goes here*/}</span>
+            </div>
+        </>
+    )
+}
+
+const ProfessorCard = ({ courses, params }) => {
 
     // if(courses.length > 1)
     //     setView()
 
     const layout = courses.map(course => (
-        <div className="flex flex-col round rounded-2xl w-[270px] h-[360px] bg-[#F3F4FA] pl-[18px] pr-[18px] pt-[25px] hover:bg-[#AAC2FD] hover:shadow-lg focus-within:bg-[#AAC2FD]" key={course.professor}>
-            <div className="text-[30px] font-medium">{course.professor === 'TBA' ? "TBA" : course.professor}</div>
+        <Link href={`/courses/${params.year}/${params.term}/${params.dept}`} className="flex flex-col round rounded-2xl w-[280px] h-[360px] bg-[#F3F4FA] pl-[18px] pr-[18px] pt-[25px] hover:bg-[#AAC2FD] hover:shadow-lg focus-within:bg-[#AAC2FD]" key={course.professor}>
+            <div className="text-[30px] font-semibold">{course.professor === 'TBA' ? "TBA" : course.professor}</div>
             <div className="inline-block font-medium text-[15px] h-[5%]">Class Schedule:</div>
-            <div className="flex flex-col h-[50%]">
-                <span className="h-[10%]">map time 1</span>
-                <span className="h-[10%]">map time 2</span>
+            <div className="flex flex-col flex-wrap h-[50%]">
+                {produceSections(course)}
             </div>
-            <div className="flex flex-col justify-between">
-                <div className="">Clarity<span>S s s s s</span></div>
-                <div className="">Engagement<span>S s s s s</span></div>
+            <div className="flex flex-col">
+                <div className="flex justify-between">Clarity<span>S s s s s</span></div>
+                <div className="flex justify-between">Engagement<span>S s s s s</span></div>
             </div>
-
-        </div>
+        </Link>
     ));
-
-    const thing = (
-        <div className={`p-3 grid grid-cols-${courses.length}`}>
-
-        </div>
-    )
 
     return (
         <div className={`p-3 grid grid-cols-${courses.length}`}>

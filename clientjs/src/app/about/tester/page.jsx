@@ -64,8 +64,8 @@ function ratingSystem(review, user) {
     return review.map(rating => user.rating.find(({ ID }) => ID === rating.ID));
 }
 
-let params = {
-    year: "2023",
+const params = {
+    year: "2024",
     term: "spring",
     dept: "cmpt",
     course: "225"
@@ -94,7 +94,7 @@ export default function tester() {
                     <div className="textplace">
                     </div>
                     <div className="p-6">Teaching</div>
-                    <ProfessorCard courses={courses} />
+                    <ProfessorCard courses={courses} params={params} />
                 </div>
                 <div className="Considerations">
 

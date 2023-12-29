@@ -9,7 +9,6 @@ function setUserRating() {
 
 }
 
-
 // userEX is user
 const userEX = {
     ID: String,
