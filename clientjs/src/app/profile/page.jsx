@@ -25,7 +25,7 @@ const year = () => {
 
 function UploadScheduleView() {
     return (
-        <div className="relative flex flex-col">
+        <div className="flex flex-col">
             <div className="font-medium text-[25px]">Pick an option to get started</div>
             <div className="font-normal text-[18px]">Input your previous course history</div>
             <div className="bg-gray flex">
@@ -45,6 +45,52 @@ function UploadScheduleView() {
         </div>
     );
 }
+function ImportCoursesView() {
+    return (
+        <div className="flex flex-col">
+            <div className="font-medium text-[25px]">Import an option to get started</div>
+            <div className="font-normal text-[18px]">Input your previous course history</div>
+            <div className="bg-gray flex">
+                <div className="">Change to input</div>
+                <div className="">
+                    <div className="">
+
+                    </div>
+                    <div className="">
+
+                    </div>
+                </div>
+            </div>
+            <div className="bg-gray">
+
+            </div>
+        </div>
+    );
+}
+function MajorInfoView() {
+    return (
+        <div className="bg-gray-200 h-[50%] w-auto">
+            <div className="px-16 py-16">
+                <div className="font-semibold text-[25px] py-3">Add your degree information</div>
+                <div className="font-normal text-[16px] pb-9">Please provide additional information on your (intended) program, major(s), minor(s), specialization(s), and concentration(s).</div>
+                <div className="bg-gray-400 flex h-[100px]">
+                    <div className="">
+                        <div className="">
+
+                        </div>
+                        <div className="">
+
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-gray">
+
+                </div>
+            </div>
+        </div>
+    );
+}
+
 
 function SwitchComponent({ viewSelector }) {
     switch(viewSelector) {
@@ -60,7 +106,9 @@ function SwitchComponent({ viewSelector }) {
 }
 
 export default function Profile() {
-    const [viewSelector, setViewSelector] = useState(0);
+    const [viewSelector, setViewSelector] = useState(1);
+
+    console.log(viewSelector);
 
     return (
         <>
@@ -69,6 +117,7 @@ export default function Profile() {
             <div className="grid grid-cols-4 md:h-screen">
                 <div className="col-span-3">
                     <SwitchComponent viewSelector={viewSelector} />
+                    {/* <MajorInfoView /> */}
                 </div>
                 <div className="flex flex-col">
                     <ProfileCompletionList setViewSelector={setViewSelector}/>

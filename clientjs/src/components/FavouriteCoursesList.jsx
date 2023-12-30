@@ -7,7 +7,7 @@ const FavouriteCoursesList = () => {
     const courseList = "";
 
     return (
-        <div className="flex flex-col pt-3 pb-5 px-2 m-3 border shadow-md rounded-lg w-4/5">
+        <div className="flex flex-col pt-3 pb-5 pl-1 pr-2 m-2 border shadow-md rounded-lg lg:w-6/7 xl:w-4/5">
             <div className="py-3 font-medium text-[22px]">Favourites</div>
             <hr></hr>
             <div>
