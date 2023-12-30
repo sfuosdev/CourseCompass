@@ -1,4 +1,3 @@
-// pages/api/searchCourses.js
 import dbConnect from '../../../app/utils/dbConnect';
 import Course from '../../../models/Course';
 
@@ -8,16 +7,21 @@ export default async function handler(req, res) {
 
     const { searchTerm } = req.query;
 
-    // Use regular expressions to search for courses by department, course code, or name
+    // handle spaces for search
+    const combinedSearchTerm = searchTerm.replace(/\s/g, '');
+
+    const regexPatterns = [
+      new RegExp(combinedSearchTerm, 'i'), 
+      new RegExp(searchTerm, 'i'),
+    ];
+
     const courses = await Course.find({
       $or: [
-        { courseCode: { $regex: searchTerm, $options: 'i' } }, // Search by course code
-        { name: { $regex: searchTerm, $options: 'i' } }, // Search by name
-        { dept: { $regex: searchTerm, $options: 'i' } }, // Search by department
+        { courseCode: { $in: regexPatterns } },
+        { title: { $regex: searchTerm, $options: 'i' } },
       ],
     });
 
-    // Respond with the matched courses
     res.status(200).json({ success: true, courses });
   } catch (error) {
     console.error('Failed to search courses:', error);
