@@ -6,10 +6,10 @@ const ProfileHero = ({ fullname, email }) => {
     return (
         <div className={`-mt-3 relative`}>
             <img src={bgbanner} alt="Banner for Profile" className={`w-screen h-60`} />
-            <div className="absolute inset-1/4 grid grid-cols-4 w-[50%] ">
+            <div className="absolute inset-1/4 grid grid-cols-4 w-[70%] lg:w-[50%] ">
                 <div className="">
                     <Image src="/profile-picture.jpg" alt={`Profile picture of ${fullname}`} height={208} width={208}
-                    className="h-[120px] w-[120px] rounded-full" />
+                    className="h-[60px] w-[60px] md:h-[120px] md:w-[120px] rounded-full" />
                 </div>
                 <div className="py-3 col-span-3">
                     <div className="font-semibold text-[30px]">

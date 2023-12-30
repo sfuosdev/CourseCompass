@@ -25,44 +25,48 @@ const year = () => {
 
 function UploadScheduleView() {
     return (
-        <div className="flex flex-col">
-            <div className="font-medium text-[25px]">Pick an option to get started</div>
-            <div className="font-normal text-[18px]">Input your previous course history</div>
-            <div className="bg-gray flex">
-                <div className="">Change to input</div>
-                <div className="">
+        <div className="bg-[#4D4D4D] h-[50%] w-auto">
+            <div className="px-16 py-16">
+                <div className="py-3 font-medium text-[25px]">Import an option to get started</div>
+                <div className="pb-9 font-normal text-[18px]">Input your previous course history</div>
+                <div className="bg-[#2D54A6] flex">
+                    <div className="">Change to input</div>
                     <div className="">
+                        <div className="">
 
-                    </div>
-                    <div className="">
+                        </div>
+                        <div className="">
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="bg-gray">
+                <div className="bg-gray">
 
+                </div>
             </div>
         </div>
     );
 }
 function ImportCoursesView() {
     return (
-        <div className="flex flex-col">
-            <div className="font-medium text-[25px]">Import an option to get started</div>
-            <div className="font-normal text-[18px]">Input your previous course history</div>
-            <div className="bg-gray flex">
-                <div className="">Change to input</div>
-                <div className="">
+        <div className="bg-[#AAC2FD] h-[50%] w-auto">
+            <div className="px-16 py-16">
+                <div className="py-3 font-medium text-[25px]">Import an option to get started</div>
+                <div className="pb-9 font-normal text-[18px]">Input your previous course history</div>
+                <div className="bg-[#EAF0FF] flex">
+                    <div className="">Change to input</div>
                     <div className="">
+                        <div className="">
 
-                    </div>
-                    <div className="">
+                        </div>
+                        <div className="">
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="bg-gray">
+                <div className="bg-gray">
 
+                </div>
             </div>
         </div>
     );
@@ -71,8 +75,8 @@ function MajorInfoView() {
     return (
         <div className="bg-gray-200 h-[50%] w-auto">
             <div className="px-16 py-16">
-                <div className="font-semibold text-[25px] py-3">Add your degree information</div>
-                <div className="font-normal text-[16px] pb-9">Please provide additional information on your (intended) program, major(s), minor(s), specialization(s), and concentration(s).</div>
+                <div className="py-3 font-semibold text-[25px]">Add your degree information</div>
+                <div className="pb-9 font-normal text-[16px]">Please provide additional information on your (intended) program, major(s), minor(s), specialization(s), and concentration(s).</div>
                 <div className="bg-gray-400 flex h-[100px]">
                     <div className="">
                         <div className="">
@@ -107,8 +111,6 @@ function SwitchComponent({ viewSelector }) {
 
 export default function Profile() {
     const [viewSelector, setViewSelector] = useState(1);
-
-    console.log(viewSelector);
 
     return (
         <>
