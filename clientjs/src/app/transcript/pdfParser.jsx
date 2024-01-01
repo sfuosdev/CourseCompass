@@ -10,8 +10,8 @@ finally, this will proclaim the end of transcript and end of function: End of Un
 
 async function getPdfDocument(pdfData) {
   try {
-    const pdfjsLib = await import('pdfjs-dist/build/pdf');
-    const pdfjsWorker = await import('pdfjs-dist/build/pdf.worker');
+    const pdfjsLib = await import('pdfjs-dist/build/pdf.mjs');
+    const pdfjsWorker = await import('pdfjs-dist/build/pdf.worker.mjs');
 
     pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker.default;
 
