@@ -84,8 +84,8 @@ const Rating = (props) => {
     iconSize === SIZES.SMALL.key
       ? SIZES.SMALL.size
       : iconSize === SIZES.MEDIUM.key
-      ? SIZES.MEDIUM.size
-      : SIZES.LARGE.size;
+        ? SIZES.MEDIUM.size
+        : SIZES.LARGE.size;
 
   const RatingHighlighted = (
     <IconComponent type={"ratingHighlighted"} width={size} height={size} />
