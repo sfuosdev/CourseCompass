@@ -17,7 +17,7 @@ function Page() {
           setErrorMessage('');
         } else {
           setParsedCourses(null);
-          setErrorMessage('File does not contain any courses.');
+          setErrorMessage('File must be an Unofficial Transcript.');
         }
       };
       reader.readAsArrayBuffer(file);
@@ -30,14 +30,19 @@ function Page() {
 
   const handleDrop = (event) => {
     event.preventDefault();
-    const file = event.dataTransfer.files[0];
-    if (file.type === 'application/pdf') {
-      handleParsePDF(file);
-    } else {
-      setParsedCourses(null);
-      setErrorMessage('Unsupported file type or unable to read courses.');
+    const files = event.dataTransfer.files;
+    
+    if (files.length > 0) {
+      const file = files[0];
+      if (file.type === 'application/pdf') {
+        handleParsePDF(file);
+      } else {
+        setParsedCourses(null);
+        setErrorMessage('Unsupported file type or unable to read courses.');
+      }
     }
   };
+  
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -54,23 +59,39 @@ function Page() {
   };
 
   const renderContent = () => {
-    if (!parsedCourses) {
+    if (errorMessage !== '') {
+      return (
+        <div>
+          <p className='text-red-500'>
+            Unsupported file type or unable to read courses.
+            <br />
+            Please upload your Unofficial Transcript as a PDF file.
+            <br />
+            If the error persists, please try another method or contact us.
+          </p>
+        </div>
+      );
+    }
+  
+    if (parsedCourses === null) {
       return null;
     }
-
+  
     const years = {};
     Object.keys(parsedCourses).forEach(yearTerm => {
       const [year, term] = yearTerm.split(' ');
       if (!years[year]) {
-        years[year] = { Spring: [], Summer: [], Fall: [] };
+        years[year] = { Spring: [], Summer: [], Fall: [], cumulativeUnits: null };
       }
-
+  
       years[year][term] = parsedCourses[yearTerm];
+      if (parsedCourses[yearTerm]?.cumulativeUnits !== undefined) {
+        years[year].cumulativeUnits = parsedCourses[yearTerm].cumulativeUnits;
+      }
     });
-
+  
     return (
       <div>
-        <p></p>
         {Object.keys(years).map(year => (
           <div key={year} className="mb-4 p-4 bg-gray-200 rounded-lg">
             <h3 className="text-lg font-semibold">{year}</h3>
@@ -89,12 +110,18 @@ function Page() {
                   </ul>
                 </div>
               ))}
+              {years[year].cumulativeUnits !== null && (
+                <div className="w-full p-2 mt-4">
+                  <p className="text-md font-semibold">Cumulative Units: {years[year].cumulativeUnits}</p>
+                </div>
+              )}
             </div>
           </div>
         ))}
       </div>
     );
   };
+  
 
   return (
     <div className="p-4">
