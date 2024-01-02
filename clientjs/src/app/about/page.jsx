@@ -76,7 +76,7 @@ function Profile({ name, role, link, image }) {
       <div className="py-2 w-96">
         <p className="text-xl font-bold">{name}</p>
         <p className="py-2 text-lg font-medium">{role}</p>
-        {/* Change the if multiple links to map function*/}
+        {/* Change if there is multiple links to map function*/}
         <Link href={link} className="text-lg font-normal">
           Linkedin
         </Link>

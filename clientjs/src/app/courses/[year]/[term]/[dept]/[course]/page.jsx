@@ -97,6 +97,8 @@ const Page = ({ params }) => {
     });
   }, []);
 
+  console.log(course);
+
   return (
     <div className="m-[50px] flex flex-col">
       <div className="flex flex-row">

@@ -1,13 +1,8 @@
-import Link from "next/link";
-import { useEffect, useState } from "react";
+// import Link from "next/link";
+// import { useEffect, useState } from "react";
 
-// Fix tailwind
-{
-  /* <div className={`grid grid-cols-2`}> 
-<ProfessorCard courses={courses[0]} />
-<ProfessorCard courses={courses[1]}/>
-</div> */
-}
+// import { useState } from "react";
+
 const ProfessorCard = ({ course }) => {
   return (
     <div className={`flex flex-row gap-[20px]`}>

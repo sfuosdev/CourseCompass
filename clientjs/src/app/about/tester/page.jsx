@@ -69,12 +69,21 @@ function ratingSystem(review, user) {
   return review.map((rating) => user.rating.find(({ ID }) => ID === rating.ID));
 }
 
+<<<<<<< HEAD
 let params = {
   year: "2023",
   term: "spring",
   dept: "cmpt",
   course: "225",
 };
+=======
+const params = {
+    year: "2024",
+    term: "spring",
+    dept: "cmpt",
+    course: "225"
+}
+>>>>>>> 41004541d085459e537bc116bb627f9a8eaadc86
 
 const courses = [
   {
@@ -123,6 +132,7 @@ export default function tester() {
         <div className="Considerations"></div>
       </div>
 
+<<<<<<< HEAD
       <div className="Reviews">
         <Review review={reviewComment[0]} user={userRatingsMapped} />
         <Review review={reviewComment[1]} user={userRatingsMapped} />
@@ -130,3 +140,26 @@ export default function tester() {
     </>
   );
 }
+=======
+    return (
+        <>
+            <div className="grid grid-cols-2">
+                <div className="course-teaching">
+                    <div className="textplace">
+                    </div>
+                    <div className="p-6">Teaching</div>
+                    <ProfessorCard courses={courses} params={params} />
+                </div>
+                <div className="Considerations">
+
+                </div>
+            </div>
+
+            <div className="Reviews">
+                <Review review={reviewComment[0]} user={userRatingsMapped} />
+                <Review review={reviewComment[1]} user={userRatingsMapped} />
+            </div>
+        </>
+    )
+}
+>>>>>>> 41004541d085459e537bc116bb627f9a8eaadc86
