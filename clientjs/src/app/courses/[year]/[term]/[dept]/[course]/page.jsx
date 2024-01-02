@@ -1,9 +1,9 @@
 "use client";
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ProfessorCard from "@/components/ProfessorCard";
 import Review from "@/components/ReviewList";
+import { ScrollToTopButton } from "@/components/LandingPage";
 
 function ratingSystem(review, user) {
   // console.log(review.map(rating => user.rating.find(({ ID }) => ID === rating.ID)))
@@ -33,7 +33,7 @@ const userAccount = {
 };
 
 async function fetchCourse(params) {
-  const url = `${process.env.NEXT_PUBLIC_API_URL}/courseOutline`;
+  const url = `http://localhost:3000/api/courseOutline`;
 
   if (!params.year || !params.term || !params.dept) return;
 
@@ -100,6 +100,7 @@ const Page = ({ params }) => {
   console.log(course);
 
   return (
+<<<<<<< HEAD
     <div className="m-[50px] flex flex-col">
       <div className="flex flex-row">
         <div className="w-[70%] pr-[50px]">
@@ -132,6 +133,28 @@ const Page = ({ params }) => {
         <div className="Reviews">
           <Review review={reviewComment[0]} user={userRatingsMapped} />
           <Review review={reviewComment[1]} user={userRatingsMapped} />
+=======
+    <div className="ml-[40px] m-[50px] flex flex-col lg:flex-row">
+      <ScrollToTopButton />
+      <div className="lg:w-[70%] pr-[50px]">
+        <h2 className="text-xl">
+          {params.dept.toUpperCase()}
+          {course.value}
+        </h2>
+        <h1 className="text-3xl text-[#4570E6] underline underline-offset-4">
+          {course.title}
+        </h1>
+        <p className="text-base mt-[30px] text-justify">{course.description}</p>
+        <p className="text-xl mt-[30px]">
+          Next Offering: {params.term} {params.year}
+        </p>
+      </div>
+      <div className="lg:w-[30%] mt-[50px] lg:mt-0">
+        <h1 className="text-xl lg:text-2xl">CONSIDERATIONS</h1>
+        <div className="lg:flex lg:flex-col">
+          <h2 className="text-base lg:text-xl">Pre-requisites:</h2>
+          <p className="text-sm lg:text-base">{course.prerequisites}</p>
+>>>>>>> main
         </div>
       </div>
     </div>

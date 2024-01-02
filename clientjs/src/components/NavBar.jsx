@@ -49,14 +49,16 @@ const Navbar = ({ showSearchBar }) => {
   };
   return (
     <nav className="bg-primary-yellow flex items-center justify-between w-full h-[8rem] fixed top-0 z-10 space-x-[0.5rem] pr-[1rem] flex-base">
-      <div className="justify-start font-bold items-left mt-[-3rem] p-[1.5rem] relative inline mt-[1.125rem] text-5xl">
-        <Link href="/">
-          <div className="flex flex-col cursor-pointer">
-            <div className="mb-[-0.8rem]">Course</div>
-            <div className="pl-[1.5rem]">Compass</div>
-          </div>
-        </Link>
-      </div>
+      {showSearchBar && 
+      <div className="absolute justify-start font-bold items-left mt-[-3rem] p-[1.5rem] text-[4vw] md:relative md:inline md:mt-[1.125rem] xl:text-5xl">
+        <Link href="/" className="flex flex-col text-xl sm:text-5xl ml-[0.5rem] mb-[0.5rem]"><div className="mb-[-0.5rem]">Course</div>
+                                                          <div className="ml-[1.5rem]">Compass</div></Link>
+      </div>}
+      {!showSearchBar && 
+      <div className="justify-start font-bold items-left mt-[-3rem] p-[1.5rem] relative inline mt-[1.125rem] text-[10vw] sm:text-5xl">
+        <Link href="/" className="flex flex-col"><div className="mb-[-0.8rem]">Course</div>
+                                                          <div className="pl-[1.5rem]">Compass</div></Link>
+      </div>}
       {showSearchBar && <SearchBar page="other" />}
 
       <div className="flex inline-flex mt-[3.125rem] m-2 pr-[2rem] space-x-2">
@@ -79,14 +81,14 @@ const Navbar = ({ showSearchBar }) => {
             {showMenu && (
               <div className="absolute top-full right-4 bg-primary-yellow border border-gray-300 shadow-md rounded-md mt-1 py-2">
                 <Link href="/profile"><div className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer">Profile</div></Link>
-                <Link href="/review"><div className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer">Leave a Review</div></Link>
+                <Link href="/reviews"><div className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer">Leave a Review</div></Link>
                 <Link href="/tuition-calculator"><div className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer">Tuition Calculator</div></Link>
                 <button className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer" onClick={handleLogout}>Logout</button>
               </div>
             )}
           </>
         ) : (
-          <button onClick={() => setShowModal(true)} className="bg-primary-blue text-white px-4 py-2 rounded hover:bg-primary-yellow cursor-pointer">
+          <button onClick={() => setShowModal(true)} className="hover:border hover:border-black bg-primary-blue text-white mb-[1rem] px-4 py-2 rounded hover:bg-primary-yellow hover:text-black cursor-pointer">
             Login / Signup
           </button>
         )}

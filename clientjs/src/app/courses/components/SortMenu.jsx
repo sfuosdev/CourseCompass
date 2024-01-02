@@ -4,9 +4,10 @@ const SortMenu = ({ filterOptions, setFilterOptions }) => {
   return (
     <div className="flex flex-col">
       <div className="rounded-3xl flex flex-row text-white bg-[#4E4E4E] p-[5px]">
-        <span className="inline-block">Sort by:</span>
+        <span className="inline-block pl-[1rem]">Sort by:</span>
         <select className="bg-[#4E4E4E] select-none focus:outline-none">
           <option>Offer Dates</option>
+          <option>Course Title</option>
         </select>
       </div>
       <div className="text-[10px] pt-[10px]">

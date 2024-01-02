@@ -3,11 +3,11 @@ const SearchBar = ({page}) => {
       case 'LandPage':
         return (
             <div
-                className="flex inline-flex w-[50vw] mt-[3.125rem] rounded-md border-opacity-50 justify-center
+                className="flex inline-flex w-[80vw] md:w-[50vw] mt-[2rem] md:mt-[4rem]  rounded-md border-opacity-50 justify-center
             "
             >
                 <svg
-                className="relative inline right-[-3rem] mt-[0.5rem] color-black"
+                className="relative inline right-[-2rem] md:right-[-2.5rem] mt-[0.5rem] color-black"
                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clip-path="url(#clip0_13_778)">
                     <path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#23272A" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -22,7 +22,7 @@ const SearchBar = ({page}) => {
                 <input
                 type="text"
                 placeholder="Search courses, professor, departments..."
-                className="pl-[5rem] rounded w-full h-[2.5rem] left-2 bg-primary-whiteBlue text-black border border-black"
+                className="pl-[2.5rem] md:pl-[4rem] rounded w-full h-[2.5rem] left-2 bg-primary-whiteBlue text-black border border-black"
                 />
             </div>
         )
@@ -35,7 +35,7 @@ const SearchBar = ({page}) => {
             <input
                 type="text"
                 placeholder="Search courses, professor, departments..."
-                className="relative p-[1rem] w-[50vw] h-full rounded-full border border-black"
+                className="relative p-[1rem] w-[60vw] lg:w-[50vw] h-full rounded-full sm:ml-[1rem] md:ml-[0rem] border border-black"
             />
             <svg
                 className="relative hidden left-[-2.5rem] mt-[0.5rem]
