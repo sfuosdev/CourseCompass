@@ -97,13 +97,11 @@ const Page = ({ params }) => {
     });
   }, []);
 
-  console.log(course);
-
   return (
-<<<<<<< HEAD
-    <div className="m-[50px] flex flex-col">
-      <div className="flex flex-row">
-        <div className="w-[70%] pr-[50px]">
+    <>
+      <div className="ml-[40px] m-[50px] flex flex-col lg:flex-row">
+        <ScrollToTopButton />
+        <div className="lg:w-[70%] pr-[50px]">
           <h2 className="text-xl">
             {params.dept.toUpperCase()}
             {course.value}
@@ -111,53 +109,29 @@ const Page = ({ params }) => {
           <h1 className="text-3xl text-[#4570E6] underline underline-offset-4">
             {course.title}
           </h1>
-          <p className="text-base mt-[30px] text-justify">
-            {course.description}
-          </p>
+          <p className="text-base mt-[30px] text-justify">{course.description}</p>
           <p className="text-xl mt-[30px]">
-            Offerings:{" "}
-            {params.term[0].toUpperCase() + params.term.slice(1).toLowerCase()}{" "}
-            {params.year}
+            Next Offering: {params.term} {params.year}
           </p>
         </div>
-        <div className="w-[30%] mt-[50px]">
-          <h1>CONSIDERATIONS</h1>
-          <h2>Pre-requisites:</h2>
-          <p>{course.prerequisites}</p>
+        <div className="lg:w-[30%] mt-[50px] lg:mt-0">
+          <h1 className="text-xl lg:text-2xl">CONSIDERATIONS</h1>
+          <div className="lg:flex lg:flex-col">
+            <h2 className="text-base lg:text-xl">Pre-requisites:</h2>
+            <p className="text-sm lg:text-base">{course.prerequisites}</p>
+          </div>
         </div>
       </div>
       <div className="mt-[10px] flex flex-row">
-        {course.value != "" ? <ProfessorCard course={course} /> : <></>}
-      </div>
-      <div className="mt-[10px] flex flex-col">
-        <div className="Reviews">
-          <Review review={reviewComment[0]} user={userRatingsMapped} />
-          <Review review={reviewComment[1]} user={userRatingsMapped} />
-=======
-    <div className="ml-[40px] m-[50px] flex flex-col lg:flex-row">
-      <ScrollToTopButton />
-      <div className="lg:w-[70%] pr-[50px]">
-        <h2 className="text-xl">
-          {params.dept.toUpperCase()}
-          {course.value}
-        </h2>
-        <h1 className="text-3xl text-[#4570E6] underline underline-offset-4">
-          {course.title}
-        </h1>
-        <p className="text-base mt-[30px] text-justify">{course.description}</p>
-        <p className="text-xl mt-[30px]">
-          Next Offering: {params.term} {params.year}
-        </p>
-      </div>
-      <div className="lg:w-[30%] mt-[50px] lg:mt-0">
-        <h1 className="text-xl lg:text-2xl">CONSIDERATIONS</h1>
-        <div className="lg:flex lg:flex-col">
-          <h2 className="text-base lg:text-xl">Pre-requisites:</h2>
-          <p className="text-sm lg:text-base">{course.prerequisites}</p>
->>>>>>> main
+          {course.value != "" ? <ProfessorCard course={course} /> : <></>}
         </div>
-      </div>
-    </div>
+        <div className="mt-[10px] flex flex-col">
+          <div className="Reviews">
+            <Review review={reviewComment[0]} user={userRatingsMapped} />
+            <Review review={reviewComment[1]} user={userRatingsMapped} />
+          </div>
+        </div>
+    </>
   );
 };
 

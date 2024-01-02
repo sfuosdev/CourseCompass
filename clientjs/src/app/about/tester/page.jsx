@@ -1,5 +1,5 @@
 "use client";
-// Nothing important can be deleted
+// Nothing important can be deleted whenever
 import ProfessorCard from "@/components/ProfessorCard";
 import Review from "@/components/ReviewList";
 
