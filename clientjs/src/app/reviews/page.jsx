@@ -1,14 +1,15 @@
 // pages/review.js
 "use client";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Rating from './Rating/Rating';
 import axios from 'axios';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 
 const Review = () => {
   
-
+  const [routerReady, setRouterReady] = useState(false);
+  const router = useRouter();
   const [ratingValue, setRatingValue] = useState(undefined);
 
   const [formData, setFormData] = useState({
@@ -24,6 +25,12 @@ const Review = () => {
     professorExperience: '',
   });
 
+  useEffect(() => {
+    if (router.isReady) {
+      setRouterReady(true);
+    }
+  }, [router.isReady]);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -34,7 +41,7 @@ const Review = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    
     const userId = localStorage.getItem("user_id");
     if (!userId) {
       alert("User not logged in");
@@ -67,6 +74,8 @@ const Review = () => {
       const result = await response.json();
       console.log('Response:', result);
       alert('Review submitted successfully!');
+
+      router.push(`/`); // Replace with your course page URL pattern
   } catch (error) {
       console.error('Error submitting review:', error);
       alert('Failed to submit review.');
@@ -197,7 +206,7 @@ const Review = () => {
         <button
           type="submit"
           className="bg-primary-blue hover:bg-primary-yellow hover:text-black text-white font-semibold py-2 px-4 rounded"
-          href={`/courses/2024/spring/cmpt/105w`}
+          
         >
           Submit Review
         </button>
