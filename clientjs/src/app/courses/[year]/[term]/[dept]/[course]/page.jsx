@@ -110,12 +110,6 @@ const Page = ({ params }) => {
         ) : (
           <p>No reviews yet.</p>
         )}
-        {/* 
-        {course.title && (
-        <Link className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2" href={`/reviews?courseCode=${params.course}&dept=${params.dept}&title=${course.title}`}>
-          Leave a review
-        </Link>
-        )}       */}
       </div>
       <div className="lg:w-[30%] mt-[50px] lg:mt-0">
         <h1 className="text-xl lg:text-2xl">CONSIDERATIONS</h1>
@@ -126,15 +120,6 @@ const Page = ({ params }) => {
           </p>
         </div>
       </div>
-
-      {/* 
-      
-      <div className="mt-[10px] flex flex-col">
-        <div className="Reviews">
-          <Review review={reviewComment[0]} user={userRatingsMapped} />
-          <Review review={reviewComment[1]} user={userRatingsMapped} />
-        </div>
-      </div> */}
     </div>
   );
 };

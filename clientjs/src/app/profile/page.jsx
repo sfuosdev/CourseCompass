@@ -3,7 +3,7 @@
 import ProfileHero from "@/components/ProfileHero";
 import ProfileCompletionList from "@/components/ProfileCompletionList";
 import FavouriteCoursesList from "@/components/FavouriteCoursesList";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { departments } from "@/components/LoginSignupModal";
 
 const userInfo = {
@@ -137,14 +137,14 @@ function MajorInfoView() {
   );
 }
 
-function SwitchComponent({ viewSelector }) {
+function SwitchComponent({ viewSelector, majors, minors }) {
   switch (viewSelector) {
     case 1:
       return <UploadScheduleView />;
     case 2:
       return <ImportCoursesView />;
     case 3:
-      return <MajorInfoView />;
+      return <MajorInfoView majors={majors} minors={minors} />;
     default:
       return userInfo.schedule === "" ? "" : <UploadScheduleView />;
   }
@@ -153,18 +153,61 @@ function SwitchComponent({ viewSelector }) {
 export default function Profile() {
   const [viewSelector, setViewSelector] = useState(1);
 
+  const [userData, setUserData] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    // Function to fetch user data from the API
+    const fetchUserData = async () => {
+      setIsLoading(true);
+      try {
+        // Retrieve the user ID from localStorage
+        const userId = localStorage.getItem("user_id");
+        if (!userId) {
+          throw new Error("No user ID found in localStorage.");
+        }
+
+        const response = await fetch(`/api/user/${userId}`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        setUserData(data.data);
+      } catch (error) {
+        console.error("Fetching user data failed", error);
+        setError(error.message);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    // As localStorage is not accessible during server-side rendering,
+    // we call the fetchUserData inside the useEffect hook,
+    // so it only runs on the client-side after component mounts.
+    fetchUserData();
+  }, []);
+
+  if (isLoading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error}</div>;
+  if (!userData) return <div>No user data found</div>;
+
   return (
     <div>
-      <ProfileHero fullname={userInfo.fullname} email={userInfo.email} />
+      <ProfileHero fullname={userData.username} email={userData.email} />
 
       <div className="flex flex-col md:flex-row">
+        <div className="w-screen md:w-[70%]">
+          <SwitchComponent
+            viewSelector={viewSelector}
+            majors={userData.majors}
+            minors={userData.minors}
+          />
+          {/* <MajorInfoView /> */}
+        </div>
         <div className="flex flex-col w-screen md:w-[30%]">
           <ProfileCompletionList setViewSelector={setViewSelector} />
           <FavouriteCoursesList setViewSelector={setViewSelector} />
-        </div>
-        <div className="w-screen md:w-[70%]">
-          <SwitchComponent viewSelector={viewSelector} />
-          {/* <MajorInfoView /> */}
         </div>
       </div>
     </div>

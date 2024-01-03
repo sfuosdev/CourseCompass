@@ -29,15 +29,6 @@ const ProfessorCard = ({ course }) => {
               ))}
             </div>
           ))}
-
-          <div className="flex flex-col justify-between">
-            <div className="">
-              Clarity<span>S s s s s</span>
-            </div>
-            <div className="">
-              Engagement<span>S s s s s</span>
-            </div>
-          </div>
         </div>
       ))}
     </div>
