@@ -18,6 +18,6 @@ const OfferingSchema = new mongoose.Schema({
     }],
 });
 
-const Offering = mongoose.models.Offering || mongoose.model('Offering', offeringSchema);
+const Offering = mongoose.models.Offering || mongoose.model('Offering', OfferingSchema);
 
 export default Offering;
