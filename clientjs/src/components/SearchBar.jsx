@@ -1,11 +1,12 @@
-const SearchBar = ({page}) => {
+const SearchBar = ({page , onSearchChange }) => {
     switch (page) {
       case 'LandPage':
         return (
+            
             <div
-                className="flex inline-flex w-[80vw] md:w-[50vw] mt-[2rem] md:mt-[4rem]  rounded-md border-opacity-50 justify-center
-            "
-            >
+            className="flex inline-flex w-[80vw] md:w-[50vw] mt-[2rem] md:mt-[4rem] rounded-md border-opacity-50 justify-center">
+        
+            
                 <svg
                 className="relative inline right-[-2rem] md:right-[-2.5rem] mt-[0.5rem] color-black"
                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -19,11 +20,12 @@ const SearchBar = ({page}) => {
                     </clipPath>
                     </defs>
                 </svg>
-                <input
+            <input
                 type="text"
                 placeholder="Search courses, professor, departments..."
                 className="pl-[2.5rem] md:pl-[4rem] rounded w-full h-[2.5rem] left-2 bg-primary-whiteBlue text-black border border-black"
-                />
+                onChange={(e) => onSearchChange(e.target.value)}
+            />
             </div>
         )
       case 'other': 

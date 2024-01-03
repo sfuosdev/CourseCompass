@@ -36,24 +36,27 @@ export default async function handler(req, res) {
 
           const offerings = [];
           for (const section of sections) {
-            const outlineResponse = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department.value}/${course.value}/${section.value}`;
-            if (outlineResponse.instructor) {
-              console.log(outlineResponse.instructor);
-              for (let instructor of outlineResponse.instructor) {
+            const outlineUrl = `http://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department.value}/${course.value}/${section.value}`;
+            const outlineResponse = await fetch(outlineUrl);
+            const outline = await outlineResponse.json();
+          
+            if (outline.instructor) {
+              for (let instructor of outline.instructor) {
                 const idx = offerings.findIndex((offering) => {
                   return offering.instructor == instructor.name;
                 });
                 if (idx != -1) {
                   offerings[idx].sections.push(section.text);
                   offerings[idx].courseSchedule.push(
-                    outlineResponse.courseSchedule
+                    outline.courseSchedule
                   );
-                } else
+                } else {
                   offerings.push({
                     instructor: instructor.name,
                     sections: [section.text],
-                    courseSchedule: [outlineResponse.courseSchedule],
+                    courseSchedule: [outline.courseSchedule],
                   });
+                }
               }
             }
           }
@@ -62,6 +65,7 @@ export default async function handler(req, res) {
             const newCourse = new Course({
               courseCode: combinedCourseCode,
               name: course.text,
+              title: course.title,
               credits: detail?.info?.units || 0,
               prerequisites: detail?.info?.prerequisites || "",
               corequisites: detail?.info?.corequisites || "",
