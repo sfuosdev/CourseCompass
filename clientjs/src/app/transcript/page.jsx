@@ -1,11 +1,51 @@
 "use client";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import parsePDFToCourses from './pdfParser';
 
 function Page() {
   const [parsedCourses, setParsedCourses] = useState(null);
   const [errorMessage, setErrorMessage] = useState('');
+  let [firstYear, setFirstYear] = useState(new Date().getFullYear());
+  let [lastYear, setLastYear] = useState(new Date().getFullYear());
+  const [addingCourse, setAddingCourse] = useState({ year: '', term: '', showInput: false });
 
+  const addYear = (position) => {
+    const updatedParsedCourses = { ...parsedCourses };
+    const years = Object.keys(updatedParsedCourses);
+  
+    if (position === 'before') {
+      const newFirstYear = years.length > 0 ? firstYear - 1 : new Date().getFullYear();
+      updatedParsedCourses[newFirstYear.toString()] = { Spring: [], Summer: [], Fall: [] };
+      setFirstYear(newFirstYear);
+    } else if (position === 'after') {
+      const newLastYear = years.length > 0 ? lastYear + 1 : new Date().getFullYear();
+      updatedParsedCourses[newLastYear.toString()] = { Spring: [], Summer: [], Fall: [] };
+      setLastYear(newLastYear);
+    }
+  
+    setParsedCourses(updatedParsedCourses);
+  };
+
+  const removeYear = (position) => {
+    const updatedParsedCourses = { ...parsedCourses };
+    const years = Object.keys(updatedParsedCourses);
+    if (years.length === 0) {
+      setFirstYear(new Date().getFullYear());
+      setLastYear(new Date().getFullYear());
+      return;
+    }
+    if (position === 'before') {
+      const firstYear = Math.min(...years);
+      delete updatedParsedCourses[firstYear.toString()];
+      setFirstYear(firstYear + 1);
+    } else if (position === 'after') {
+      const lastYear = Math.max(...years);
+      delete updatedParsedCourses[lastYear.toString()];
+      setLastYear(lastYear - 1);
+    }
+    setParsedCourses(updatedParsedCourses);
+  };
+  
   const handleParsePDF = async (file) => {
     try {
       const reader = new FileReader();
@@ -14,6 +54,9 @@ function Page() {
         const courses = await parsePDFToCourses(pdfData);
         if (courses && Object.keys(courses).length > 0) {
           setParsedCourses(courses);
+          const transcriptYears = Object.keys(courses).map(yearTerm => parseInt(yearTerm.split(' ')[0]));
+          setFirstYear(Math.min(...transcriptYears));
+          setLastYear(Math.max(...transcriptYears));
           setErrorMessage('');
         } else {
           setParsedCourses(null);
@@ -43,7 +86,6 @@ function Page() {
     }
   };
   
-
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (file.type === 'application/pdf') {
@@ -56,6 +98,28 @@ function Page() {
 
   const allowDrop = (event) => {
     event.preventDefault();
+  };
+
+  const handleRemoveCourse = (year, term, courseToRemove) => {
+    const updatedCourses = { ...parsedCourses };
+    const termCourses = updatedCourses[`${year} ${term}`];
+    const updatedTermCourses = termCourses.filter(course => course !== courseToRemove);
+    updatedCourses[`${year} ${term}`] = updatedTermCourses;
+    setParsedCourses(updatedCourses);
+  };
+
+  const handleAddCourse = (year, term, newCourse) => {
+    const updatedCourses = { ...parsedCourses };
+    if (!updatedCourses[`${year} ${term}`]) {
+      updatedCourses[`${year} ${term}`] = [];
+    }
+    if (updatedCourses[`${year} ${term}`].length < 6) {
+      updatedCourses[`${year} ${term}`].push(newCourse);
+      setParsedCourses(updatedCourses);
+      setAddingCourse({ year: '', term: '', showInput: false });
+    } else {
+      alert('Maximum 6 courses allowed per term');
+    }
   };
 
   const renderContent = () => {
@@ -81,13 +145,10 @@ function Page() {
     Object.keys(parsedCourses).forEach(yearTerm => {
       const [year, term] = yearTerm.split(' ');
       if (!years[year]) {
-        years[year] = { Spring: [], Summer: [], Fall: [], cumulativeUnits: null };
+        years[year] = { Spring: [], Summer: [], Fall: [] };
       }
   
       years[year][term] = parsedCourses[yearTerm];
-      if (parsedCourses[yearTerm]?.cumulativeUnits !== undefined) {
-        years[year].cumulativeUnits = parsedCourses[yearTerm].cumulativeUnits;
-      }
     });
   
     return (
@@ -102,19 +163,36 @@ function Page() {
                   <ul className="mt-2">
                     {years[year][term].length > 0 ? (
                       years[year][term].map(course => (
-                        <li key={course} className="py-1">{course}</li>
+                        <li key={course} className="py-1 rounded-lg bg-gray-300 flex flex-row justify-between w-[8rem] pl-1 mb-1">
+                          {course}
+                          <button onClick={() => handleRemoveCourse(year, term, course)} className='bg-gray-300 ml-2 rounded-full border border-gray-400 font-bold px-2 text-gray-600'>-</button>
+                        </li>
                       ))
                     ) : (
                       <li className="py-1">null term</li>
                     )}
+                    {addingCourse.showInput && addingCourse.year === year && addingCourse.term === term && (
+                      <li>
+                        <input
+                          type="text"
+                          placeholder="Add a course"
+                          onKeyDown={(e) => {
+                            if (e.key === 'Enter') {
+                              handleAddCourse(year, term, e.target.value);
+                              e.target.value = '';
+                            }
+                          }}
+                        />
+                      </li>
+                    )}
+                    {years[year][term].length < 6 && (
+                      <li>
+                        <button onClick={() => setAddingCourse({ year, term, showInput: true })} className='bg-gray-300 rounded-full border border-gray-400 font-bold px-2 text-gray-600'>+</button>
+                      </li>
+                    )}
                   </ul>
                 </div>
               ))}
-              {years[year].cumulativeUnits !== null && (
-                <div className="w-full p-2 mt-4">
-                  <p className="text-md font-semibold">Cumulative Units: {years[year].cumulativeUnits}</p>
-                </div>
-              )}
             </div>
           </div>
         ))}
@@ -140,13 +218,17 @@ function Page() {
         />
       </div>
       <div className="mt-8">
+        <button onClick={() => addYear('before')} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">+</button>
+        <button onClick={() => removeYear('before')} className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">-</button>
+
         <h2 className="text-2xl font-semibold mb-4">Parsed Courses:</h2>
         {renderContent()}
+        <button onClick={() => addYear('after')} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">+</button>
+        <button onClick={() => removeYear('after')} className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">-</button>
+
       </div>
     </div>
   );
 }
 
 export default Page;
-
-
