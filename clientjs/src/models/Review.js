@@ -4,12 +4,12 @@ const ReviewSchema = new mongoose.Schema({
     reviewer: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User',
-        required: true
+        required: false//change later
     },
     course: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Course',
-        required: true
+        required: false//change later
     },
     usefulnessRating: {
         type: Number,
@@ -34,10 +34,7 @@ const ReviewSchema = new mongoose.Schema({
     upvotes: {
         type: Number,
         default: 0
-    },
-    
-
-    
+    },    
 });
 
-module.exports = mongoose.model('Review', ReviewSchema);
+export default mongoose.models.Review || mongoose.model('Review', reviewSchema);

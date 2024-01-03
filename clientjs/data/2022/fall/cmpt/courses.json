@@ -1,0 +1,4028 @@
+{
+  "courses": [
+    {
+      "text": "105W",
+      "value": "105w",
+      "title": "Social Issues and Communication Strategies in Computing Science",
+      "instructor": [
+        "Herbert Tsang",
+        "Harinder Khangura"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Social Issues and Communication Strategies in Computing Science",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Social Issues and Communication Strategies in Computing Science",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        }
+      ],
+      "notes": "Students with credit for ENSC 102, ENSC 105W, MSE 101W or SEE 101W may not take CMPT 105W for further credit.",
+      "description": "This course teaches the fundamentals of informative and persuasive communication for professional engineers and computer scientists. A principal goal of this course is to assist students in thinking critically about various contemporary technical, social, and ethical issues. It focuses on communicating technical information clearly and concisely, managing issues of persuasion when communicating with diverse audiences, presentation skills, and teamwork.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Mo, We, Fr",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "13:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "120",
+      "value": "120",
+      "title": "Introduction to Computing Science and Programming I",
+      "instructor": [
+        "Diana Cukierman",
+        "Toby Donaldson"
+      ],
+      "prerequisites": "BC Math 12 or equivalent is recommended.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Computing Science and Programming I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Introduction to Computing Science and Programming I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D400",
+          "value": "d400",
+          "title": "Introduction to Computing Science and Programming I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "4"
+        },
+        {
+          "text": "OL01",
+          "value": "ol01",
+          "title": "Introduction to Computing Science and Programming I",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "100"
+        }
+      ],
+      "notes": "Students with credit for CMPT 102, 128, 130 or 166 may not take this course for further credit. Students who have taken CMPT 125, 129, 130 or 135 first may not then take this course for further credit.",
+      "description": "An elementary introduction to computing science and computer programming, suitable for students with little or no programming background. Students will learn fundamental concepts and terminology of computing science, acquire elementary skills for programming in a high-level language, e.g. Python. The students will be exposed to diverse fields within, and applications of computing science. Topics will include: pseudocode; data types and control structures; fundamental algorithms; recursion; reading and writing files; measuring performance of algorithms; debugging tools; basic terminal navigation using shell commands. Treatment is informal and programming is presented as a problem-solving tool. ",
+      "deliveryMethod": "Distance Education",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "Mo, We, Fr",
+          "sectionCode": "OLC",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "125",
+      "value": "125",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": [
+        "Igor Shinkar"
+      ],
+      "prerequisites": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Computing Science and Programming II",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Introduction to Computing Science and Programming II",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Introduction to Computing Science and Programming II",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Introduction to Computing Science and Programming II",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Introduction to Computing Science and Programming II",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Introduction to Computing Science and Programming II",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Introduction to Computing Science and Programming II",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Introduction to Computing Science and Programming II",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Introduction to Computing Science and Programming II",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 126, 129, 135 or CMPT 200 or higher may not take this course for further credit.",
+      "description": "A rigorous introduction to computing science and computer programming, suitable for students who already have some background in computing science and programming.  Intended for students who will major in computing science or a related program. Topics include: memory management; fundamental algorithms; formally analyzing the running time of algorithms; abstract data types and elementary data structures; object-oriented programming and software design; specification and program correctness; reading and writing files; debugging tools; shell commands.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "LAB",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "128",
+      "value": "128",
+      "title": "Introduction to Computing Science and Programming for Engineers",
+      "instructor": [
+        "Janice Regan"
+      ],
+      "prerequisites": "BC Math 12 (or equivalent, or any of MATH 100, 150, 151, 154, or 157, with a minimum grade of C-).",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Computing Science and Programming for Engineers",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Introduction to Computing Science and Programming for Engineers",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 102, 120, 130 or 166 may not take this course for further credit. Students who have taken CMPT 125, 129, 135, or CMPT 200 or higher first may not then take this course for further credit.",
+      "description": "An introduction to computing science and computer programming, suitable for students wishing to major in Engineering Science or a related program. This course introduces basic computing science concepts, and fundamentals of object oriented programming. Topics include: fundamental algorithms and problem solving; abstract data types and elementary data structures; basic object-oriented programming and software design; elements of empirical and theoretical algorithmics; computation and computability; specification and program correctness; and history of computing science. The course will use a programming language commonly used in Engineering Science.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LAB",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "130",
+      "value": "130",
+      "title": "Introduction to Computer Programming I",
+      "instructor": [
+        "Brian Fraser"
+      ],
+      "prerequisites": "BC Math 12 (or equivalent, or any of MATH 100, 150, 151, 154, or 157, with a minimum grade of C-).",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Computer Programming I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Introduction to Computer Programming I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Introduction to Computer Programming I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Introduction to Computer Programming I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Introduction to Computer Programming I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Introduction to Computer Programming I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Introduction to Computer Programming I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Introduction to Computer Programming I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Introduction to Computer Programming I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 102, 120, 128 or 166 may not take this course for further credit. Students who have taken CMPT 125, 129 or 135 first may not then take this course for further credit.",
+      "description": "An introduction to computing science and computer programming, using a systems oriented language, such as C or C++. This course introduces basic computing science concepts. Topics will include: elementary data types, control structures, functions, arrays and strings, fundamental algorithms, computer organization and memory management.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "We",
+          "sectionCode": "LAB",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "15:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "210",
+      "value": "210",
+      "title": "Probability and Computing",
+      "instructor": [
+        "Andrei Bulatov"
+      ],
+      "prerequisites": "MACM 101, MATH 152, and MATH 240, all with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Probability and Computing",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Probability has become an essential tool in modern computer science with applications in randomized algorithms, computer vision and graphics, systems, data analysis, and machine learning. The course introduces the foundational concepts in probability as required by many modern applications in computing.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo, We, Fr",
+          "sectionCode": "LEC",
+          "startTime": "9:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "213",
+      "value": "213",
+      "title": "Object Oriented Design in Java",
+      "instructor": [
+        "Bobby Chan"
+      ],
+      "prerequisites": "CMPT 225 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Object Oriented Design in Java",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 212 cannot take this course for further credit. ",
+      "description": "An introduction to object oriented design using Java. The Java programming language is introduced,\r\nwith an emphasis on its advanced features. The course covers the building blocks of object oriented\r\ndesign including inheritance, polymorphism, interfaces and abstract classes. A number of object oriented design patterns are presented, such as observer, iterator, and singleton. The course also teaches best-practices in code construction. It includes a basic introduction to programming event driven graphical user interfaces.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Mo, We, Fr",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "9:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "225",
+      "value": "225",
+      "title": "Data Structures and Programming",
+      "instructor": [
+        "David Mitchell",
+        "Anne Lavergne"
+      ],
+      "prerequisites": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Data Structures and Programming",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Data Structures and Programming",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D201",
+          "value": "d201",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D202",
+          "value": "d202",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D203",
+          "value": "d203",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D204",
+          "value": "d204",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D205",
+          "value": "d205",
+          "title": "Data Structures and Programming",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Introduction to a variety of practical and important data structures and methods for implementation and for experimental and analytical evaluation. Topics include: stacks, queues and lists; search trees; hash tables and algorithms; efficient sorting; object-oriented programming; time and space efficiency analysis; and experimental evaluation. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Mo",
+          "sectionCode": "LAB",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "272",
+      "value": "272",
+      "title": "Web I - Client-side Development",
+      "instructor": [
+        "Bobby Chan"
+      ],
+      "prerequisites": "CMPT 120 or CMPT 130 or CMPT 128, with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Web I - Client-side Development",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 165 may not take this course for further credit.",
+      "description": "Introduces students to the fundamentals of client-side web programming. Students will gain experience working with markup languages such as HTML and CSS as well as define dynamic behaviour using JavaScript and TypeScript. Students will be introduced to popular front-end frameworks. The web architecture will be discussed, and web services will be invoked using basic API calls to existing REST APIs.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "276",
+      "value": "276",
+      "title": "Introduction to Software Engineering",
+      "instructor": [
+        "Rob Cameron",
+        "Brian Fraser"
+      ],
+      "prerequisites": "One W course, CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (MATH 151 or MATH 150), all with a minimum grade of C-. MATH 154 or MATH 157 with at least a B+ may be substituted for MATH 151 or MATH 150.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Software Engineering",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Introduction to Software Engineering",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Introduction to Software Engineering",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "3"
+        }
+      ],
+      "notes": "Students with credit for CMPT 275 may not take this course for further credit.",
+      "description": "An overview of various techniques used for software development and software project management. Major tasks and phases in modern software development, including requirements, analysis, documentation, design, implementation, testing,and maintenance. Project management issues are also introduced. Students complete a team project using an iterative development process.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Mo, We, Fr",
+          "sectionCode": "LEC",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "295",
+      "value": "295",
+      "title": "Introduction to Computer Systems",
+      "instructor": [
+        "Alaa Alameldeen",
+        "Arrvindh Shriraman"
+      ],
+      "prerequisites": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Computer Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D109",
+          "value": "d109",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D110",
+          "value": "d110",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D111",
+          "value": "d111",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D112",
+          "value": "d112",
+          "title": "Introduction to Computer Systems",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "The curriculum introduces students to topics in computer architecture that are considered fundamental to an understanding of the digital systems underpinnings of computer systems. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LAB",
+          "startTime": "18:30",
+          "isExam": false,
+          "endTime": "19:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "300",
+      "value": "300",
+      "title": "Operating Systems I",
+      "instructor": [
+        "Hazra Imran",
+        "Harinder Khangura"
+      ],
+      "prerequisites": "CMPT 225 and (CMPT 295 or ENSC 254), all with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Operating Systems I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Operating Systems I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "This course aims to give the student an understanding of what a modern operating system is, and the services it provides. It also discusses some basic issues in operating systems and provides solutions. Topics include multiprogramming, process management, memory management, and file systems.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "9:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "307",
+      "value": "307",
+      "title": "Data Structures and Algorithms",
+      "instructor": [
+        "David Mitchell"
+      ],
+      "prerequisites": "CMPT 225, (MACM 201 or CMPT 210), (MATH 150 or MATH 151), and (MATH 232 or MATH 240), all with a minimum grade of C-. MATH 154 or MATH 157 with a grade of at least B+ may be substituted for MATH 150 or MATH 151.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Data Structures and Algorithms",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Design and analysis of efficient data structures and algorithms. General techniques for building and analyzing algorithms (greedy, divide & conquer, dynamic programming, network flows). Introduction to NP-completeness.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo, We, Fr",
+          "sectionCode": "LEC",
+          "startTime": "9:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "308",
+      "value": "308",
+      "title": "Computability and Complexity",
+      "instructor": [
+        "Valentine Kabanets"
+      ],
+      "prerequisites": "(MACM 201 or CMPT 210) with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Computability and Complexity",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Formal models of computation such as automata and Turing machines. Decidability and undecidability. Recursion Theorem. Connections between computability and logic (Gödel’s Incompleteness). Time and space complexity classes. NP-completeness.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "13:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "310",
+      "value": "310",
+      "title": "Introduction to Artificial Intelligence",
+      "instructor": [
+        "Hazra Imran"
+      ],
+      "prerequisites": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Artificial Intelligence",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "A survey of modern approaches for artificial intelligence (AI). Provides an introduction to a variety of AI topics and prepares students for upper-level courses. Topics include: problem solving with search; adversarial game playing; probability and Bayesian networks; machine learning; and applications such as robotics, visual computing and natural language.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "11:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "318",
+      "value": "318",
+      "title": "Special Topics in Computing Science",
+      "instructor": [
+        "Uwe Glaesser"
+      ],
+      "prerequisites": "CMPT 225 with a minimum grade of C-. Additional prerequisites to be determined by the instructor subject to approval by the undergraduate program chair.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Special Topics in Computing Science",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Special topics in computing science at the 300 level. Topics that are of current interest or are not covered in regular curriculum will be offered from time to time depending on availability of faculty and student interest.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "15:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "353",
+      "value": "353",
+      "title": "Computational Data Science",
+      "instructor": [
+        "Gregory Baker"
+      ],
+      "prerequisites": "CMPT 225 and (STAT 101, STAT 270, ENSC 280, or MSE 210), with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Computational Data Science",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Basic concepts and programming tools for handling and processing data. Includes data acquisition, cleaning data sources, application of machine learning techniques and data analysis techniques, large-scale computation on a computing cluster.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "9:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "354",
+      "value": "354",
+      "title": "Database Systems I",
+      "instructor": [
+        "Ke Wang",
+        "John Edgar"
+      ],
+      "prerequisites": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Database Systems I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Database Systems I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Logical representations of data records. Data models. Studies of some popular file and database systems. Document retrieval. Other related issues such as database administration, data dictionary and security.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Mo, We, Fr",
+          "sectionCode": "LEC",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "361",
+      "value": "361",
+      "title": "Introduction to Computer Graphics",
+      "instructor": [],
+      "prerequisites": "CMPT 225 and MATH 232 or 240, all with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Computer Graphics",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "This course provides an introduction to the fundamentals of computer graphics. Topics include graphics display and interaction hardware, basic algorithms for 2D primitives, anti-aliasing, 2D and 3D geometrical transformations, 3D projections/viewing, Polygonal and hierarchical models, hidden-surface removal, basic rendering techniques (color, shading, raytracing, radiosity), and interaction techniques.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "11:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "362",
+      "value": "362",
+      "title": "Mobile Applications Programming and Design",
+      "instructor": [
+        "Xingdong Yang"
+      ],
+      "prerequisites": "CMPT 225 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Mobile Applications Programming and Design",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Mobile Applications Programming and Design",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Mobile Applications Programming and Design",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Mobile Applications Programming and Design",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Mobile Applications Programming and Design",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Mobile Applications Programming and Design",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Mobile Applications Programming and Design",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for IAT 359 may not take this course for further credit.",
+      "description": "Teaches students how to design and implement smartphone applications. Topics include development environment, phone emulator, key programming paradigms, UI design including views, fragments, and activities, data persistence, threads, services, embedded sensors, and location based services (e.g., Google Maps). Concepts are reinforced through programming assignments and group projects.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "LAB",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "363",
+      "value": "363",
+      "title": "User Interface Design",
+      "instructor": [
+        "Victor Cheung"
+      ],
+      "prerequisites": "CMPT 225 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "User Interface Design",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "User Interface Design",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "This course provides a comprehensive study of user interface design. Topics include: goals and principles of UI design (systems engineering and human factors), historical perspective, current paradigms (widget-based, mental model, graphic design, ergonomics, metaphor, constructivist/iterative approach, and visual languages) and their evaluation, existing tools and packages (dialogue models, event-based systems, prototyping), future paradigms, and the social impact of UI.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "11:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "365",
+      "value": "365",
+      "title": "Multimedia Systems",
+      "instructor": [
+        "Jiangchuan Liu"
+      ],
+      "prerequisites": "CMPT 225 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Multimedia Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Multimedia systems design, multimedia hardware and software, issues in effectively representing, processing, and retrieving multimedia data such as text, graphics, sound and music, image and video.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "371",
+      "value": "371",
+      "title": "Data Communications and Networking",
+      "instructor": [
+        "Ouldooz Baghban Karimi"
+      ],
+      "prerequisites": "CMPT 225 and (MATH 151 or MATH 150), with a minimum grade of C-. MATH 154 or MATH 157 with a grade of at least B+ may be substituted for MATH 151 (MATH 150).",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Data Communications and Networking",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Data communication fundamentals (data types, rates, and transmission media). Network architectures for local and wide areas. Communications protocols suitable for various architectures. ISO protocols and internetworking. Performance analysis under various loadings and channel error rates.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "15:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "373",
+      "value": "373",
+      "title": "Software Development Methods",
+      "instructor": [
+        "William Sumner"
+      ],
+      "prerequisites": "CMPT 276 or 275, with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Software Development Methods",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Survey of modern software development methodology. Several software development process models will be examined, as will the general principles behind such models. Provides experience with different programming paradigms and their advantages and disadvantages during software development.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "15:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "376W",
+      "value": "376w",
+      "title": "Technical Writing and Group Dynamics",
+      "instructor": [
+        "John Edgar"
+      ],
+      "prerequisites": "CMPT 105W and (CMPT 275 or CMPT 276), with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Technical Writing and Group Dynamics",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 376 may not take this course for further credit.",
+      "description": "Covers professional writing in computing science, including format conventions and technical reports. Attention is paid to group dynamics, including team leadership, dispute resolution, cognitive bias, professional ethics and collaborative writing. Research methods are also discussed. The use of LaTeX and various version control tools are emphasized.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Mo, We, Fr",
+          "sectionCode": "LEC",
+          "startTime": "9:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "379",
+      "value": "379",
+      "title": "Principles of Compiler Design",
+      "instructor": [
+        "Thomas Shermer"
+      ],
+      "prerequisites": "(MACM 201 or CMPT 210), (CMPT 295 or ENSC 215) and CMPT 225, all with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Principles of Compiler Design",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "This course covers the key components of a compiler for a high level programming language. Topics include lexical analysis, parsing, type checking, code generation and optimization. Students will work in teams to design and implement an actual compiler making use of tools such as lex and yacc. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "11:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "383",
+      "value": "383",
+      "title": "Comparative Programming Languages",
+      "instructor": [],
+      "prerequisites": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Comparative Programming Languages",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Various concepts and principles underlying the design and use of modern programming languages are considered in the context of procedural, object-oriented, functional and logic programming languages. Topics include data and control structuring constructs, facilities for modularity and data abstraction, polymorphism, syntax, and formal semantics.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "9:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "405",
+      "value": "405",
+      "title": "Design and Analysis of Computing Algorithms",
+      "instructor": [
+        "Qianping Gu"
+      ],
+      "prerequisites": "CMPT 307 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Design and Analysis of Computing Algorithms",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Models of computation, methods of algorithm design; complexity of algorithms; algorithms on graphs, NP-completeness, approximation algorithms, selected topics.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "9:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "409",
+      "value": "409",
+      "title": "Special Topics in Theoretical Computing Science",
+      "instructor": [
+        "Matthew Amy",
+        "Sharan Vaswani"
+      ],
+      "prerequisites": "CMPT 307 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Special Topics in Theoretical Computing Science",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Special Topics in Theoretical Computing Science",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Current topics in theoretical computing science depending on faculty and student interest.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "15:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "410",
+      "value": "410",
+      "title": "Machine Learning",
+      "instructor": [
+        "Mo Chen"
+      ],
+      "prerequisites": "CMPT 310 and MACM 316, both with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Machine Learning",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 419 under the title \"Machine Learning\" may not take this course for further credit.",
+      "description": "Machine Learning (ML) is the study of computer algorithms that improve automatically through experience. This course introduces students to the theory and practice of machine learning, and covers mathematical foundations, models such as (generalized) linear models, kernel methods and neural networks, loss functions for classification and regression, and optimization methods.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "413",
+      "value": "413",
+      "title": "Computational Linguistics",
+      "instructor": [
+        "Angel Chang"
+      ],
+      "prerequisites": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Computational Linguistics",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "This course examines the theoretical and applied problems of constructing and modelling systems, which aim to extract and represent the meaning of natural language sentences or of whole discourses, but drawing on contributions from the fields of linguistics, cognitive psychology, artificial intelligence and computing science.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "415",
+      "value": "415",
+      "title": "Special Research Projects",
+      "instructor": [],
+      "prerequisites": "Permission of Instructor and School.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Special Research Projects",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Special Research Projects",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Special Research Projects",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D400",
+          "value": "d400",
+          "title": "Special Research Projects",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "4"
+        },
+        {
+          "text": "D500",
+          "value": "d500",
+          "title": "Special Research Projects",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "5"
+        }
+      ],
+      "description": "To be individually arranged.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "416",
+      "value": "416",
+      "title": "Special Research Projects",
+      "instructor": [],
+      "prerequisites": "Permission of the department.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Special Research Projects",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Special Research Projects",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Special Research Projects",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D400",
+          "value": "d400",
+          "title": "Special Research Projects",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "4"
+        }
+      ],
+      "description": "To be individually arranged.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "417",
+      "value": "417",
+      "title": "Intelligent Systems",
+      "instructor": [],
+      "prerequisites": "CMPT 225 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Intelligent Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Intelligent Systems using modern constraint programming and heuristic search methods. A survey of this rapidly advancing technology as applied to scheduling, planning, design and configuration. An introduction to constraint programming, heuristic search, constructive (backtrack) search, iterative improvement (local) search, mixed-initiative systems and combinatorial optimization.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "426",
+      "value": "426",
+      "title": "Practicum I",
+      "instructor": [],
+      "prerequisites": "Students must complete Bridging Online (visit www.sfu.ca/coop/bol for further details) at least two terms before their anticipated co-op placement. Students must then enroll with the co-op program by the second week of the term preceding the work term. Normally, students will have completed a minimum of 45 units by the end of the term of application, CMPT 275 or 276, and have a minimum CGPA of 2.50.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Practicum I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Practicum I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Practicum I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D400",
+          "value": "d400",
+          "title": "Practicum I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "4"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Practicum I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "5"
+        }
+      ],
+      "description": "First term of work experience in the School of Computing Science Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "Mo, Tu, We, Th, Fr",
+          "sectionCode": "COP",
+          "startTime": "8:00",
+          "isExam": false,
+          "endTime": "20:00",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "427",
+      "value": "427",
+      "title": "Practicum II",
+      "instructor": [],
+      "prerequisites": "CMPT 426, CGPA of 2.50.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Practicum II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Practicum II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Practicum II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D400",
+          "value": "d400",
+          "title": "Practicum II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "4"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Practicum II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "5"
+        }
+      ],
+      "description": "The second term of work experience for students in the Computing Science Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "Mo, Tu, We, Th, Fr",
+          "sectionCode": "COP",
+          "startTime": "8:00",
+          "isExam": false,
+          "endTime": "20:00",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "428",
+      "value": "428",
+      "title": "Practicum III",
+      "instructor": [],
+      "prerequisites": "CMPT 427, CGPA of 2.50.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Practicum III",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Practicum III",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Practicum III",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D400",
+          "value": "d400",
+          "title": "Practicum III",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "4"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Practicum III",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "5"
+        }
+      ],
+      "description": "The third term of work experience for students in the Computing Science Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "Mo, Tu, We, Th, Fr",
+          "sectionCode": "COP",
+          "startTime": "8:00",
+          "isExam": false,
+          "endTime": "20:00",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "429",
+      "value": "429",
+      "title": "Practicum IV",
+      "instructor": [],
+      "prerequisites": "CMPT 428, CGPA of 2.50.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Practicum IV",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Practicum IV",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Practicum IV",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D400",
+          "value": "d400",
+          "title": "Practicum IV",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "4"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Practicum IV",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "5"
+        }
+      ],
+      "description": "The fourth term of work experience for students in the Computing Science Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "Mo, Tu, We, Th, Fr",
+          "sectionCode": "COP",
+          "startTime": "8:00",
+          "isExam": false,
+          "endTime": "20:00",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "430",
+      "value": "430",
+      "title": "Practicum V",
+      "instructor": [],
+      "prerequisites": "CMPT 429, CGPA of 2.50.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Practicum V",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Practicum V",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Practicum V",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D400",
+          "value": "d400",
+          "title": "Practicum V",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "4"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Practicum V",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "5"
+        }
+      ],
+      "description": "An optional fifth term of work experience for students in the Computing Science Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. This course may be repeated for credit at most twice. Repeating for credit requires approval of the School. Graded as pass/fail (P/F).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "Mo, Tu, We, Th, Fr",
+          "sectionCode": "COP",
+          "startTime": "8:00",
+          "isExam": false,
+          "endTime": "20:00",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "431",
+      "value": "431",
+      "title": "Distributed Systems",
+      "instructor": [
+        "Keval Vora"
+      ],
+      "prerequisites": "CMPT 300, 371, both with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Distributed Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 401 before September 2008 may not take this course for further credit.",
+      "description": "An introduction to distributed systems: systems consisting of multiple physical components connected over a network. Architectures of such systems, ranging from client-server to peer-to-peer. Distributed systems are analyzed via case studies of real network file systems, replicated systems, sensor networks and peer-to-peer systems. Hands-on experience designing and implementing a complex distributed system.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo, We",
+          "sectionCode": "LEC",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "16:50",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "450",
+      "value": "450",
+      "title": "Computer Architecture",
+      "instructor": [
+        "Alaa Alameldeen",
+        "Arrvindh Shriraman"
+      ],
+      "prerequisites": "CMPT 295 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Computer Architecture",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Principles of the architecture of computing systems. Topics include: superscalar processor micro-architecture, speculative execution, cache and memory hierarchy, multiprocessors, cache coherence, memory consistency, implications of technology on architecture, parallel architectures (multi-threading, GPUs, vector processors).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "13:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "454",
+      "value": "454",
+      "title": "Database Systems II",
+      "instructor": [
+        "Tianzheng Wang"
+      ],
+      "prerequisites": "CMPT 300 and 354, with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Database Systems II",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "An advanced course on database systems which covers crash recovery, concurrency control, transaction processing, distributed database systems as the core material and a set of selected topics based on the new developments and research interests, such as object-oriented data models and systems, extended relational systems, deductive database systems, and security and integrity.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "11:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "459",
+      "value": "459",
+      "title": "Special Topics in Database Systems",
+      "instructor": [
+        "Martin Ester"
+      ],
+      "prerequisites": "CMPT 354 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Special Topics in Database Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Current topics in database and information systems depending on faculty and student interest.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "15:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "469",
+      "value": "469",
+      "title": "Special Topics in Computer Graphics",
+      "instructor": [
+        "Sheelagh Carpendale"
+      ],
+      "prerequisites": "CMPT 361 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Special Topics in Computer Graphics",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Current topics in computer graphics depending on faculty and student interest.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "11:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "471",
+      "value": "471",
+      "title": "Networking II",
+      "instructor": [
+        "Khaled Diab",
+        "Mohamed Hefeeda"
+      ],
+      "prerequisites": "CMPT 300 and 371, with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Networking II",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "This course covers the fundamentals of higher level network functionality such as remote procedure/object calls, name/address resolution, network file systems, network security and high speed connectivity/bridging/switching.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "11:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "473",
+      "value": "473",
+      "title": "Software Testing, Reliability and Security",
+      "instructor": [
+        "William Sumner"
+      ],
+      "prerequisites": "(CMPT 275 or CMPT 276) with a minimum grade of C- and 15 upper division CMPT units.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "E100",
+          "value": "e100",
+          "title": "Software Testing, Reliability and Security",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Methods for software quality assurance focusing on reliability and security. Test coverage and test data adequacy including combinatorial testing. MC/DC testing, and mutation testing. Security engineering techniques for vulnerability discovery and mitigation including fuzz testing. Testing techniques will be applied to the assessment of external open source software.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Surrey",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "475",
+      "value": "475",
+      "title": "Requirements Engineering",
+      "instructor": [
+        "Dan Ridinger"
+      ],
+      "prerequisites": "CMPT 275 or CMPT 276, (MACM 201 or CMPT 210) , all with a minimum grade of C- and 15 units of upper division courses. Recommended: Co-op experience.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Requirements Engineering",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Software succeeds when it is well-matched to its intended purpose. Requirements engineering is the process of discovering that purpose by making requirements explicit and documenting them in a form amenable to analysis, reasoning, and validation, establishing the key attributes of a system prior to its construction. Students will learn methodical approaches to requirements analysis and design specification in early systems development phases, along with best practices and common principles to cope with notoriously changing requirements. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "9:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "477",
+      "value": "477",
+      "title": "Introduction to Formal Verification",
+      "instructor": [
+        "Yuepeng Wang"
+      ],
+      "prerequisites": "CMPT 275 or 276, with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Formal Verification",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Introduces, at an accessible level, a formal framework for symbolic model checking, one of the most important verification methods. The techniques are illustrated with examples of verification of reactive systems and communication protocols. Students learn to work with a model checking tool.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "9:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "479",
+      "value": "479",
+      "title": "Special Topics in Computing Systems",
+      "instructor": [
+        "Steven Ko",
+        "Keval Vora"
+      ],
+      "prerequisites": "CMPT 300 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Special Topics in Computing Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E100",
+          "value": "e100",
+          "title": "Special Topics in Computing Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Current topics in computing systems depending on faculty and student interest.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo, We",
+          "sectionCode": "LEC",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "18:50",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "494",
+      "value": "494",
+      "title": "Software Systems Program Capstone Project I",
+      "instructor": [],
+      "prerequisites": "Students must have completed at least 15 units of upper division CMPT courses. Successful Capstone Project Proposal.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Software Systems Program Capstone Project I",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Software Systems Program Capstone Project I",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Software Systems Program Capstone Project I",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "This course is the first in a series of two 3 unit courses for the Software Systems Capstone Project. Students will work in teams on a closely supervised software systems project. Projects can be research based or have a significant software application, potentially based on a real customer application specification, as their basis. Students will be required to write a full project report and present their project during the Capstone Project Day Presentations.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "495",
+      "value": "495",
+      "title": "Software Systems Capstone Project II",
+      "instructor": [],
+      "prerequisites": "CMPT 494 with a minimum grade of C-. CMPT 495 must be taken in the term immediately following the successful completion of CMPT 494 and must be for the same project and faculty supervisor.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Software Systems Capstone Project II",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Software Systems Capstone Project II",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Software Systems Capstone Project II",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "This course is the second in a series of two 3 unit courses for the Software Systems Capstone Project. Students will work in teams or a closely supervised software systems project. Projects can be research based or have a significant software application, potentially based on a real customer specification. Students will be required to write a final project report at the end of the term and do a project presentation during the Capstone Presentation Day.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "496",
+      "value": "496",
+      "title": "Directed Studies",
+      "instructor": [],
+      "prerequisites": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the undergraduate chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Directed Studies",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Independent study in topics selected in consultation with the supervising instructor(s) that are not covered by existing course offerings. Students must submit a proposal to the undergraduate chair, including the name and signature of the supervising faculty member(s). The proposal must include details of the material to be covered and the work to be submitted.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "SEM",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "497",
+      "value": "497",
+      "title": "Dual Degree Program Capstone Project",
+      "instructor": [],
+      "prerequisites": "Submission of a satisfactory capstone project proposal.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Dual Degree Program Capstone Project",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Students will select one project to be completed in their final year of study. Each student must complete a project report and make a project presentation. The project may include: a research survey, a project implementation, a research paper/report. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "498",
+      "value": "498",
+      "title": "Honours Research Project",
+      "instructor": [],
+      "prerequisites": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the Undergraduate Chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Honours Research Project",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Honours Research Project",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Honours Research Project",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "Students must submit a proposal to the Undergraduate Chair, including the name and signature of the supervising faculty member(s). Students must complete a project report and make a project presentation. This course can satisfy the research project requirements for Computing Science honours students.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "626",
+      "value": "626",
+      "title": "Graduate Co-op I",
+      "instructor": [],
+      "prerequisites": "12 units of CMPT coursework at the 700-level or higher with a CGPA of at least 3.0. Department Consent is required for enrollment.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Graduate Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        },
+        {
+          "text": "G400",
+          "value": "g400",
+          "title": "Graduate Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "4"
+        },
+        {
+          "text": "G500",
+          "value": "g500",
+          "title": "Graduate Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "5"
+        },
+        {
+          "text": "G600",
+          "value": "g600",
+          "title": "Graduate Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "6"
+        },
+        {
+          "text": "G700",
+          "value": "g700",
+          "title": "Graduate Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "7"
+        },
+        {
+          "text": "G800",
+          "value": "g800",
+          "title": "Graduate Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "8"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Graduate Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "9"
+        },
+        {
+          "text": "I200",
+          "value": "i200",
+          "title": "Graduate Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "10"
+        },
+        {
+          "text": "I300",
+          "value": "i300",
+          "title": "Graduate Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "11"
+        }
+      ],
+      "description": "This course is the first term of work experience in the School of Computing Science Co-operative Education Program for graduate students. Units of this course do not count towards computing science breadth requirements. Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "Mo, Tu, We, Th, Fr",
+          "sectionCode": "COP",
+          "startTime": "8:00",
+          "isExam": false,
+          "endTime": "20:00",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "627",
+      "value": "627",
+      "title": "Graduate Co-op II",
+      "instructor": [],
+      "prerequisites": "CMPT 626 and a CGPA of at least 3.0. Department Consent is required for enrollment.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Graduate Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "4"
+        },
+        {
+          "text": "G400",
+          "value": "g400",
+          "title": "Graduate Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "5"
+        },
+        {
+          "text": "G500",
+          "value": "g500",
+          "title": "Graduate Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G600",
+          "value": "g600",
+          "title": "Graduate Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G700",
+          "value": "g700",
+          "title": "Graduate Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "10"
+        },
+        {
+          "text": "G800",
+          "value": "g800",
+          "title": "Graduate Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "11"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Graduate Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "6"
+        },
+        {
+          "text": "I200",
+          "value": "i200",
+          "title": "Graduate Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        },
+        {
+          "text": "I300",
+          "value": "i300",
+          "title": "Graduate Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "12"
+        }
+      ],
+      "description": "This course is the second term of work experience in the School of Computing Science Co-operative Education Program for graduate students. Units of this course do not count towards computing science breadth requirements. Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "Mo, Tu, We, Th, Fr",
+          "sectionCode": "COP",
+          "startTime": "8:00",
+          "isExam": false,
+          "endTime": "20:00",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "631",
+      "value": "631",
+      "title": "Industrial Internship",
+      "instructor": [],
+      "prerequisites": "12 units of CMPT course work with an SFU CGPA of at least 3.0. Approval of supervisor and a GPC representative is required prior to applying for, or accepting an internship.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Industrial Internship",
+          "classType": "e",
+          "sectionCode": "INT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "An internship in industry or a research environment for graduate research students. A final report will be submitted and graded by the student's supervisor. Units of this course do not count towards computing science breadth requirements. Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "INT",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "705",
+      "value": "705",
+      "title": "Design and Analysis of Algorithms",
+      "instructor": [
+        "Qianping Gu"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Design and Analysis of Algorithms",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 706 may not take this course for further credit.",
+      "description": "The objective of this course is to expose students to basic techniques in algorithm design and analysis. Topics will include greedy algorithms, dynamic programming, advanced data structures, network flows, randomized algorithms.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "9:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "713",
+      "value": "713",
+      "title": "Natural Language Processing",
+      "instructor": [
+        "Angel Chang"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Natural Language Processing",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 825 or CMPT 413 may not take this course for further credit.",
+      "description": "Natural Language Processing is the automatic analysis of human languages such as English, Korean, and thousands of others analyzed by computer algorithms. Unlike artificially created programming languages where the structure and meaning of programs is easy to encode, human languages provide an interesting challenge, both in terms of its analysis and the learning of language from observations. Covers NLP tasks such as language modeling, machine translation, multilingual processing, information extraction, question answering, and other topics relevant to modern NLP.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "726",
+      "value": "726",
+      "title": "Machine Learning",
+      "instructor": [
+        "Mo Chen"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Machine Learning",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Machine Learning is the study of computer algorithms that improve automatically through experience. Provides students who conduct research in machine learning, or use it in their research, with a grounding in both the theoretical justification for, and practical application of, machine learning algorithms. Covers techniques in supervised and unsupervised learning, the graphical model formalism, and algorithms for combining models. Students who have taken CMPT 882 (Machine Learning) in 2007 or earlier may not take CMPT 726 for further credit.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "732",
+      "value": "732",
+      "title": "Professional Master's Program Lab I",
+      "instructor": [
+        "Gregory Baker",
+        "Kai Yee Chow",
+        "Ali Mahdavi Amiri",
+        "Mohammad Tayebi"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Professional Master's Program Lab I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G101",
+          "value": "g101",
+          "title": "Professional Master's Program Lab I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G102",
+          "value": "g102",
+          "title": "Professional Master's Program Lab I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Professional Master's Program Lab I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G201",
+          "value": "g201",
+          "title": "Professional Master's Program Lab I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Professional Master's Program Lab I",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "3"
+        },
+        {
+          "text": "G301",
+          "value": "g301",
+          "title": "Professional Master's Program Lab I",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "The first of two lab courses that are part of the professional master’s program in the School of Computing Science. Aims to provide students with experience needed for a successful career in the information technology industry. Students will learn core concepts of artificial intelligence, applied data science, and system and network security. Specifically, this includes data analytics, advanced statistics and data visualization, deep learning, and anomaly detection.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo, Fr",
+          "sectionCode": "LAB",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "740",
+      "value": "740",
+      "title": "Database Systems",
+      "instructor": [
+        "Tianzheng Wang"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Database Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Introduction to advanced database system concepts, including query processing, transaction processing, distributed and heterogeneous databases, object-oriented and object-relational databases, data mining and data warehousing, spatial and multimedia systems and Internet information systems.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "750",
+      "value": "750",
+      "title": "Computer Architecture",
+      "instructor": [
+        "Alaa Alameldeen",
+        "Arrvindh Shriraman"
+      ],
+      "prerequisites": "Recommended: CMPT 295 or equivalent.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Computer Architecture",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMPT 450 may not take this course for further credit.",
+      "description": "Principles of the architecture of computing systems. Topics include: superscaler processor micro-architecture, speculative execution, cache and memory hierarchy, multiprocessors, cache coherence, memory consistency, implications of technology on architecture, parallel architectures (multi-threading, GPUs, vector processors).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "13:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "762",
+      "value": "762",
+      "title": "Computer Vision",
+      "instructor": [
+        "Yasutaka Furukawa"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Computer Vision",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Selected topics in computer vision including cameras, edge detection, feature matching, optical flow, alignment, epipolar geometry, stereo, structure-from-motion, recognition, segmentation, detection, and deep learning.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "770",
+      "value": "770",
+      "title": "Parallel and Distributed Computing",
+      "instructor": [
+        "Keval Vora"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Parallel and Distributed Computing",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Principles involved in designing modern parallel and distributed software systems. The course focuses on covering key concepts like concurrency, synchronization, consistency models and fault tolerance. Involves multiple programming projects and reading articles on recent trends in parallel and distributed computing.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo, We",
+          "sectionCode": "LEC",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "18:50",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "771",
+      "value": "771",
+      "title": "Computer Networks",
+      "instructor": [
+        "Jiangchuan Liu"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Computer Networks",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Investigates the design and operation of wide-area computer networks, especially the Internet and the TCP/IP protocol suite. This course studies performance modeling, security and quality of service; wireless connectivity and multimedia networking; network services, including recent topics and trends in these areas.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "11:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "777",
+      "value": "777",
+      "title": "Formal Verification",
+      "instructor": [
+        "Yuepeng Wang"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Formal Verification",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "The goal of formal verification is to prove correctness or to find mistakes in software and other systems. This course introduces, at an accessible level, a formal framework for symbolic model checking, one of the most important verification methods. The techniques are illustrated with examples of verification of reactive systems and communication protocols. Students learn to work with a model checking tool such as NuSMV.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "10:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "9:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "789",
+      "value": "789",
+      "title": "Applied Cryptography",
+      "instructor": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Applied Cryptography",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Explores modern cryptographic and cryptoanalytics techniques in detail, and emphasizes how such mechanisms can be effectively used within larger security systems, and finding their vulnerabilities. Topics covered include cryptographic primitives, public key encryption, digital signature, message authentication codes, cryptographic protocols, and attacks.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "20:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "827",
+      "value": "827",
+      "title": "Intelligent Systems",
+      "instructor": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Intelligent Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Intelligent systems are knowledge-based computer programs which emulate the reasoning abilities of human experts. This introductory course will analyze the underlying artificial intelligence methodology and survey advances in rule-based systems, constraint solving, incremental reasoning, intelligent backtracking and heuristic local search methods. We will look specifically at research applications in intelligent scheduling, configuration and planning. The course is intended for graduate students with a reasonable background in symbolic programming.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "889",
+      "value": "889",
+      "title": "Special Topics in Interdisciplinary Computing",
+      "instructor": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Special Topics in Interdisciplinary Computing",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "13:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "894",
+      "value": "894",
+      "title": "Directed Reading",
+      "instructor": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G010",
+          "value": "g010",
+          "title": "Directed Reading",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "10"
+        },
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Directed Reading",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Directed Reading",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Directed Reading",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        },
+        {
+          "text": "G400",
+          "value": "g400",
+          "title": "Directed Reading",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "4"
+        },
+        {
+          "text": "G500",
+          "value": "g500",
+          "title": "Directed Reading",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "5"
+        },
+        {
+          "text": "G600",
+          "value": "g600",
+          "title": "Directed Reading",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "6"
+        },
+        {
+          "text": "G700",
+          "value": "g700",
+          "title": "Directed Reading",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "7"
+        },
+        {
+          "text": "G800",
+          "value": "g800",
+          "title": "Directed Reading",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "8"
+        },
+        {
+          "text": "G900",
+          "value": "g900",
+          "title": "Directed Reading",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "9"
+        }
+      ],
+      "description": " ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "895",
+      "value": "895",
+      "title": "Master Program Extended Essay",
+      "instructor": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Master Program Extended Essay",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Students will complete an extended essay required by the SFU-ZU graduate dual degree master program. The extended essay will normally be a report on a research/industry project or a survey on a specific topic in information technology. The topic and the scope of each essay will be determined in consultation with the supervisory committee. Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "896",
+      "value": "896",
+      "title": "MSc Course Option Portfolio",
+      "instructor": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "MSc Course Option Portfolio",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "MSc Course Option Portfolio",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Required for students enrolled in the MSc course option. Students may only enroll for this course during the term in which he/she enrolls for his/her 10th course. Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "897",
+      "value": "897",
+      "title": "MSc Project",
+      "instructor": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "MSc Project",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "MSc Project",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "898",
+      "value": "898",
+      "title": "MSc Thesis",
+      "instructor": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "MSc Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "899",
+      "value": "899",
+      "title": "PhD Thesis",
+      "instructor": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "PhD Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "981",
+      "value": "981",
+      "title": "Special Topics in Theoretical Computing Science",
+      "instructor": [
+        "Matthew Amy",
+        "Evgenia Ternovska",
+        "Sharan Vaswani"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Special Topics in Theoretical Computing Science",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Special Topics in Theoretical Computing Science",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Special Topics in Theoretical Computing Science",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "3"
+        }
+      ],
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "15:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "982",
+      "value": "982",
+      "title": "Special Topics in Networks and Systems",
+      "instructor": [
+        "Steven Ko"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Special Topics in Networks and Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Special Topics in Networks and Systems",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        }
+      ],
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "983",
+      "value": "983",
+      "title": "Special Topics in Artificial Intelligence",
+      "instructor": [
+        "Ke Li"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Special Topics in Artificial Intelligence",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Special Topics in Artificial Intelligence",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        }
+      ],
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    },
+    {
+      "text": "985",
+      "value": "985",
+      "title": "Special Topics in Graphics, HCI, Visualization, Vision, Multimedia",
+      "instructor": [
+        "Manolis Savva"
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Special Topics in Graphics, HCI, Visualization, Vision, Multimedia",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Examines current research topics in computer graphics, human computer interaction (including audio), computer vision and visualization.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        },
+        {
+          "endDate": "Tue Dec 06 00:00:00 PST 2022",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "15:20",
+          "startDate": "Wed Sep 07 00:00:00 PDT 2022"
+        }
+      ]
+    }
+  ]
+}
