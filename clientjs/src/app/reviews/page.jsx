@@ -35,7 +35,11 @@ const Review = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const userId = "658c68d9a5949e265f4a86e9"; // Replace this with the actual logic to obtain userId
+    const userId = localStorage.getItem("user_id");
+    if (!userId) {
+      alert("User not logged in");
+      return;
+    }
     const courseCode = formData.course; // Assuming this is the course code
   
     // Make sure formData includes all the necessary fields
@@ -49,7 +53,7 @@ const Review = () => {
           },
           body: JSON.stringify({
               userId: userId,
-              courseCode: formData.course,
+              courseCode: courseCode,
               difficultyRating: ratingValue,
               usefulnessRating: ratingValue,
               comment: formData.courseExperience
