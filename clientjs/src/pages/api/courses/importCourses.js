@@ -65,6 +65,7 @@ export default async function handler(req, res) {
             const newCourse = new Course({
               courseCode: combinedCourseCode,
               name: course.text,
+              title: course.title,
               credits: detail?.info?.units || 0,
               prerequisites: detail?.info?.prerequisites || "",
               corequisites: detail?.info?.corequisites || "",

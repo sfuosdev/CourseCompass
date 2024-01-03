@@ -8,4 +8,6 @@ const ScheduleSchema = new mongoose.Schema({
   location: String, // e.g., "Building A, Room 101"
 });
 
-export default mongoose.model("Schedule", ScheduleSchema);
+const Instructor = mongoose.models.Instructor || mongoose.model('Instructor', instructorSchema);
+
+export default Instructor;

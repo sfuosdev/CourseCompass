@@ -2,8 +2,13 @@
 "use client";
 import { useState } from 'react';
 import Rating from './Rating/Rating';
+import axios from 'axios';
+import { useRouter } from 'next/router';
+
 
 const Review = () => {
+  
+
   const [ratingValue, setRatingValue] = useState(undefined);
 
   const [formData, setFormData] = useState({
@@ -19,7 +24,6 @@ const Review = () => {
     professorExperience: '',
   });
 
-  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -28,10 +32,41 @@ const Review = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission, e.g., send data to backend
-    console.log('Form data:', formData);
+
+    const userId = "658c68d9a5949e265f4a86e9"; // Replace this with the actual logic to obtain userId
+    const courseCode = formData.course; // Assuming this is the course code
+  
+    // Make sure formData includes all the necessary fields
+    console.log('Submitting review:', formData, 'Rating:', ratingValue);
+  
+    try {
+      const response = await fetch('/api/reviews/addReview', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+              userId: userId,
+              courseCode: formData.course,
+              difficultyRating: ratingValue,
+              usefulnessRating: ratingValue,
+              comment: formData.courseExperience
+          })
+      });
+
+      if (!response.ok) {
+          throw new Error('Network response was not ok');
+      }
+
+      const result = await response.json();
+      console.log('Response:', result);
+      alert('Review submitted successfully!');
+  } catch (error) {
+      console.error('Error submitting review:', error);
+      alert('Failed to submit review.');
+  }
   };
 
   const handleRatingAction = (value) => {
@@ -158,6 +193,7 @@ const Review = () => {
         <button
           type="submit"
           className="bg-primary-blue hover:bg-primary-yellow hover:text-black text-white font-semibold py-2 px-4 rounded"
+          href={`/courses/2024/spring/cmpt/105w`}
         >
           Submit Review
         </button>

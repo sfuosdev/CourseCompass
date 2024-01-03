@@ -18,5 +18,6 @@ const OfferingSchema = new mongoose.Schema({
     }],
 });
 
-export default  mongoose.model("Offering", OfferingSchema);
+const Offering = mongoose.models.Offering || mongoose.model('Offering', offeringSchema);
 
+export default Offering;

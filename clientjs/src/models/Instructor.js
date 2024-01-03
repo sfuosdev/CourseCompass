@@ -13,4 +13,6 @@ const InstructorSchema = new mongoose.Schema({
   email: String,
 });
 
-export default mongoose.model("Instructor", InstructorSchema);
+const Instructor = mongoose.models.Instructor || mongoose.model('Instructor', instructorSchema);
+
+export default Instructor;
