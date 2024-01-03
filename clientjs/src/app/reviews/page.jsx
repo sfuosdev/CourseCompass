@@ -95,32 +95,32 @@ const Review = () => {
           />
         </div>
         <div className="md:flex flex-row gap-8">
-        <div className="mb-4">
-          <label htmlFor="difficulty" className="block mb-1 font-semibold">
-            How Difficult was this course?
-          </label>
-          <div className="ml-2 flex flex-row scale-110">
-          <Rating
-            iconSize="l"
-            showOutOf={true}
-            enableUserInteraction={true}
-            onClick={handleRatingAction}
-          />
+          <div className="mb-4">
+            <label htmlFor="difficulty" className="block mb-1 font-semibold">
+              How Difficult was this course?
+            </label>
+            <div className="ml-2 flex flex-row scale-110">
+              <Rating
+                iconSize="l"
+                showOutOf={true}
+                enableUserInteraction={true}
+                onClick={handleRatingAction}
+              />
+            </div>
           </div>
-        </div>
-        <div className="mb-4">
-          <label htmlFor="usefulness" className="block mb-1 font-semibold">
-            How Useful was this course?
-          </label>
-          <div className="ml-2 flex flex-row scale-110">
-          <Rating
-            iconSize="l"
-            showOutOf={true}
-            enableUserInteraction={true}
-            onClick={handleRatingAction}
-          />
+          <div className="mb-4">
+            <label htmlFor="usefulness" className="block mb-1 font-semibold">
+              How Useful was this course?
+            </label>
+            <div className="ml-2 flex flex-row scale-110">
+              <Rating
+                iconSize="l"
+                showOutOf={true}
+                enableUserInteraction={true}
+                onClick={handleRatingAction}
+              />
+            </div>
           </div>
-        </div>
         </div>
         <div className="mb-4">
           <label htmlFor="courseExperience" className="block mb-1 font-semibold">
