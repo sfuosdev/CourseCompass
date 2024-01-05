@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { ScrollToTopButton } from "@/components/LandingPage";
 import Rating from "../../../../../reviews/Rating/Rating";
+import { useRouter } from 'next/navigation';
 
 async function fetchCourse(courseCode) {
   try {
@@ -32,6 +33,8 @@ const convertToPercent = (rating) => rating / 5 * 100;
 const Page = ({ params }) => {
   const [course, setCourse] = useState({});
   const [reviews, setReviews] = useState([]);
+  const router = useRouter();
+  
 
   useEffect(() => {
     let courseCode = (params.dept + params.course).toLowerCase();
@@ -44,15 +47,8 @@ const Page = ({ params }) => {
   }, [params]);
 
   const handleLeaveReviewClick = () => {
-    // Use router to navigate to review page with course details
-    router.push({
-      pathname: '/reviews',
-      query: { 
-        courseCode: params.course, 
-        dept: params.dept, 
-        title: course.title 
-      }
-    });
+    let courseCode = (params.dept + params.course).toLowerCase();
+    router.push(`/reviews?courseCode=${courseCode}`);
   };
 
   return (
@@ -104,23 +100,22 @@ const Page = ({ params }) => {
         ) : (
           <p>No reviews yet.</p>
         )}
-{/* 
-        {course.title && (
-        <Link className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2" href={`/reviews?courseCode=${params.course}&dept=${params.dept}&title=${course.title}`}>
+        <button 
+          onClick={handleLeaveReviewClick}
+          className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">
           Leave a review
-        </Link>
-        )}       */}
-    </div>
-      <div className="lg:w-[30%] mt-[50px] lg:mt-0">
-        <h1 className="text-xl lg:text-2xl">CONSIDERATIONS</h1>
-        <div className="lg:flex lg:flex-col">
-          <h2 className="text-base lg:text-xl">Pre-requisites:</h2>
-          <p className="text-sm lg:text-base">
-            {course.prerequisites || 'Loading prerequisites...'}
-          </p>
+        </button>
+      </div>
+        <div className="lg:w-[30%] mt-[50px] lg:mt-0">
+          <h1 className="text-xl lg:text-2xl">CONSIDERATIONS</h1>
+          <div className="lg:flex lg:flex-col">
+            <h2 className="text-base lg:text-xl">Pre-requisites:</h2>
+            <p className="text-sm lg:text-base">
+              {course.prerequisites || 'Loading prerequisites...'}
+            </p>
+          </div>
         </div>
       </div>
-    </div>
   );
 };
 

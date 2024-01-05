@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Rating from './Rating/Rating';
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation'
 
 
 const Review = () => {
@@ -12,10 +13,15 @@ const Review = () => {
   const router = useRouter();
   const [ratingValue, setRatingValue] = useState(undefined);
 
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+
+
+
   const [formData, setFormData] = useState({
     fullName: '',
     faculty: '',
-    course: '',
+    course: searchParams.get('courseCode'),
     difficulty: '',
     usefulness: '',
     courseExperience: '',
@@ -26,6 +32,7 @@ const Review = () => {
   });
 
   useEffect(() => {
+    console.log(formData.course);
     if (router.isReady) {
       setRouterReady(true);
     }
@@ -88,14 +95,14 @@ const Review = () => {
 
   return (
     <div className="flex flex-col items-center p-6 max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">Leave a review</h1>
+      <h1 className="text-3xl font-bold mb-4">Review: {(formData.course).toLocaleUpperCase()}</h1>
       <p className="mb-6">
         We care about student engagement and satisfaction and value your feedback.
         Help a friend and leave a review on a course you have taken previously and
         support other students by upvoting their reviews.
       </p>
       <form onSubmit={handleSubmit}>
-        <div className="mb-4">
+        {/* <div className="mb-4">
           <label htmlFor="course" className="block mb-1 font-semibold">What Course do you want to review?</label>
           <input
             type="text"
@@ -106,7 +113,7 @@ const Review = () => {
             required
             className="border p-2 w-full rounded"
           />
-        </div>
+        </div> */}
         <div className="md:flex flex-row gap-8">
           <div className="mb-4">
             <label htmlFor="difficulty" className="block mb-1 font-semibold">
@@ -137,14 +144,14 @@ const Review = () => {
         </div>
         <div className="mb-4">
           <label htmlFor="courseExperience" className="block mb-1 font-semibold">
-            Describe your experience with the course:
+            (Optional) Describe your experience with the course:
           </label>
           <textarea
             id="courseExperience"
             name="courseExperience"
             value={formData.courseExperience}
             onChange={handleChange}
-            required
+        
             className="border p-2 w-full rounded"
           />
         </div>
