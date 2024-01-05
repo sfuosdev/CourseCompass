@@ -8,11 +8,11 @@ export default async function handler(req, res) {
     await dbConnect();
 
     const { userId, courseCode, usefulnessRating, difficultyRating, comment } = req.body;
-    // console.log("userId: " + userId);
-    // console.log("courseCode: " + courseCode);
-    // console.log("usefulnessRating: " + usefulnessRating);
-    // console.log("difficultyRating: " + difficultyRating);
-    // console.log("comment: " + comment);
+    console.log("userId: " + userId);
+    console.log("courseCode: " + courseCode);
+    console.log("usefulnessRating: " + usefulnessRating);
+    console.log("difficultyRating: " + difficultyRating);
+    console.log("comment: " + comment);
     
     try {
         const course = await Course.findOne({courseCode});
