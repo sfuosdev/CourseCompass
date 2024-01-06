@@ -1,60 +1,119 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const founders = [
+const Founders = [
   {
-    name: "Sallin",
+    name: "Sallin Koutev",
     links: "/",
-    role: "Tech Lead",
+    role: "CEO / President / Tech Lead",
     image: "/profile-picture.jpg",
   },
+  
+  {
+    name: "Joao",
+    links: "/",
+    role: "Senior Full Stack Developer",
+    image: "/profile-picture.jpg",
+  },
+  {
+    name: "Edison",
+    links: "/",
+    role: "Senior Full Stack Developer",
+    image: "/profile-picture.jpg",
+  },
+  {
+    name: "Samuel",
+    links: "/",
+    role: "Senior Full Stack Developer",
+    image: "/profile-picture.jpg",
+  },
+
+  
+];
+
+const BuissnessTeam = [
+  {
+    name: "Daniel",
+    links: "/",
+    role: "Buissness Analyst",
+    image: "/profile-picture.jpg",
+  },
+];
+
+const DesignTeam = [
   {
     name: "Kiran",
     links: "/",
     role: "Designer",
     image: "/profile-picture.jpg",
   },
-  {
-    name: "Joao",
-    links: "/",
-    role: "Tech Lead",
-    image: "/profile-picture.jpg",
-  },
-  {
-    name: "Edison",
-    links: "/",
-    role: "Tech Lead",
-    image: "/profile-picture.jpg",
-  },
-  {
-    name: "Samuel",
-    links: "/",
-    role: "Tech Lead",
-    image: "/profile-picture.jpg",
-  },
 ];
-let final;
+
+const Sponsers = [
+  
+  {
+    name: "SFU Surge",
+    links: "/",
+    image: "/profile-picture.jpg",
+  },
+
+  {
+    name: "SFU OS",
+    links: "/",
+    image: "/profile-picture.jpg",
+  },
+  
+];
 
 export default function About() {
   return (
     <div className="py-6 flex flex-col items-center">
-      <div className="w-full md:w-3/4 lg:w-1/2 p-6">
-        <p className="py-3 text-3xl font-bold">
-          Welcome to Course Compass!
-        </p>
-        <p className="text-lg font-normal">
-          Course Compass is currently a course planning website for SFU
-          students. Our goal is to offer a comprehensive guide on academic
-          planning in your degree.
-        </p>
-      </div>
+    
 
-      <p className="text-2xl font-semibold">Course Compass Founders</p>
+      <h2 className="text-5xl font-semibold underline 125rem">Founders</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        {founders.map((profile) => (
+        {Founders.map((profile) => (
           <Profile
             name={profile.name}
             role={profile.role}
+            link={profile.links}
+            image={profile.image}
+            key={profile.name}
+          />
+        ))}
+      </div>
+
+      <h2 className="text-5xl font-semibold underline 125rem">BuissnessTeam</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {BuissnessTeam.map((profile) => (
+          <Profile
+            name={profile.name}
+            role={profile.role}
+            link={profile.links}
+            image={profile.image}
+            key={profile.name}
+          />
+        ))}
+      </div>
+
+      <h2 className="text-5xl font-semibold underline 125rem">DesignTeam</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {DesignTeam.map((profile) => (
+          <Profile
+            name={profile.name}
+            role={profile.role}
+            link={profile.links}
+            image={profile.image}
+            key={profile.name}
+          />
+        ))}
+      </div>
+
+      <h2 className="text-5xl font-semibold underline 125rem">Sponsers</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {Sponsers.map((profile) => (
+          <Profile
+            name={profile.name}
             link={profile.links}
             image={profile.image}
             key={profile.name}

@@ -15,14 +15,14 @@ export default async function handler(req, res) {
     console.log("comment: " + comment);
     
     try {
-        const course = await Course.findOne({ courseCode });
+        const course = await Course.findOne({courseCode});
         if (!course) return res.status(404).json({ message: 'Course not found' });
 
         const user = await User.findById(userId);
         if (!user) return res.status(404).json({ message: 'User not found' });
 
         const newReview = new Review({
-            reviewer: userId,
+            reviewer: user._id,
             course: course._id,
             usefulnessRating,
             difficultyRating,

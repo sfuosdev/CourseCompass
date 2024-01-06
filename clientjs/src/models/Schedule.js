@@ -8,7 +8,7 @@ const ScheduleSchema = new mongoose.Schema({
   location: String, // e.g., "Building A, Room 101"
 });
 
-const Schedule =
-  mongoose.models.Schedule || mongoose.model("Schedule", ScheduleSchema);
+const Instructor = mongoose.models.Instructor || mongoose.model('Instructor', InstructorSchema);
+
 
 export default Schedule;

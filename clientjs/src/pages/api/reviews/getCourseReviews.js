@@ -3,9 +3,7 @@ import Review from "../../../models/Review";
 import Course from "../../../models/Course";
 
 export default async function handler(req, res) {
-  console.log("getCourseReviews.js");
   await dbConnect();
-
   const { courseId } = req.query; // Extract course ID from the query parameters
 
   try {

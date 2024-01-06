@@ -40,9 +40,9 @@ const LandPage = () => {
 
   return (
     <div className="relative top-[-1.5rem] border-primary-whiteBlue sm:mt-[-2.5rem] md:mt-[-0.5rem] border bg-primary-whiteBlue flex flex-col items-center justify-center p-4 md:h-[100vh] lg:h-[90vh] sm:space-y-4 lg:space-y-5 md:scale-135">
-      <button onClick={importCourses} className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">
+      {/* <button onClick={importCourses} className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">
         Import SFU Courses
-      </button>
+      </button> */}
       <h1 className="font-MabryPro font-bold text-4xl text-center">Plan Your Academic Journey</h1>
       <p className="w-[65vw] text-center font-MabryPro"> Find out which semester the courses you need are being offered next, pre-requisites, anticipated dates of offerings and the next courses you can take! </p>
       {/*search bar below*/}
@@ -56,8 +56,8 @@ const LandPage = () => {
               ))}
           </div>
       {/* </div> */}
-      <p className="opacity-50">or</p>
-      <Link href="/reviews" className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">Leave a review</Link>
+      {/* <p className="opacity-50">or</p> */}
+      {/* <Link href="/reviews" className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">Leave a review</Link> */}
       <div className="animate-bounce flex flex-col items-center pt-[2rem]"> 
         <p>Scroll to learn more</p>
       
