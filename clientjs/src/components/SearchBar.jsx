@@ -1,75 +1,109 @@
-import { useState, useEffect, useRef } from 'react';
+// <<<<<<< search-bar3
+// import { useState, useEffect, useRef } from 'react';
 
-const SearchBar = ({ page }) => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [searchResults, setSearchResults] = useState([]);
-  const searchContainerRef = useRef(null);
-  const abortController = useRef(null);
+// const SearchBar = ({ page }) => {
+//   const [searchTerm, setSearchTerm] = useState('');
+//   const [searchResults, setSearchResults] = useState([]);
+//   const searchContainerRef = useRef(null);
+//   const abortController = useRef(null);
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (searchContainerRef.current && !searchContainerRef.current.contains(event.target)) {
-        setSearchResults([]); // Clear search results when clicking outside the search bar
-      }
-    };
+//   useEffect(() => {
+//     const handleClickOutside = (event) => {
+//       if (searchContainerRef.current && !searchContainerRef.current.contains(event.target)) {
+//         setSearchResults([]); // Clear search results when clicking outside the search bar
+//       }
+//     };
 
-    document.addEventListener('mousedown', handleClickOutside);
+//     document.addEventListener('mousedown', handleClickOutside);
 
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, []);
+//     return () => {
+//       document.removeEventListener('mousedown', handleClickOutside);
+//     };
+//   }, []);
 
 
-  useEffect(() => {
-    abortController.current = new AbortController();
+//   useEffect(() => {
+//     abortController.current = new AbortController();
 
-    const fetchSearchResults = async () => {
-      try {
-        const signal = abortController.current.signal;
+//     const fetchSearchResults = async () => {
+//       try {
+//         const signal = abortController.current.signal;
 
-        if (searchTerm.trim() !== '') {
-          const response = await fetch(`/api/search/searchCourses?searchTerm=${searchTerm}`, { signal });
-          const data = await response.json();
-          if (!signal.aborted) {
-            if (data.success && searchTerm.trim() !== '') {
-              // Update search results only if there's a success response and the search term is not empty
-              setSearchResults(data.courses);
-            } else if (!data.success && searchTerm.trim() !== '') {
-              // Show error message if the API call fails and the search term is not empty
-              throw new Error(`Failed to fetch courses: ${data.error}`);
-            } else {
-              // Clear search results if the search term is empty
-              setSearchResults([]);
-            }
-          }
-        } else {
-          setSearchResults([]); // Clear results if search term is empty
-        }
-      } catch (error) {
-        console.error(`Error fetching courses: ${error}`);
-        setSearchResults([]); // Clear results on error
-      }
-    };
+//         if (searchTerm.trim() !== '') {
+//           const response = await fetch(`/api/search/searchCourses?searchTerm=${searchTerm}`, { signal });
+//           const data = await response.json();
+//           if (!signal.aborted) {
+//             if (data.success && searchTerm.trim() !== '') {
+//               // Update search results only if there's a success response and the search term is not empty
+//               setSearchResults(data.courses);
+//             } else if (!data.success && searchTerm.trim() !== '') {
+//               // Show error message if the API call fails and the search term is not empty
+//               throw new Error(`Failed to fetch courses: ${data.error}`);
+//             } else {
+//               // Clear search results if the search term is empty
+//               setSearchResults([]);
+//             }
+//           }
+//         } else {
+//           setSearchResults([]); // Clear results if search term is empty
+//         }
+//       } catch (error) {
+//         console.error(`Error fetching courses: ${error}`);
+//         setSearchResults([]); // Clear results on error
+//       }
+//     };
 
-    if (searchTerm.trim() !== '')
-      fetchSearchResults();
+//     if (searchTerm.trim() !== '')
+//       fetchSearchResults();
 
-    return () => {
-      if (abortController.current) {
-        abortController.current.abort();
-      }
-    };
-  }, [searchTerm]);
+//     return () => {
+//       if (abortController.current) {
+//         abortController.current.abort();
+//       }
+//     };
+//   }, [searchTerm]);
 
-  const handleSearch = (e) => {
-    setSearchTerm(e.target.value);
-  };
+//   const handleSearch = (e) => {
+//     setSearchTerm(e.target.value);
+//   };
 
-  const showSearchResults = searchResults.length > 0 && searchTerm.trim() !== '';
-  // Rendering different search bar styles based on 'page' prop
-  switch (page) {
-    case 'LandPage':
+//   const showSearchResults = searchResults.length > 0 && searchTerm.trim() !== '';
+//   // Rendering different search bar styles based on 'page' prop
+//   switch (page) {
+//     case 'LandPage':
+// =======
+const SearchBar = ({page , onSearchChange }) => {
+    switch (page) {
+      case 'LandPage':
+        return (
+            
+            <div
+            className="flex inline-flex w-[80vw] md:w-[50vw] mt-[2rem] md:mt-[4rem] rounded-md border-opacity-50 justify-center">
+        
+            
+                <svg
+                className="relative inline right-[-2rem] md:right-[-2.5rem] mt-[0.5rem] color-black"
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_13_778)">
+                    <path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#23272A" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M15.8032 15.8037L20.9998 21.0003" stroke="#23272A" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_13_778">
+                    <rect width="24" height="24"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+            <input
+                type="text"
+                placeholder="Search courses, professor, departments..."
+                className="pl-[2.5rem] md:pl-[4rem] rounded w-full h-[2.5rem] left-2 bg-primary-whiteBlue text-black border border-black"
+                onChange={(e) => onSearchChange(e.target.value)}
+            />
+            </div>
+        )
+      case 'other': 
+// >>>>>>> main
       return (
         <div className="flex flex-col items-center mt-4">
           <div className="flex inline-flex w-[80vw] md:w-[50vw] rounded-md border-opacity-50 justify-center" ref={searchContainerRef}>
