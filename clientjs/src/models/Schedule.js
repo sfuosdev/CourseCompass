@@ -10,4 +10,5 @@ const ScheduleSchema = new mongoose.Schema({
 
 const Instructor = mongoose.models.Instructor || mongoose.model('Instructor', InstructorSchema);
 
-export default Instructor;
+
+export default Schedule;

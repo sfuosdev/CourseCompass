@@ -13,6 +13,8 @@ const InstructorSchema = new mongoose.Schema({
   email: String,
 });
 
+
 const Instructor = mongoose.models.Instructor || mongoose.model('Instructor', InstructorSchema);
+
 
 export default Instructor;
