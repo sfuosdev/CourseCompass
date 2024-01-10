@@ -106,7 +106,7 @@ const Page = ({ params }) => {
         ) : (
           <p>No reviews yet.</p>
         )}
-
+        <button
           onClick={handleLeaveReviewClick}
           className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">
           Leave a review
