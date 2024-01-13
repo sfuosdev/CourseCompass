@@ -117,7 +117,7 @@ const Page = ({ params }) => {
           <div className="lg:flex lg:flex-col">
             <h2 className="text-base lg:text-xl">Pre-requisites:</h2>
             <p className="text-sm lg:text-base">
-              {course.prerequisites || 'Loading prerequisites...'}
+              {(course.prerequisites === ''? "No Previous courses required": course.prerequisites) || 'Loading prerequisites...'}
             </p>
           </div>
 
