@@ -48,20 +48,20 @@ const Navbar = ({ showSearchBar }) => {
     }
   };
   return (
-    <nav className="bg-primary-yellow flex items-center justify-between w-full h-[8rem] fixed top-0 z-20 space-x-[0.5rem] pr-[1rem] flex-base">
+    <nav className="bg-primary-yellow flex items-center justify-between w-full h-[9rem] fixed top-0 z-20 space-x-[0.5rem] pr-[1rem] flex-base">
       {showSearchBar &&
-        <div className="absolute justify-start font-bold items-left mt-[-3rem] p-[1.5rem] text-[4vw] md:relative md:inline md:mt-[1.125rem] xl:text-5xl">
-          <Link href="/" className="flex flex-col text-xl sm:text-5xl ml-[0.5rem] mb-[0.5rem]"><div className="mb-[-0.5rem]">Course</div>
+        <div className="absolute justify-start font-bold items-left mt-[-3.5rem] p-[1.5rem] text-[4vw] md:relative md:inline md:mt-[1.125rem] xl:text-5xl">
+          <Link href="/" className="flex flex-col text-xl md:text-5xl ml-[0.5rem] mb-[0.5rem]"><div className="mb-[-0.5rem]">Course</div>
             <div className="ml-[1.5rem]">Compass</div></Link>
         </div>}
       {!showSearchBar &&
         <div className="justify-start font-bold items-left mt-[-3rem] p-[1.5rem] relative inline mt-[1.125rem] text-[10vw] sm:text-5xl">
-          <Link href="/" className="flex flex-col"><div className="mb-[-0.8rem]">Course</div>
-            <div className="pl-[1.5rem]">Compass</div></Link>
+          <Link href="/" className="flex flex-col"><div className="mb-[-2.2rem] sm:mb-[-0.5rem]">Course</div>
+            <div className="pl-[1.5rem] mb-[0.5rem]">Compass</div></Link>
         </div>}
       {showSearchBar && <SearchBar page="other" />}
 
-      <div className="flex inline-flex mt-[3.125rem] m-2 pr-[2rem] space-x-2">
+      <div className="flex inline-flex mt-[3.125rem] pr-[0.125rem] sm:pr-[2rem]">
         {isLoggedIn ? (
           <>
             <Link href="/profile"> {/* This should be the route to the user profile page */}
@@ -69,7 +69,7 @@ const Navbar = ({ showSearchBar }) => {
                 <img
                   src="/profile-picture.jpg" // Replace with dynamic path if necessary
                   alt="Profile picture"
-                  className="rounded-full w-[7vw] md:w-[4vw] lg:w-[3vw] h-auto min-h-[3rem] min-w-[3rem] border border-black cursor-pointer"
+                  className="rounded-full mr-[0.5rem] w-[7vw] md:w-[4vw] lg:w-[3vw] h-auto min-h-[3rem] min-w-[3rem] border border-black cursor-pointer"
                 />
               </a>
             </Link>
@@ -83,7 +83,7 @@ const Navbar = ({ showSearchBar }) => {
                 <Link href="/profile"><div className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer">Profile</div></Link>
                 <Link href="/reviews"><div className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer">Leave a Review</div></Link>
                 <Link href="/tuition-calculator"><div className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer">Tuition Calculator</div></Link>
-                <button className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer" onClick={handleLogout}>Logout</button>
+                <button className="block flex items-start px-4 py-2 w-full text-red-500 hover:bg-gray-200 cursor-pointer" onClick={handleLogout}>Logout</button>
               </div>
             )}
           </>
