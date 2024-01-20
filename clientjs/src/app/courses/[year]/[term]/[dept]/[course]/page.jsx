@@ -74,33 +74,28 @@ const Page = ({ params }) => {
     router.push(`/reviews?courseCode=${courseCode}`);
   };
 
-  console.log(coursesList);
+  // console.log(coursesList);
   const View = () => {
     switch (statusCode) {
       case 201:
         return (<>
-          <div className="lg:w-[70%] pr-[50px]">
+          <div className="lg:w-[100%] pr-[50px]">
             <h2 className="text-xl">
               {params.dept.toUpperCase()} {params.course}
             </h2>
-            <div className="lg:w-[100%] pr-[50px]">
+            <div className="lg:w-[100%] pb-6 pr-[50px]">
               <h1 className="text-3xl text-[#4570E6] underline underline-offset-4">
                 {`The Course ${params.dept.toUpperCase()} ${params.course} does not exist`}
               </h1>
             </div>
             {/* Fix this sections later */}
-            <div className="mt-5 flex flex-col md:flex-row md:items-start">
-              {/* Courses Section */}
-              <div className="md:w-3/4 order-2 md:order-1 mt-5 md:mt-0">
-                <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4">
                   {coursesList.courses.map(course => 
                     <Card
                     course={course}
                     params={params}
                     key={course._id}/>)}
                 </div>
-              </div>
-            </div>
           </div>
         </>);
       default:
