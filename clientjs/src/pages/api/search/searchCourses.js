@@ -5,22 +5,24 @@ export default async function handler(req, res) {
   try {
     await dbConnect();
 
-    const { searchTerm } = req.query;
+    const { searchTerm, searchMode } = req.query;
 
     // handle spaces for search
     const combinedSearchTerm = searchTerm.replace(/\s/g, '');
 
-    const regexPatterns = [
-      new RegExp(combinedSearchTerm, 'i'), 
-      new RegExp(searchTerm, 'i'),
-    ];
+    let query = {};
+    if (searchMode === 'code') {
+      // Search by course code
+      query = { courseCode: { $in: [new RegExp(combinedSearchTerm, 'i'), new RegExp(searchTerm, 'i')] } };
+    } else if (searchMode === 'title') {
+      // Search by course title
+      query = { title: { $regex: searchTerm, $options: 'i' } };
+    } else if (searchMode === 'professor') {
+      // Search by professor name
+      query = { professor: { $regex: searchTerm, $options: 'i' } };
+    }
 
-    const courses = await Course.find({
-      $or: [
-        { courseCode: { $in: regexPatterns } },
-        { title: { $regex: searchTerm, $options: 'i' } },
-      ],
-    });
+    const courses = await Course.find(query);
 
     res.status(200).json({ success: true, courses });
   } catch (error) {
