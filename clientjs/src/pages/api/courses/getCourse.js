@@ -7,7 +7,7 @@ import Instructor from "../../../models/Instructor";
 import Schedule from "../../../models/Schedule";
 
 export default async function handler(req, res) {
-  console.log("getCourse.js");
+  // console.log("getCourse.js");
   if (req.method !== "GET") {
     return res.status(405).json({ message: "Method not allowed" });
   }

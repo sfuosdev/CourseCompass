@@ -5,8 +5,8 @@ import axios from "axios";
 import ProfessorCard from "@/components/ProfessorCard";
 import Review from "@/components/ReviewList";
 import { ScrollToTopButton } from "@/components/LandingPage";
-import Rating from "../../../../../reviews/Rating/Rating";
-import { useRouter } from 'next/navigation';
+import Rating from "../../../reviews/Rating/Rating";
+import { useRouter } from "next/navigation";
 
 async function fetchCourse(courseCode) {
   try {
@@ -39,20 +39,19 @@ const Page = ({ params }) => {
   const [course, setCourse] = useState({});
   const [reviews, setReviews] = useState([]);
   const router = useRouter();
-  
 
   useEffect(() => {
-    let courseCode = (params.dept + params.course).toLowerCase();
+    let courseCode = params.course.toLowerCase();
     fetchCourse(courseCode).then((res) => {
       if (res) {
         setCourse(res);
-        fetchReviews(res._id).then(setReviews); // Fetch reviews once course is loaded
+        fetchReviews(res._id).then((reviews) => setReviews(reviews)); // Fetch reviews once course is loaded
       }
     });
   }, [params]);
 
   const handleLeaveReviewClick = () => {
-    let courseCode = (params.dept + params.course).toLowerCase();
+    let courseCode = params.course.toLowerCase();
     router.push(`/reviews?courseCode=${courseCode}`);
   };
 
@@ -60,9 +59,7 @@ const Page = ({ params }) => {
     <div className="ml-[40px] m-[50px] flex flex-col lg:flex-row">
       <ScrollToTopButton />
       <div className="lg:w-[70%] pr-[50px]">
-        <h2 className="text-xl">
-          {params.dept.toUpperCase()} {params.course}
-        </h2>
+        <h2 className="text-xl">{params.course.toUpperCase()}</h2>
         <h1 className="text-3xl text-[#4570E6] underline underline-offset-4">
           {course.title || "Loading..."}
         </h1>
@@ -70,9 +67,7 @@ const Page = ({ params }) => {
           {course.courseDetails || "Description loading..."}
         </p>
 
-        <p className="text-xl mt-[30px]">
-          Next Offering: {params.term} {params.year}
-        </p>
+        <p className="text-xl mt-[30px]">Next Offering: Spring 2024</p>
         <div className="mt-[20px] mr-[20px]">
           <div className="mt-[10px] flex flex-row">
             {course.value != "" ? <ProfessorCard course={course} /> : <></>}
@@ -108,21 +103,21 @@ const Page = ({ params }) => {
         )}
         <button
           onClick={handleLeaveReviewClick}
-          className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">
+          className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2"
+        >
           Leave a review
         </button>
       </div>
-        <div className="lg:w-[30%] mt-[50px] lg:mt-0">
-          <h1 className="text-xl lg:text-2xl">CONSIDERATIONS</h1>
-          <div className="lg:flex lg:flex-col">
-            <h2 className="text-base lg:text-xl">Pre-requisites:</h2>
-            <p className="text-sm lg:text-base">
-              {course.prerequisites || 'Loading prerequisites...'}
-            </p>
-          </div>
-
+      <div className="lg:w-[30%] mt-[50px] lg:mt-0">
+        <h1 className="text-xl lg:text-2xl">CONSIDERATIONS</h1>
+        <div className="lg:flex lg:flex-col">
+          <h2 className="text-base lg:text-xl">Pre-requisites:</h2>
+          <p className="text-sm lg:text-base">
+            {course.prerequisites || "Loading prerequisites..."}
+          </p>
         </div>
       </div>
+    </div>
   );
 };
 
