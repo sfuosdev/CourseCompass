@@ -79,7 +79,7 @@ const Page = ({ params }) => {
     switch (statusCode) {
       case 201:
         return (<>
-          <div className="lg:w-[100%] pr-[50px]">
+          <div className="lg:w-[80%] pr-[50px]">
             <h2 className="text-xl">
               {params.dept.toUpperCase()} {params.course}
             </h2>
