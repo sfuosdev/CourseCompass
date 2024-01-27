@@ -74,7 +74,7 @@ const Page = ({ params }) => {
     router.push(`/reviews?courseCode=${courseCode}`);
   };
 
-  // console.log(coursesList);
+  console.log(reviews);
   const View = () => {
     switch (statusCode) {
       case 201:
@@ -88,7 +88,6 @@ const Page = ({ params }) => {
                 {`The Course ${params.dept.toUpperCase()} ${params.course} does not exist`}
               </h1>
             </div>
-            {/* Fix this sections later */}
             <div className="flex flex-wrap gap-4">
                   {coursesList.courses.map(course => 
                     <Card
