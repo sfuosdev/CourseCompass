@@ -5,11 +5,9 @@ const Card = ({ course, params }) => {
   return (
     <Link
       className="flex flex-col round rounded-2xl w-[260px] h-[300px] bg-[#F3F4FA] pl-[18px] pr-[18px] pt-[25px] hover:bg-[#AAC2FD] hover:shadow-lg focus-within:bg-[#AAC2FD]"
-      href={`/courses/${params.year}/${params.term}/${params.dept}/${course.value}`}
+      href={`/courses/${params.dept}/${course.courseCode}`}
     >
-      <div className="text-[30px]">{`${params.dept.toUpperCase()} ${
-        course.value
-      }`}</div>
+      <div className="text-[30px]">{`${course.courseCode.toUpperCase()}`}</div>
       <div className="inline-block text-[15px] h-[40%]">{`${course.title}`}</div>
       <div className="flex justify-between inline-block text-[15px] font-bold">
         <span>Next Offering:</span>

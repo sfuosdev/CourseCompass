@@ -40,7 +40,7 @@ const LandPage = () => {
 };
 
   return (
-    <div className="relative top-[-1.5rem] border-primary-whiteBlue sm:mt-[-2.5rem] md:mt-[-0.5rem] border bg-primary-whiteBlue flex flex-col items-center justify-center p-4 md:h-[100vh] lg:h-[90vh] sm:space-y-4 lg:space-y-5 md:scale-135">
+    <div className="relative top-[-1rem] mt-[1rem] border-primary-white border bg-primary-white flex flex-col items-center justify-center p-[1rem] space-y-4 lg:space-y-5 scale-135">
       {/* <button onClick={importCourses} className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">
         Import SFU Courses
       </button> */}
@@ -49,15 +49,15 @@ const LandPage = () => {
       {/*search bar below*/}
       <SearchBar page='LandPage' onSearchChange={handleSearchChange}/>    
       {/* <div className="absolute top-full w-full mt-1 z-10"> */}
-          <div className="bg-white max-h-60 w-full overflow-y-auto shadow-lg rounded-md">
+          {/* <div className="bg-white max-h-60 w-full overflow-y-auto shadow-lg rounded-md">
               {searchResults.slice(0, 5).map(course => (
                   <a key={course._id} href={`/courses/2024/spring/${course.dept}/${course.name}`} className="block px-4 py-2 border-b border-gray-200 hover:bg-gray-100">
                       {course.dept} {course.name} - {course.title}
                   </a>
               ))}
-          </div>
+          </div> */}
       {/* </div> */}
-      <p className="opacity-50">or</p>
+      <p className="opacity-50 pt-[1rem]">or</p>
       <Link href="/reviews" className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">Leave a review</Link>
       <div className="animate-bounce flex flex-col items-center pt-[2rem]"> 
         <p>Scroll to learn more</p>
@@ -72,7 +72,7 @@ const LandPage = () => {
   )};
 
 const Slide1 = () => (
-  <section className="border w-full h-fill bg-primary-white">
+  <section className="border w-full h-fill bg-primary-whiteBlue">
     <div className="flex flex-row w-[80rem] items-center justify-start">
       <div className="flex flex-col ml-[-0.4rem] sm:ml-[4rem] p-2 pl-20 items-start space-y-2">
         <h1 className="font-MabryPro font-bold">About</h1>
@@ -92,7 +92,7 @@ const Slide1 = () => (
 );
 
 const Slide2 = () => (
-  <section className="border w-full h-fill bg-primary-whiteBlue">
+  <section className="border w-full h-fill bg-primary-white">
     <div className="flex flex-row w-[80rem] items-center justify-start">
       <img className="ml-[-30rem] md:ml-[-20rem] lg:ml-[5rem] lg:scale-75" src="/slide2-courses.png" alt="generic image" />
       <div className="flex flex-col ml-[3rem] sm:ml-[4rem] p-2 pl-20 items-start space-y-2">
@@ -112,7 +112,7 @@ const Slide2 = () => (
 );
 
 const Slide3 = () => (
-  <section className="border w-full h-fill bg-primary-white">
+  <section className="border w-full h-fill bg-primary-whiteBlue">
     <div className="flex flex-row w-[80rem] items-center justify-start">
       <div className="flex flex-col ml-[-0.6rem] sm:ml-[3rem] p-2 pl-20 items-start space-y-2">
         <h1 className="font-MabryPro font-bold">Reviews</h1>
