@@ -1,12 +1,10 @@
 "use client";
-import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ProfessorCard from "@/components/ProfessorCard";
 import Review from "@/components/ReviewList";
 import { ScrollToTopButton } from "@/components/LandingPage";
-import Rating from "../../../../../reviews/Rating/Rating";
-import Card from "../../../../components/Card";
+import Card from "../../components/Card";
 import { useRouter } from 'next/navigation';
 
 async function fetchCourse(courseCode) {
@@ -44,8 +42,6 @@ async function fetchReviews(courseId) {
   }
 }
 
-const convertToPercent = (rating) => (rating / 5) * 100;
-
 const Page = ({ params }) => {
   const [course, setCourse] = useState({});
   const [reviews, setReviews] = useState([]);
@@ -59,7 +55,7 @@ const Page = ({ params }) => {
       if (res.status === 200) {
         setStatusCode(res.status)
         setCourse(res.data);
-        fetchReviews(res._id).then((reviews) => setReviews(reviews)); // Fetch reviews once course is loaded
+        fetchReviews(res.data._id).then((reviews) => setReviews(reviews)); // Fetch reviews once course is loaded
       }
       else {
         setStatusCode(res.status);
@@ -101,7 +97,7 @@ const Page = ({ params }) => {
         return (
           <>
             <ScrollToTopButton />
-            <div className="lg:w-[70%] pr-[50px]">
+            <div className="lg:w-[80%] pr-[50px]">
               <h2 className="text-xl">
                 {params.dept.toUpperCase()} {params.course}
               </h2>
@@ -120,37 +116,17 @@ const Page = ({ params }) => {
                   {course.value != "" ? <ProfessorCard course={course} /> : <></>}
                 </div>
               </div>
-              <h2 className="text-xl">Reviews</h2>
+              <h2 className="text-xl pt-6">Reviews</h2>
               {reviews.length > 0 ? (
                 reviews.map((review, index) => (
-                  <div key={index}>
-                    <div>
-                      <span>Usefulness: </span>
-                      <Rating
-                        ratingInPercent={convertToPercent(review.usefulnessRating)}
-                        iconSize="m"
-                        showOutOf={true}
-                        enableUserInteraction={false}
-                      />
-                    </div>
-                    <div>
-                      <span>Difficulty: </span>
-                      <Rating
-                        ratingInPercent={convertToPercent(review.difficultyRating)}
-                        iconSize="m"
-                        showOutOf={true}
-                        enableUserInteraction={false}
-                      />
-                    </div>
-                    {/* Additional review details can be rendered here */}
-                  </div>
+                  <Review review={review} key={index}/>
                 ))
               ) : (
                 <p>No reviews yet.</p>
               )}
               <button
                 onClick={handleLeaveReviewClick}
-                className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">
+                className="mt-6 text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">
                 Leave a review
               </button>
             </div>
