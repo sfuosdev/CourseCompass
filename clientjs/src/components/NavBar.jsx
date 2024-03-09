@@ -48,27 +48,27 @@ const Navbar = ({ showSearchBar }) => {
     }
   };
   return (
-    <nav className="bg-primary-yellow flex items-center justify-between w-full h-[9rem] fixed top-0 z-20 space-x-[0.5rem] pr-[1rem] flex-base">
+    <nav className="bg-primary-yellow flex items-center justify-between w-full h-[5rem] fixed top-0 z-20 space-x-[0.5rem] pr-[1rem] flex-base">
       {showSearchBar &&
-        <div className="absolute justify-start font-bold items-left mt-[-3.5rem] p-[1.5rem] text-[4vw] md:relative md:inline md:mt-[1.125rem] xl:text-5xl">
-          <Link href="/" className="flex flex-col text-xl md:text-5xl ml-[0.5rem] mb-[0.5rem]"><div className="mb-[-0.5rem]">Course</div>
+        <div className="absolute justify-start font-bold items-left mt-[-3rem] p-[1.5rem] text-[4vw] md:relative md:inline md:mt-[1rem] xl:text-5xl">
+          <Link href="/" className="flex flex-col text-xl md:text-2xl ml-[0.5rem] mb-[0.5rem]"><div className="mb-[-0.5rem]">Course</div>
             <div className="ml-[1.5rem]">Compass</div></Link>
         </div>}
       {!showSearchBar &&
-        <div className="justify-start font-bold items-left mt-[-3rem] p-[1.5rem] relative inline mt-[1.125rem] text-[10vw] sm:text-5xl">
+        <div className="justify-start font-bold items-left mt-[-3rem] p-[1.5rem] relative inline mt-[1rem] text-[10vw] sm:text-3xl">
           <Link href="/" className="flex flex-col"><div className="mb-[-2.2rem] sm:mb-[-0.5rem]">Course</div>
             <div className="pl-[1.5rem] mb-[0.5rem]">Compass</div></Link>
         </div>}
       {showSearchBar && <SearchBar page="other" />}
 
-      <div className="flex inline-flex mt-[3.125rem] pr-[0.125rem] sm:pr-[2rem]">
+      <div className="inline-flex mt-[1rem] pr-[0.125rem] sm:pr-[2rem]">
         {isLoggedIn ? (
           <>
             <a href="/profile"> {/* Ensure the image is wrapped in an <a> tag for proper Link functionality */}
               <img
                 src="/profile-picture.jpg" // Replace with dynamic path if necessary
                 alt="Profile picture"
-                className="rounded-full mr-[0.5rem] w-[7vw] md:w-[4vw] lg:w-[3vw] h-auto min-h-[3rem] min-w-[3rem] border border-black cursor-pointer"
+                className="rounded-full mr-[0.5rem] w-[8vw] md:w-[5vw] lg:w-[4vw] h-auto min-h-[3rem] min-w-[3rem] border border-black cursor-pointer"
               />
             </a>
             <button onClick={toggleMenu} ref={buttonRef} className={`transition-transform ${showMenu ? "rotate-180" : ""}`}>

@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import parsePDFToCourses from './pdfParser';
 
-function Page() {
+function Transcript() {
   const [parsedCourses, setParsedCourses] = useState(null);
   const [errorMessage, setErrorMessage] = useState('');
   let [firstYear, setFirstYear] = useState(new Date().getFullYear());
@@ -12,7 +12,7 @@ function Page() {
   const addYear = (position) => {
     const updatedParsedCourses = { ...parsedCourses };
     const years = Object.keys(updatedParsedCourses);
-  
+
     if (position === 'before') {
       const newFirstYear = years.length > 0 ? firstYear - 1 : new Date().getFullYear();
       updatedParsedCourses[newFirstYear.toString()] = { Spring: [], Summer: [], Fall: [] };
@@ -22,7 +22,7 @@ function Page() {
       updatedParsedCourses[newLastYear.toString()] = { Spring: [], Summer: [], Fall: [] };
       setLastYear(newLastYear);
     }
-  
+
     setParsedCourses(updatedParsedCourses);
   };
 
@@ -45,7 +45,7 @@ function Page() {
     }
     setParsedCourses(updatedParsedCourses);
   };
-  
+
   const handleParsePDF = async (file) => {
     try {
       const reader = new FileReader();
@@ -74,7 +74,7 @@ function Page() {
   const handleDrop = (event) => {
     event.preventDefault();
     const files = event.dataTransfer.files;
-    
+
     if (files.length > 0) {
       const file = files[0];
       if (file.type === 'application/pdf') {
@@ -85,7 +85,7 @@ function Page() {
       }
     }
   };
-  
+
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (file.type === 'application/pdf') {
@@ -136,21 +136,21 @@ function Page() {
         </div>
       );
     }
-  
+
     if (parsedCourses === null) {
       return null;
     }
-  
+
     const years = {};
     Object.keys(parsedCourses).forEach(yearTerm => {
       const [year, term] = yearTerm.split(' ');
       if (!years[year]) {
         years[year] = { Spring: [], Summer: [], Fall: [] };
       }
-  
+
       years[year][term] = parsedCourses[yearTerm];
     });
-  
+
     return (
       <div>
         {Object.keys(years).map(year => (
@@ -199,7 +199,7 @@ function Page() {
       </div>
     );
   };
-  
+
 
   return (
     <div className="p-4">
@@ -231,4 +231,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default Transcript;
