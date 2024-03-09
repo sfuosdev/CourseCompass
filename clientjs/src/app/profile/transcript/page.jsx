@@ -69,8 +69,8 @@ function Transcript() {
         if (courses && Object.keys(courses).length > 0) {
           setParsedCourses(courses);
           const transcriptYears = Object.keys(courses).map(yearTerm => parseInt(yearTerm.split(' ')[0]));
-          setFirstYear(Math.min(...transcriptYears));
-          setLastYear(Math.max(...transcriptYears));
+          const minYear = Math.min(...transcriptYears);
+          setYearRange(prevState => ({ ...prevState, firstYear: minYear }));
           setErrorMessage('');
         } else {
           setParsedCourses(null);
@@ -84,6 +84,7 @@ function Transcript() {
       setErrorMessage('Unsupported file type or unable to read courses.');
     }
   };
+
 
   const handleDrop = (event) => {
     event.preventDefault();
