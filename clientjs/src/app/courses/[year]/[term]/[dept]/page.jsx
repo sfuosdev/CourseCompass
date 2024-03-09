@@ -4,9 +4,11 @@ import Card from "../../../components/Card";
 import axios from "axios";
 import SortMenu from "../../../components/SortMenu";
 import { ScrollToTopButton } from "@/components/LandingPage";
+import { faculties } from "@/utils/faculties";
 
 export const fetchCourses = async (params) => {
   const url = `http://localhost:3000/api/courses`;
+  //const url = `https://course-compass-vcos.vercel.app/api/courses`;
 
   if (!params.year || !params.term || !params.dept) return;
 
@@ -17,6 +19,27 @@ export const fetchCourses = async (params) => {
     });
 };
 
+const findFacultyAndSchool = (dept) => {
+  for (const faculty of faculties) {
+    if (faculty.schools) {
+      const foundDepartment = faculty.schools.find((school) =>
+        school.departments.includes(dept.toUpperCase())
+      );
+      if (foundDepartment) {
+        let schoolName = foundDepartment.name.trim();
+        if (schoolName.includes(",")) {
+          schoolName =
+            schoolName.split(",")[1].trim() +
+            " " +
+            schoolName.split(",")[0].trim();
+        }
+        return { faculty: faculty.name, school: schoolName };
+      }
+    }
+  }
+  return { faculty: "", school: "" };
+};
+
 const CoursesPage = ({ params }) => {
   const [courses, setCourses] = useState([]);
   const [filterOptions, setFilterOptions] = useState({
@@ -25,18 +48,20 @@ const CoursesPage = ({ params }) => {
     graduateLevel: false,
   });
 
+  const { faculty, school } = findFacultyAndSchool(params.dept);
+
   useEffect(() => {
     fetchCourses(params).then((res) => {
       if (res) setCourses(res.courses);
     });
-  }, []);
+  }, [params.dept]);
 
   return (
     <div className="m-[30px]">
       <ScrollToTopButton />
-      <h2 className="text-xl">Faculty of Applied Science</h2>
-      <h1 className="underline underline-offset-4 text-3xl m-y-5 text-[#4570E6]">
-        School of Computer Science
+      <h2 className="text-xl border-l-4 border-b border-gray-500 px-3 w-[30rem]">{faculty}</h2>
+      <h1 className=" text-3xl m-y-5 font-bold">
+        {school}
       </h1>
       <div className="mt-5 flex flex-col md:flex-row md:items-start">
         {/* Courses Section */}

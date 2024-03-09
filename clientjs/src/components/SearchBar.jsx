@@ -91,7 +91,7 @@ const SearchPage = ({ page }) => {
         <div className="relative flex flex-row items-start mt-2 ml-[1rem]">
           <p className='mr-2'>Search By:</p>
           <label className="mr-4">
-             Code
+            Code
             <input
               type="radio"
               value="code"
@@ -101,7 +101,7 @@ const SearchPage = ({ page }) => {
             />
           </label>
           <label className="mr-4">
-             Title
+            Title
             <input
               type="radio"
               value="title"
@@ -129,7 +129,7 @@ const SearchPage = ({ page }) => {
                 {searchResults.map(course => (
                   <a
                     key={course._id}
-                    href={`/courses/2024/spring/${course.dept}/${course.name}`}
+                    href={`/courses/${course.dept}/${course.name}`}
                     className="block px-4 py-2 border-b border-gray-200 hover:bg-gray-100"
                   >
                     <span className='font-bold'>{course.dept} {course.name} </span>- {course.title}
@@ -138,9 +138,9 @@ const SearchPage = ({ page }) => {
               </div>
             ) : (
               <p className="text-center bold text-red-500 pt-[4rem]">No results found</p>
-    )}
-  </div>
-)}
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

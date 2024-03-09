@@ -1,0 +1,4222 @@
+{
+  "courses": [
+    {
+      "text": "110",
+      "value": "110",
+      "title": "Introduction to Communication Studies",
+      "offerings": [
+        {
+          "instructor": "Darren Fleet",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Layla Cameron",
+          "sections": [
+            "OL01"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Communication Studies",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D109",
+          "value": "d109",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D110",
+          "value": "d110",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D111",
+          "value": "d111",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D112",
+          "value": "d112",
+          "title": "Introduction to Communication Studies",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "OL01",
+          "value": "ol01",
+          "title": "Introduction to Communication Studies",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "100"
+        }
+      ],
+      "description": "An introduction to selected theories about human communication. This course is required for a major, honours or minor in communication. ",
+      "deliveryMethod": "Online",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "OLC",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "120W",
+      "value": "120w",
+      "title": "Creativity and Communication Across Media",
+      "offerings": [
+        {
+          "instructor": "Jennesia Pedri",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Creativity and Communication Across Media",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Creativity and Communication Across Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Creativity and Communication Across Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Creativity and Communication Across Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Creativity and Communication Across Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Creativity and Communication Across Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Creativity and Communication Across Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Creativity and Communication Across Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Creativity and Communication Across Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D109",
+          "value": "d109",
+          "title": "Creativity and Communication Across Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D112",
+          "value": "d112",
+          "title": "Creativity and Communication Across Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Introduces students to the creative practice of multimodal writing and content creation for communication and media studies. Topics may include: creativity and idea generation; media literacy in digital environments; writing conventions for various platforms and genres; analytical writing and scholarly argumentation; audio-visual production for popular audiences.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "TUT",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "11:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "130",
+      "value": "130",
+      "title": "Communication and Social Change",
+      "offerings": [
+        {
+          "instructor": "Byron Hauck",
+          "sections": [
+            "OL01"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "OL01",
+          "value": "ol01",
+          "title": "Communication and Social Change",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "100"
+        }
+      ],
+      "description": "An introduction to the forms, theories and institutions of communication as they relate to broader social change, with a focus on the political, economic and regulatory shifts characterizing Canadian and transnational media systems. This course is required for a major, honours or minor in communication.",
+      "deliveryMethod": "Online",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "OLC",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "201W",
+      "value": "201w",
+      "title": "Empirical Communication Research Methods",
+      "offerings": [
+        {
+          "instructor": "Chris Jeschelnik",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Nine CMNS units with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Empirical Communication Research Methods",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Empirical Communication Research Methods",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Empirical Communication Research Methods",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Empirical Communication Research Methods",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Empirical Communication Research Methods",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Empirical Communication Research Methods",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Empirical Communication Research Methods",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Empirical Communication Research Methods",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D109",
+          "value": "d109",
+          "title": "Empirical Communication Research Methods",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMNS 201 or CMNS 260 may not take this course for further credit.",
+      "description": "An introduction to empirical research methods in diverse traditions of communication enquiry. Some methods recognize communication as everyday interactions; others analyze communication as a process; still others blend traditional scientific empiricism with analytical and critical methods derived from the arts and humanities. Topics include: ethics, paradigms, conceptualizing and operationalizing research, sampling, interviews, surveys, unobtrusive observation, content analysis, and the role of statistics in communication research. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "202",
+      "value": "202",
+      "title": "Design and Method in Qualitative Communication Research",
+      "offerings": [
+        {
+          "instructor": "Daniel Ahadi",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Nine CMNS units with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Design and Method in Qualitative Communication Research",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Design and Method in Qualitative Communication Research",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Design and Method in Qualitative Communication Research",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Design and Method in Qualitative Communication Research",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Design and Method in Qualitative Communication Research",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Design and Method in Qualitative Communication Research",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Design and Method in Qualitative Communication Research",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMNS 262 may not take CMNS 202 for further credit.",
+      "description": "An introduction to interpretive approaches in communication inquiry. Topics include ethics, paradigms, conceptualizing the research process, documentary research, historical methods, discourse or textual analysis, ethnographic research, and performative research.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "TUT",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "210",
+      "value": "210",
+      "title": "Media History",
+      "offerings": [
+        {
+          "instructor": "Zoe Druick",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Nine CMNS units with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Media History",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Media History",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Media History",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Media History",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "An assessment of the social implications of developments in information technology from prehistory to the middle of the 20th century. Topics include: the origins of symbolic representation; the oral tradition; the significance of different systems of writing and numeration; the consequences of print; and the initial changes brought about by electronic media.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "TUT",
+          "startTime": "11:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "215",
+      "value": "215",
+      "title": "Media and Identity",
+      "offerings": [
+        {
+          "instructor": "Victoria Thomas",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Nine CMNS units with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Media and Identity",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Media and Identity",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Media and Identity",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Media and Identity",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Media and Identity",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Media and identity centers the idea of \"social position\" and that media are created and interpreted from and through specific perspectives and experiences of the world. Media and public discourse are shaped through various axes of social position that include gender, race, sexuality, ability, nationality, and other markers of identity.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "221",
+      "value": "221",
+      "title": "Media and Popular Cultures",
+      "offerings": [
+        {
+          "instructor": "Martin Laba",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Tue Jan 16 00:00:00 PST 2024",
+                "campus": "Vancouver",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Tue Jan 30 00:00:00 PST 2024",
+                "campus": "Vancouver",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Tue Jan 23 00:00:00 PST 2024"
+              },
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Tue Feb 06 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Nine CMNS units with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Media and Popular Cultures",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Media and Popular Cultures",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Media and Popular Cultures",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Media and Popular Cultures",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Focuses on communication for social change; historical and contemporary perspectives in consumer culture; technology, media and popular culture; media and identity; and communication as public education.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "240",
+      "value": "240",
+      "title": "The Political Economy of Communication",
+      "offerings": [
+        {
+          "instructor": "Siyuan Yin",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Nine CMNS units with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "The Political Economy of Communication",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "The Political Economy of Communication",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "The Political Economy of Communication",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "The Political Economy of Communication",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "The Political Economy of Communication",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Examination of the political and economic processes that have generated the policies and structures of mass media, telecommunications and related industries; the relationship between the dichotomies of state and market, citizen and consumer, capitalism and democracy, global and local, and sovereignty and globalization in media industries and policies; overview of influences on State and international policies towards the media.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "TUT",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "253W",
+      "value": "253w",
+      "title": "Introduction to Information Technology: The New Media",
+      "offerings": [
+        {
+          "instructor": "Layla Cameron",
+          "sections": [
+            "OL01"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Nine CMNS units with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "OL01",
+          "value": "ol01",
+          "title": "Introduction to Information Technology: The New Media",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "100"
+        }
+      ],
+      "notes": "Students with credit for CMNS 253 may not take this course for further credit.",
+      "description": "An introduction to new communication/information technologies, seen as new media of communication: the technologies, their uses, and the social issues arising from them.",
+      "deliveryMethod": "Online",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "OLC",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "304W",
+      "value": "304w",
+      "title": "Communication in Everyday Life",
+      "offerings": [
+        {
+          "instructor": "Steven Malcic",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "17 CMNS units with a minimum grade of C- or 45 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Communication in Everyday Life",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Communication in Everyday Life",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Communication in Everyday Life",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Communication in Everyday Life",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Communication in Everyday Life",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Communication in Everyday Life",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Communication in Everyday Life",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Communication in Everyday Life",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Communication in Everyday Life",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "An examination of a range of theories of everyday language focused on specific forms of discursive practice, including gossip, humour, religion, and sarcasm.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "311",
+      "value": "311",
+      "title": "Topics in Communication and Social Justice",
+      "offerings": [
+        {
+          "instructor": "Shane Gunster",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Alberto Toscano",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "17 CMNS units with a minimum grade of C- or 45 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Topics in Communication and Social Justice",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Topics in Communication and Social Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Topics in Communication and Social Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Topics in Communication and Social Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Topics in Communication and Social Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Topics in Communication and Social Justice",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D201",
+          "value": "d201",
+          "title": "Topics in Communication and Social Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D202",
+          "value": "d202",
+          "title": "Topics in Communication and Social Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D203",
+          "value": "d203",
+          "title": "Topics in Communication and Social Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Topics pertain to issues of inequality, resistance and activism with a focus on entanglements with media and communication. Explores how relations of power are shaped and contested through media and communication. Topics include: racial justice, environmental policies, globalization, social activism, and labour. This course can be repeated once for credit (up to a maximum of two times).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "We",
+          "sectionCode": "TUT",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "313",
+      "value": "313",
+      "title": "Topics in Data and Society",
+      "offerings": [
+        {
+          "instructor": "Frederik Lesage",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "17 CMNS units with a minimum grade of C- or 45 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Topics in Data and Society",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Topics in Data and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Topics in Data and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Topics in Data and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Topics in Data and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Topics in the social, political, and cultural aspects of data and datafication. Explores social and philosophical implications of gathering, interpreting, and managing data. Topics include: data protection, visualization or sonification, data activism, big data, algorithmic bias and decision making, AI harms, big data, and the political economy of data. This course can be repeated once for credit (up to a maximum of two times).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "TUT",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "314",
+      "value": "314",
+      "title": "Topics in Media Production and Aesthetics",
+      "offerings": [
+        {
+          "instructor": "Steven Malcic",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "17 CMNS units with a minimum grade of C- or 45 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Topics in Media Production and Aesthetics",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Topics in Media Production and Aesthetics",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Topics in Media Production and Aesthetics",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Topics in Media Production and Aesthetics",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Topics in Media Production and Aesthetics",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Topics on the cultural production of acoustic, visual, and/or multimodal communication. Explores cultural contexts of media production, media artifacts, media perceptions, and alternative media practices. Topics include: advertising, film, gaming, radio, television, and questions of representation in media professions. This course can be repeated once for credit (up to a maximum of two times).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LAB",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "315",
+      "value": "315",
+      "title": "Topics in Media, Difference, and Intersectional Identities",
+      "offerings": [
+        {
+          "instructor": "Milena Droumeva",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "DAL JIN",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Tu",
+                "sectionCode": "SEM",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "17 CMNS units with a minimum grade of C- or 45 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Topics in Media, Difference, and Intersectional Identities",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Topics in Media, Difference, and Intersectional Identities",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Topics in Media, Difference, and Intersectional Identities",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Topics in Media, Difference, and Intersectional Identities",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Topics in Media, Difference, and Intersectional Identities",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Topics in Media, Difference, and Intersectional Identities",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Focus on how media play a role in the representation, construction, and circulation of difference and identities by drawing from feminist theories, cultural studies and/or political economy to critique dominant conceptions. Topics may include how difference and identities intersect with: gaming, film, and technology. This course can be repeated once for credit (up to a maximum of two times).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "Tu",
+          "sectionCode": "SEM",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "11:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "316",
+      "value": "316",
+      "title": "Topics in Popular Cultures and Public Communication",
+      "offerings": [
+        {
+          "instructor": "Darren Fleet",
+          "sections": [
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "20:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "17 CMNS units with a minimum grade of C- or 45 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "E100",
+          "value": "e100",
+          "title": "Topics in Popular Cultures and Public Communication",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E101",
+          "value": "e101",
+          "title": "Topics in Popular Cultures and Public Communication",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E102",
+          "value": "e102",
+          "title": "Topics in Popular Cultures and Public Communication",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E103",
+          "value": "e103",
+          "title": "Topics in Popular Cultures and Public Communication",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E104",
+          "value": "e104",
+          "title": "Topics in Popular Cultures and Public Communication",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Topics on public and popular cultures with a focus on social, political, and cultural dynamics. Explores audiences, publics, and institutions at a global, national, and/or local level. Topics vary and may address themes like: news, music, public media, advertising, sports, childhood, youth cultures, art, and everyday life. This course can be repeated once for credit (up to a maximum of two times).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "353",
+      "value": "353",
+      "title": "Topics in Science, Technology and Society",
+      "offerings": [
+        {
+          "instructor": "Stephanie Dick",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Sun-ha Hong",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "17 CMNS units with a minimum grade of C- or 45 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Topics in Science, Technology and Society",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Topics in Science, Technology and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Topics in Science, Technology and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Topics in Science, Technology and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Topics in Science, Technology and Society",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D201",
+          "value": "d201",
+          "title": "Topics in Science, Technology and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D202",
+          "value": "d202",
+          "title": "Topics in Science, Technology and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D203",
+          "value": "d203",
+          "title": "Topics in Science, Technology and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D204",
+          "value": "d204",
+          "title": "Topics in Science, Technology and Society",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Examination of the emergence and shaping of information and communication technologies and science in the digital age. Explores new media and social change between everyday life, social institutions, and various enterprises. Emphasis is placed on social context and relations of power. This course can be repeated once for credit if second topic is different (up to a maximum of two times).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "We",
+          "sectionCode": "TUT",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "15:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "362",
+      "value": "362",
+      "title": "Evaluation Methods for Applied Communication Research",
+      "offerings": [
+        {
+          "instructor": "Benjamin Anderson",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "17 CMNS units with a minimum grade of C- or 45 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Evaluation Methods for Applied Communication Research",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Evaluation Methods for Applied Communication Research",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Evaluation Methods for Applied Communication Research",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Evaluation Methods for Applied Communication Research",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Research design and techniques for the study of the introduction, uses and consequences of new media and technologies, new communication policies and practices in their socio-economic and cultural context, and communication in innovation and change.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "TUT",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "395",
+      "value": "395",
+      "title": "Communication Practicum I",
+      "offerings": [
+        {
+          "instructor": "Liesl Jurock",
+          "sections": [
+            "D100",
+            "D200",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Complete Bridging Online at least two terms before anticipated co-op placement. Students must then enroll with the co-op program by the second week of the term preceding the work term of application, and have a minimum GPA of 2.7.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Communication Practicum I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Communication Practicum I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Communication Practicum I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "First term of work experience in the School of Communication's Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "COP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "396",
+      "value": "396",
+      "title": "Communication Practicum II",
+      "offerings": [
+        {
+          "instructor": "Liesl Jurock",
+          "sections": [
+            "D100",
+            "D200",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CMNS 395.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Communication Practicum II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Communication Practicum II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Communication Practicum II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "The second term of work experience in the School of Communication's Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "COP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "424",
+      "value": "424",
+      "title": "Colonialism, Culture and Identity",
+      "offerings": [
+        {
+          "instructor": "Nawal Musleh-Motut",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "SEM",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "26 CMNS units with a minimum grade of C- or 60 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Colonialism, Culture and Identity",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Examines why identity is such an important issue for contemporary diasporic communities and former colonies. Introduces students to critiques of representations that construct \"racialized\" groups as inferior, primitive threats to civilization and their constitution of passive, disciplined subjects. Primarily focuses on innovative cultural strategies developed in Indigenous people, the Black diaspora, Asian/Canadian communities and survivors of the Jewish Holocaust to create ethical communities and critique the impact of colonial violence on contemporary societies.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "SEM",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "425",
+      "value": "425",
+      "title": "Applied Communication for Social Issues",
+      "offerings": [
+        {
+          "instructor": "Martin Laba",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Th",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "26 CMNS units with a minimum grade of C- or 60 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Applied Communication for Social Issues",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "An advanced seminar in applied communication that focuses on the research and strategic design of media messages, campaigns and programs for public awareness, education, and social change. This course involves the application of theories and approaches in critical media analysis to the tasks of media design and media use for public understanding, engagement and participation around social issues. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "Th",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "426",
+      "value": "426",
+      "title": "Video Design for Social Communication",
+      "offerings": [
+        {
+          "instructor": "Christopher Jeschelnik",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "SEM",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "26 CMNS units with a minimum grade of C- or 60 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Video Design for Social Communication",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Video Design for Social Communication",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Video Design for Social Communication",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "This workshop examines the growing role that video is playing in a variety of public relations, industrial, advocacy and educational contexts. The emphasis of this course is on issues of communication design in relation to the goals and values in specific communication forums.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LAB",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "440",
+      "value": "440",
+      "title": "Labour, Communication and the Media",
+      "offerings": [
+        {
+          "instructor": "Enda Brophy",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Fr",
+                "sectionCode": "SEM",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "26 CMNS units with a minimum grade of C- or 60 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Labour, Communication and the Media",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMNS 488 with the topic \"Labour and CMNS\" may not take this course for further credit.",
+      "description": "Explores the relationship between labour, communication, and the media, including: working conditions in the media and communication industries; media representations of workers and workplaces; and uses of media and communication technologies by workers and their organizations.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "Fr",
+          "sectionCode": "SEM",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "452",
+      "value": "452",
+      "title": "Race and the Media",
+      "offerings": [
+        {
+          "instructor": "Nawal Musleh-Motut",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "SEM",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Nawal Motut",
+          "sections": [
+            "D101"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "TUT",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "13:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "26 CMNS units with a minimum grade of C- or 60 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Race and the Media",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Race and the Media",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students who have taken CMNS 486 with subtitle \"Race and the Media\" cannot take this course for further credit.",
+      "description": "Examines the contemporary construction and maintenance of race and ethnicity, through movies, music, and the Internet. Provides grounding in scholarship on media, race, ethnicity, and identity. Explores the historical role of entertainment in racialization. Investigates contemporary issues and forms of media and race.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "TUT",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "13:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "453",
+      "value": "453",
+      "title": "Issues in the Information Society",
+      "offerings": [
+        {
+          "instructor": "Richard Smith",
+          "sections": [
+            "OL01"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Peter Chow-White",
+          "sections": [
+            "OL02"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "26 CMNS units with a minimum grade of C- or 60 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "OL01",
+          "value": "ol01",
+          "title": "Issues in the Information Society",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "100"
+        },
+        {
+          "text": "OL02",
+          "value": "ol02",
+          "title": "Issues in the Information Society",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "102"
+        }
+      ],
+      "description": "Advanced seminar to discuss issues in the interplay between contemporary society and new computer/communication technologies, at the level of comprehensive theories of society, on one hand, and major public policy, on the other. This course can be repeated once for credit if second topic is different (up to a maximum of two times).",
+      "deliveryMethod": "Online",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "OLC",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "455W",
+      "value": "455w",
+      "title": "Women and New Information Technologies",
+      "offerings": [
+        {
+          "instructor": "Cait McKinney",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "SEM",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "26 CMNS units with a minimum grade of C- or 60 units with a minimum CGPA of 2.00.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Women and New Information Technologies",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CMNS 455 may not take this course for further credit.",
+      "description": "Topics include the processes through which gendering of technologies takes place; information and communication technologies (ICTs), gender and public and private spheres; issues related to computerization of women's paid and unpaid work; and gender roles and the use of ICTs in relation to health; as well as the contributions which the study of gender and ICTs have made to theoretical debates within science, technology and society studies.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "SEM",
+          "startTime": "11:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "461",
+      "value": "461",
+      "title": "Field Placement in Dialogue",
+      "offerings": [],
+      "prerequisites": "75 units including CMNS 460 with a minimum grade of C-.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Field Placement in Dialogue",
+          "classType": "e",
+          "sectionCode": "FLD",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Field Placement in Dialogue",
+          "classType": "e",
+          "sectionCode": "FLD",
+          "associatedClass": "2"
+        }
+      ],
+      "notes": "Students with credit for DIAL 461 may not complete this course for further credit.",
+      "description": "Students work under faculty supervision in a placement where dialogue is planned or where dialogue occurs. Arrangements are the responsibility of the student, and enrollment is limited. This course can be repeated for credit up to a maximum of three times, if topic studied is different.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "FLD",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "479",
+      "value": "479",
+      "title": "Directed Study",
+      "offerings": [
+        {
+          "instructor": "Peter Chow-White",
+          "sections": [
+            "D001"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Christopher Jeschelnik",
+          "sections": [
+            "D002"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Sun Ha Hong",
+          "sections": [
+            "D003"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Two upper division CMNS courses with a minimum grade of C- and permission of the instructor.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D001",
+          "value": "d001",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D002",
+          "value": "d002",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D003",
+          "value": "d003",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D004",
+          "value": "d004",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "4"
+        },
+        {
+          "text": "D005",
+          "value": "d005",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "5"
+        },
+        {
+          "text": "D006",
+          "value": "d006",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "6"
+        },
+        {
+          "text": "D007",
+          "value": "d007",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "7"
+        },
+        {
+          "text": "D008",
+          "value": "d008",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "8"
+        },
+        {
+          "text": "D009",
+          "value": "d009",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "9"
+        }
+      ],
+      "description": "Independent research and reading on topics selected in consultation with the supervising instructor. No more than ten units of Directed Study may be taken. May repeat for credit if topic studied is different.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "480",
+      "value": "480",
+      "title": "Directed Study",
+      "offerings": [],
+      "prerequisites": "Two upper division CMNS courses with a minimum grade of C- and consent of instructor.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D001",
+          "value": "d001",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D002",
+          "value": "d002",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D003",
+          "value": "d003",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D004",
+          "value": "d004",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "4"
+        },
+        {
+          "text": "D005",
+          "value": "d005",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "5"
+        },
+        {
+          "text": "D006",
+          "value": "d006",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "6"
+        },
+        {
+          "text": "D007",
+          "value": "d007",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "7"
+        },
+        {
+          "text": "D008",
+          "value": "d008",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "8"
+        },
+        {
+          "text": "D009",
+          "value": "d009",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "9"
+        }
+      ],
+      "description": "Independent research and reading on topics selected in consultation with the supervising instructor. No more than ten units of Directed Study may be taken. May repeat for credit if topic studied is different.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "481",
+      "value": "481",
+      "title": "Directed Study",
+      "offerings": [
+        {
+          "instructor": "Martin Laba",
+          "sections": [
+            "D001"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Two upper division CMNS courses with a minimum grade of C- and consent of instructor.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D001",
+          "value": "d001",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Independent research and reading on topics selected in consultation with the supervising instructor. No more than ten units of Directed Study may be taken. May repeat for credit if topic studied is different.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "482",
+      "value": "482",
+      "title": "Directed Study",
+      "offerings": [
+        {
+          "instructor": "Martin Laba",
+          "sections": [
+            "D001"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Two upper division CMNS courses with a minimum grade of C- and consent of instructor.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D001",
+          "value": "d001",
+          "title": "Directed Study",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Independent research and reading on topics selected in consultation with the supervising instructor. No more than ten units of Directed Study may be taken. May repeat for credit if topic studied is different.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "487",
+      "value": "487",
+      "title": "Special Topics in Communication",
+      "offerings": [
+        {
+          "instructor": "Siyuan Yin",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Depends on topic; published before enrollment.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Special Topics in Communication",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Intensive analysis of a particular topic in communication and/or attention to the work of a particular writer or school of thought. This course can be repeated for credit up to a maximum of three times, if topic studied is different.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "489",
+      "value": "489",
+      "title": "Field Placement in Communication",
+      "offerings": [],
+      "prerequisites": "75 units and permission of the school.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Field Placement in Communication",
+          "classType": "e",
+          "sectionCode": "FLD",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Field Placement in Communication",
+          "classType": "e",
+          "sectionCode": "FLD",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "For students who have at least 24 upper level units in communication, this course offers the opportunity to work under faculty supervision in a field placement situation related to one of the areas of concentration in communication. Arrangements for field placement and faculty supervision are the responsibility of the student, and enrollment will depend upon the availability of faculty resources in any semester. This course can be repeated for credit up to a maximum of three times, if topic studied is different.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "FLD",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "494",
+      "value": "494",
+      "title": "Communication Practicum III",
+      "offerings": [
+        {
+          "instructor": "Liesl Jurock",
+          "sections": [
+            "D100",
+            "D200",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CMNS 396.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Communication Practicum III",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Communication Practicum III",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Communication Practicum III",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "The third term of work experience for students in the School of Communication's Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "COP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "495",
+      "value": "495",
+      "title": "Communication Practicum IV",
+      "offerings": [
+        {
+          "instructor": "Liesl Jurock",
+          "sections": [
+            "D100",
+            "D200",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CMNS 494.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Communication Practicum IV",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Communication Practicum IV",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Communication Practicum IV",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "The fourth term of work experience for students in the School of Communication's Co-operative Education Program. Units from this course do not count towards the Units required for an SFU degree. Graded as pass/fail (P/F).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "COP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "496",
+      "value": "496",
+      "title": "Communication Practicum V",
+      "offerings": [
+        {
+          "instructor": "Liesl Jurock",
+          "sections": [
+            "D100",
+            "D200",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CMNS 495.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Communication Practicum V",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Communication Practicum V",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Communication Practicum V",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "An optional term of work experience for students in the School of Communication Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F). This course may be repeated for additive credit.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "COP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "497",
+      "value": "497",
+      "title": "Honours Research Proposal",
+      "offerings": [],
+      "prerequisites": "Students accepted into honours program only.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Honours Research Proposal",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Honours Research Proposal",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Honours Research Proposal",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "Preparation for honours research project, including literature review, ethics approval (if necessary), and presentation of work in progress at end of term. Minimum grade of \"B\" is required in order to continue in CMNS Honours Program (Option A), and take CMNS 498 in a future term.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "498",
+      "value": "498",
+      "title": "Honours Research Project",
+      "offerings": [
+        {
+          "instructor": "Siyuan Yin",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Successful completion of CMNS 497-5, Honours Research Proposal, with grade of \"B\" or higher.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Honours Research Project",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Honours Research Project",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Honours Research Project",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "Intensive work in a particular topic in the general field of communication. Involves an extensive individual research project under the direct supervision of at least one CMNS faculty member, who will provide guidance and critical feedback as necessary. Presentation of completed project at end of term. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "801",
+      "value": "801",
+      "title": "Design and Methodology in Communication Research",
+      "offerings": [
+        {
+          "instructor": "Katherine Reilly",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Fr",
+                "sectionCode": "SEM",
+                "startTime": "13:00",
+                "isExam": false,
+                "endTime": "16:50",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Design and Methodology in Communication Research",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "A survey course which examines the problems, methods and theoretical assumptions in communication research using case studies of research design and methods. Students may design a research project and conduct a small pilot study in a selected area. Normally offered in the spring term and expected in the first year of graduate study.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "Fr",
+          "sectionCode": "SEM",
+          "startTime": "13:00",
+          "isExam": false,
+          "endTime": "16:50",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "802",
+      "value": "802",
+      "title": "History of Communication Theory",
+      "offerings": [
+        {
+          "instructor": "Stephanie Dick",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Mo",
+                "sectionCode": "SEM",
+                "startTime": "13:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "History of Communication Theory",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "A survey of classic works, issues and debates in communication theory.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "Mo",
+          "sectionCode": "SEM",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "830",
+      "value": "830",
+      "title": "Media & Cultural Studies",
+      "offerings": [
+        {
+          "instructor": "Cait McKinney",
+          "sections": [
+            "G200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "SEM",
+                "startTime": "13:00",
+                "isExam": false,
+                "endTime": "16:50",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Media & Cultural Studies",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Examines current debates in media and cultural studies, including hegemony, biopower, affect, subjectivity, cultures of capitalism and cultures of resistance.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "SEM",
+          "startTime": "13:00",
+          "isExam": false,
+          "endTime": "16:50",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "849",
+      "value": "849",
+      "title": "Communication Research for Social Change",
+      "offerings": [
+        {
+          "instructor": "Enda Brophy",
+          "sections": [
+            "G200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "We",
+                "sectionCode": "SEM",
+                "startTime": "15:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Communication Research for Social Change",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Introduction to communication research methodologies utilizing an intersectional framework of analysis, with a focus on the knowledges developed with, by, and for movements for social justice.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "We",
+          "sectionCode": "SEM",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "19:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "850",
+      "value": "850",
+      "title": "Directed Readings and Research",
+      "offerings": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Directed Readings and Research",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Directed Readings and Research",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Directed Readings and Research",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        },
+        {
+          "text": "G400",
+          "value": "g400",
+          "title": "Directed Readings and Research",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "4"
+        },
+        {
+          "text": "G500",
+          "value": "g500",
+          "title": "Directed Readings and Research",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "5"
+        }
+      ],
+      "description": "Pursuance of particular areas of interest related to a student's program.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "851",
+      "value": "851",
+      "title": "Directed Studies",
+      "offerings": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Directed Studies",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Directed Studies",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Directed Studies",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        },
+        {
+          "text": "G400",
+          "value": "g400",
+          "title": "Directed Studies",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "4"
+        },
+        {
+          "text": "G500",
+          "value": "g500",
+          "title": "Directed Studies",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "5"
+        }
+      ],
+      "description": "Pursuance of interest in specific areas, including field studies related to the student's program. May include work and study in supervised professional settings.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "858",
+      "value": "858",
+      "title": "Selected Topics in Communication Studies",
+      "offerings": [
+        {
+          "instructor": "Shane Gunster",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Th",
+                "sectionCode": "SEM",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Selected Topics in Communication Studies",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Specialized graduate course offering on a topic related to the current research of school faculty or visiting professor.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Vancouver",
+          "days": "Th",
+          "sectionCode": "SEM",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "880",
+      "value": "880",
+      "title": "Directed Readings and Research",
+      "offerings": [
+        {
+          "instructor": "Zoe Druick",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Directed Readings and Research",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Directed Readings and Research",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Directed Readings and Research",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        },
+        {
+          "text": "G400",
+          "value": "g400",
+          "title": "Directed Readings and Research",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "4"
+        },
+        {
+          "text": "G500",
+          "value": "g500",
+          "title": "Directed Readings and Research",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "5"
+        }
+      ],
+      "description": "Supervised enquiry in concentrated areas of specialization.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "881",
+      "value": "881",
+      "title": "Research Practicum",
+      "offerings": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Research Practicum",
+          "classType": "e",
+          "sectionCode": "INT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Research Practicum",
+          "classType": "e",
+          "sectionCode": "INT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Research Practicum",
+          "classType": "e",
+          "sectionCode": "INT",
+          "associatedClass": "3"
+        },
+        {
+          "text": "G400",
+          "value": "g400",
+          "title": "Research Practicum",
+          "classType": "e",
+          "sectionCode": "INT",
+          "associatedClass": "4"
+        },
+        {
+          "text": "G500",
+          "value": "g500",
+          "title": "Research Practicum",
+          "classType": "e",
+          "sectionCode": "INT",
+          "associatedClass": "5"
+        }
+      ],
+      "description": "Work and study in an approved professional setting.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "INT",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "891",
+      "value": "891",
+      "title": "Co-op I",
+      "offerings": [
+        {
+          "instructor": "Liesl Jurock",
+          "sections": [
+            "G100",
+            "G200",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Co-op I",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "COP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "892",
+      "value": "892",
+      "title": "Co-op II",
+      "offerings": [
+        {
+          "instructor": "Liesl Jurock",
+          "sections": [
+            "G100",
+            "G200",
+            "I100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "COP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "I100",
+          "value": "i100",
+          "title": "Co-op II",
+          "classType": "e",
+          "sectionCode": "COP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "COP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "893",
+      "value": "893",
+      "title": "MA Project",
+      "offerings": [],
+      "prerequisites": "CMNS 801 and one of CMNS 800, CMNS 802 or CMNS 804.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "MA Project",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "MA Project",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "MA Project",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "MA project examined by two readers. Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "895",
+      "value": "895",
+      "title": "Comprehensive Examination",
+      "offerings": [
+        {
+          "instructor": "Ahmed Al-Rawi",
+          "sections": [
+            "G200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Comprehensive Examination",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Comprehensive Examination",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "Comprehensive Examination",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "Examination of three areas of which one must be on the theoretical or methodological framework/procedures indicated by the proposed dissertation. S/U standing only. The exam may be retaken once in the event of unsatisfactory performance.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "896",
+      "value": "896",
+      "title": "MA Extended Essays",
+      "offerings": [],
+      "prerequisites": "CMNS 801 and one of CMNS 800, 802, or 804.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "MA Extended Essays",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "MA Extended Essays",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "MA Extended Essays",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "MA Extended Essays. Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "897",
+      "value": "897",
+      "title": "MA Project",
+      "offerings": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "MA Project",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "MA Project",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "MA Project",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "MA Project. Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "898",
+      "value": "898",
+      "title": "MA Thesis",
+      "offerings": [
+        {
+          "instructor": "Martin Laba",
+          "sections": [
+            "G300"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "CAP",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "MA Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "MA Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "MA Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "899",
+      "value": "899",
+      "title": "PhD Thesis",
+      "offerings": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "PhD Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "PhD Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        },
+        {
+          "text": "G300",
+          "value": "g300",
+          "title": "PhD Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "3"
+        }
+      ],
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    }
+  ]
+}
