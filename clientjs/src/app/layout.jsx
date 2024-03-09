@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="font-Inter">
-        <NavBar showSearchBar={true}/>
+        <NavBar showSearchBar={true} />
         <main className="mt-[10rem]">{children}</main>
         <Footer />
       </body>
