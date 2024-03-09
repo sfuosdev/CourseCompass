@@ -5,46 +5,60 @@ import parsePDFToCourses from './pdfParser';
 function Transcript() {
   const [parsedCourses, setParsedCourses] = useState(null);
   const [errorMessage, setErrorMessage] = useState('');
-  let [firstYear, setFirstYear] = useState(new Date().getFullYear());
-  let [lastYear, setLastYear] = useState(new Date().getFullYear());
+  const [yearRange, setYearRange] = useState({ firstYear: new Date().getFullYear(), lastYear: new Date().getFullYear() });
   const [addingCourse, setAddingCourse] = useState({ year: '', term: '', showInput: false });
 
   const addYear = (position) => {
     const updatedParsedCourses = { ...parsedCourses };
     const years = Object.keys(updatedParsedCourses);
+    const currentYear = new Date().getFullYear();
+
+    if (years.length === 0) {
+      updatedParsedCourses[currentYear.toString()] = { Spring: [], Summer: [], Fall: [] };
+      setYearRange({ firstYear: currentYear, lastYear: currentYear });
+      setParsedCourses(updatedParsedCourses);
+      return;
+    }
+
+    const firstYear = Math.min(...years.map(year => parseInt(year)));
+    const lastYear = Math.max(...years.map(year => parseInt(year)));
 
     if (position === 'before') {
-      const newFirstYear = years.length > 0 ? firstYear - 1 : new Date().getFullYear();
+      const newFirstYear = firstYear - 1;
       updatedParsedCourses[newFirstYear.toString()] = { Spring: [], Summer: [], Fall: [] };
-      setFirstYear(newFirstYear);
+      setYearRange(prevState => ({ ...prevState, firstYear: newFirstYear }));
     } else if (position === 'after') {
-      const newLastYear = years.length > 0 ? lastYear + 1 : new Date().getFullYear();
+      const newLastYear = lastYear + 1;
       updatedParsedCourses[newLastYear.toString()] = { Spring: [], Summer: [], Fall: [] };
-      setLastYear(newLastYear);
+      setYearRange(prevState => ({ ...prevState, lastYear: newLastYear }));
     }
 
     setParsedCourses(updatedParsedCourses);
   };
+
 
   const removeYear = (position) => {
     const updatedParsedCourses = { ...parsedCourses };
     const years = Object.keys(updatedParsedCourses);
-    if (years.length === 0) {
-      setFirstYear(new Date().getFullYear());
-      setLastYear(new Date().getFullYear());
-      return;
-    }
+    const firstYear = years.length > 0 ? Math.min(...years.map(year => parseInt(year))) : new Date().getFullYear();
+    const lastYear = years.length > 0 ? Math.max(...years.map(year => parseInt(year))) : new Date().getFullYear();
+
     if (position === 'before') {
-      const firstYear = Math.min(...years);
-      delete updatedParsedCourses[firstYear.toString()];
-      setFirstYear(firstYear + 1);
+      const firstYearIndex = 0;
+      const newLastYear = firstYear - 1;
+      delete updatedParsedCourses[years[firstYearIndex]];
+      setYearRange(prevState => ({ ...prevState, lastYear: newLastYear }));
+
     } else if (position === 'after') {
-      const lastYear = Math.max(...years);
-      delete updatedParsedCourses[lastYear.toString()];
-      setLastYear(lastYear - 1);
+      const lastYearIndex = years.length - 1;
+      const newFirstYear = lastYear - 1;
+      delete updatedParsedCourses[years[lastYearIndex]];
+      setYearRange(prevState => ({ ...prevState, firstYear: newFirstYear }));
     }
     setParsedCourses(updatedParsedCourses);
   };
+
+
 
   const handleParsePDF = async (file) => {
     try {
@@ -113,12 +127,16 @@ function Transcript() {
     if (!updatedCourses[`${year} ${term}`]) {
       updatedCourses[`${year} ${term}`] = [];
     }
-    if (updatedCourses[`${year} ${term}`].length < 6) {
+    if (updatedCourses[`${year} ${term}`].includes(newCourse)) {
+      alert('Course already exists');
+      return;
+    }
+    if (updatedCourses[`${year} ${term}`].length < 5) {
       updatedCourses[`${year} ${term}`].push(newCourse);
       setParsedCourses(updatedCourses);
       setAddingCourse({ year: '', term: '', showInput: false });
     } else {
-      alert('Maximum 6 courses allowed per term');
+      alert('Maximum 5 courses allowed per term');
     }
   };
 
