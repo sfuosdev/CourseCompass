@@ -146,7 +146,7 @@ const SearchPage = ({ page }) => {
                 {searchResults.map((course) => (
                   <a
                     key={course._id}
-                    href={`/courses/${course.dept}/${course.name}`}
+                    href={`/courses/2024/spring/${course.dept}/${course.name}`}
                     className="block px-4 py-2 border-b border-gray-200 hover:bg-gray-100"
                   >
                     <span className="font-bold">

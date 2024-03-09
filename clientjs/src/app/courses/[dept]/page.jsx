@@ -1,23 +1,20 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Card from "../../../components/Card";
+import Card from "../components/Card";
 import axios from "axios";
-import SortMenu from "../../../components/SortMenu";
+import SortMenu from "../components/SortMenu";
 import { ScrollToTopButton } from "@/components/LandingPage";
 import { faculties } from "@/utils/faculties";
 
-export const fetchCourses = async (params) => {
-  const url = `http://localhost:3000/api/courses`;
-  //const url = `https://course-compass-vcos.vercel.app/api/courses`;
-
-  if (!params.year || !params.term || !params.dept) return;
-
-  return await axios
-    .post(url, { year: params.year, term: params.term, dept: params.dept })
-    .then((res) => {
-      return res.data;
-    });
-};
+async function fetchCourses(dept) {
+  try {
+    const response = await axios.get(`/api/courses/getCourseList?dept=${dept}`);
+    return response.data; // Assuming the API returns a course object
+  } catch (error) {
+    console.error("Error fetching course:", error);
+    return null;
+  }
+}
 
 const findFacultyAndSchool = (dept) => {
   for (const faculty of faculties) {
@@ -47,11 +44,10 @@ const CoursesPage = ({ params }) => {
     upperDivision: false,
     graduateLevel: false,
   });
-
   const { faculty, school } = findFacultyAndSchool(params.dept);
 
   useEffect(() => {
-    fetchCourses(params).then((res) => {
+    fetchCourses(params.dept).then((res) => {
       if (res) setCourses(res.courses);
     });
   }, [params.dept]);

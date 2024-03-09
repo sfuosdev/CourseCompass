@@ -13,7 +13,7 @@ const Home = () => {
               faculty.schools.map((school) => (
                 <Link
                   key={school.departments[0]}
-                  href={`/courses/${params.dept}/${course.courseCode}`}                >
+                  href={`/courses/${school.departments[0].toLowerCase()}`}                >
                   <p>
                     <button className='border rounded-md p-2 bg-primary-blue text-white hover:bg-primary-yellow hover:text-black'>{school.departments}</button>
                   </p>
