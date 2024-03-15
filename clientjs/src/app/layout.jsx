@@ -15,6 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/profile-picture.jpg" sizes="any"/>
       <body className="font-Inter">
         <NavBar showSearchBar={true} />
         <main className="mt-[10rem]">{children}</main>
