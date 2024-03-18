@@ -4,7 +4,7 @@ import Card from "../components/Card";
 import axios from "axios";
 import SortMenu from "../components/SortMenu";
 import { ScrollToTopButton } from "@/components/LandingPage";
-import { depts } from "../page";
+import { faculties } from "@/utils/faculties";
 
 async function fetchCourses(dept) {
   try {
@@ -16,13 +16,26 @@ async function fetchCourses(dept) {
   }
 }
 
-function getDeptName(deptCode) {
-  const result = depts.filter((dept) => {
-    return dept.value == deptCode;
-  });
-  if (result) return result[0].name;
-  else return;
-}
+const findFacultyAndSchool = (dept) => {
+  for (const faculty of faculties) {
+    if (faculty.schools) {
+      const foundDepartment = faculty.schools.find((school) =>
+        school.departments.includes(dept.toUpperCase())
+      );
+      if (foundDepartment) {
+        let schoolName = foundDepartment.name.trim();
+        if (schoolName.includes(",")) {
+          schoolName =
+            schoolName.split(",")[1].trim() +
+            " " +
+            schoolName.split(",")[0].trim();
+        }
+        return { faculty: faculty.name, school: schoolName };
+      }
+    }
+  }
+  return { faculty: "", school: "" };
+};
 
 const CoursesPage = ({ params }) => {
   const [courses, setCourses] = useState([]);
@@ -31,25 +44,21 @@ const CoursesPage = ({ params }) => {
     upperDivision: false,
     graduateLevel: false,
   });
-  const [department, setDepartment] = useState("");
+  const { faculty, school } = findFacultyAndSchool(params.dept);
 
   useEffect(() => {
     fetchCourses(params.dept).then((res) => {
       if (res) setCourses(res.courses);
     });
-    setDepartment(getDeptName(params.dept));
-    console.log(params.dept);
-  }, []);
+  }, [params.dept]);
 
   return (
     <div className="m-[30px]">
       <ScrollToTopButton />
-      {/* <h2 className="text-xl">Faculty of Applied Science</h2> */}
-      <a href="/departments">
-        <h1 className="underline underline-offset-4 text-3xl m-y-5 text-[#4570E6]">
-          {department}
-        </h1>
-      </a>
+      <h2 className="text-xl border-l-4 border-b border-gray-500 px-3 w-[30rem]">{faculty}</h2>
+      <h1 className=" text-3xl m-y-5 font-bold">
+        {school}
+      </h1>
       <div className="mt-5 flex flex-col md:flex-row md:items-start">
         {/* Courses Section */}
         <div className="md:w-3/4 order-2 md:order-1 mt-5 md:mt-0">
