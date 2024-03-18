@@ -70,7 +70,6 @@ const Page = ({ params }) => {
     router.push(`/reviews?courseCode=${courseCode}`);
   };
 
-  console.log(reviews);
   const View = () => {
     switch (statusCode) {
       case 201:

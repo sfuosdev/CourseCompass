@@ -9,14 +9,22 @@ function setUserRating() {}
 
 // userEX is user
 const userEX = {
-  ID: String,
-  upvotes: Boolean,
-  downvotes: Boolean,
+  reviewer: String,
+  usefulnessRating: Number,
+  difficultyRating: Number,
+  comment: String,
+  date: String,
+  upvotes: Number,
+  ID: Number,
 };
 
 const convertToPercent = (rating) => (rating / 5) * 100;
 
-const convertDate = (date) => (date.slice(0,4) + " " + date.slice(5,7) + " " + date.slice(8,10));
+// 0-4 Year
+// 5-7 Month
+// 8-10 Day
+// Set to MM/DD/YYYY
+const convertDate = (date) => (date.toString().slice(5,7) + "/" + date.toString().slice(8,10) + "/" + date.toString().slice(0,4));
 
 // Assuming "user" and the "review" have the same ID numbers
 // Going to assume that the "review" and "user" are parsed
