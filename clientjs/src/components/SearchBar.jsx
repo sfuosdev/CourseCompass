@@ -82,23 +82,13 @@ const SearchPage = ({ page }) => {
   }, [searchTerm, searchMode]);
 
   return (
-    <div className="flex flex-col items-center mt-4">
+    <div className="flex flex-col items-center mt-[-2.125rem]">
       <div
         className="flex inline-flex flex-col mb-[-2rem]"
         ref={searchContainerRef}
       >
-        <input
-          type="text"
-          value={searchTerm}
-          onChange={handleSearch}
-          onFocus={handleSearchBarFocus}
-          placeholder="Search courses and professors eg. CMPT 120, John Smith"
-          className={`relative p-[1rem] w-[70vw] md:w-[50vw] lg:w-[50vw] h-[2.7rem] mb-[-0.5rem] ${
-            page === "LandPage" ? "rounded-md" : "rounded-full"
-          } mt-[0.6rem] ml-[1rem] md:ml-[0rem] border border-black 
-          bg-white text-black`}
-        />
-        <div className="relative flex flex-row items-start mt-2 ml-[1rem]">
+
+        <div className="relative flex flex-row items-start mt-0 ml-[1rem]">
           <p className="mr-2">Search By:</p>
           <label className="mr-4">
             Code
@@ -131,16 +121,24 @@ const SearchPage = ({ page }) => {
             />
           </label>
         </div>
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={handleSearch}
+          onFocus={handleSearchBarFocus}
+          placeholder="Search courses and professors eg. CMPT 120, John Smith"
+          className={`relative p-[1rem] w-[70vw] md:w-[50vw] lg:w-[50vw] h-[2.7rem] mb-[-0.5rem] ${page === "LandPage" ? "rounded-md" : "rounded-full"
+            } mt-[0rem] ml-[1rem] md:ml-[0rem] border border-black 
+          bg-white text-black`}
+        />
         {/* Display search results */}
         {showSearchResults && searchTerm.length > 0 && (
           <div
-            className={`${
-              page === "LandPage" ? "relative" : "absolute"
-            } border-2 ml-[1rem] md:ml-[0rem] border-black bg-white rounded-md ${
-              page === "LandPage"
+            className={`${page === "LandPage" ? "relative" : "absolute"
+              } border-2 ml-[1rem] md:ml-[0rem] border-black bg-white rounded-md ${page === "LandPage"
                 ? ""
-                : "ml-[4rem] sm:ml-[6rem] md:ml-[0rem] top-[9rem]"
-            } z-10 w-full max-w-[70vw] md:max-w-[50vw] lg:max-w-[50vw] h-[20rem] overflow-y-auto shadow-lg shadow-gray-400`}
+                : "ml-[4rem] sm:ml-[6rem] md:ml-[0rem] top-[1rem]"
+              } z-10 w-full max-w-[70vw] md:max-w-[50vw] lg:max-w-[50vw] h-[20rem] overflow-y-auto shadow-lg shadow-gray-400`}
           >
             {searchResults.length > 0 ? (
               <div>
@@ -149,7 +147,7 @@ const SearchPage = ({ page }) => {
                 {searchResults.map((course) => (
                   <a
                     key={course._id}
-                    href={`/courses/2024/spring/${course.dept}/${course.name}`}
+                    href={`/courses/${course.dept}/${course.dept}${course.name}`}
                     className="block px-4 py-2 border-b border-gray-200 hover:bg-gray-100"
                   >
                     <span className="font-bold">

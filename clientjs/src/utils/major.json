@@ -1,0 +1,134 @@
+{
+  "computingScienceMajor": {
+    "degreeOptions": ["BSc", "BA"],
+    "admissionRequirements": {
+      "entryRoutes": [
+        "direct admission from high school",
+        "direct transfer from a recognized post-secondary institution, or combined transfer units from more than one post-secondary institution",
+        "internal transfer from within Simon Fraser University"
+      ],
+      "competitiveAverages": {
+        "internalTransfer": {
+          "CRGPA": 2.67,
+          "CGPA": 2.4
+        }
+      }
+    },
+    "continuationRequirements": {
+      "minCGPA": 2.4,
+      "probationDetails": "Students who do not maintain at least a 2.40 CGPA will be placed on probation within the School. Courses available to probationary students may be limited. Each term, these students must consult an advisor prior to enrollment and must achieve either a term 2.40 term GPA or an improved CGPA. Students who fail to do so may be removed from the program. Reinstatement from probationary standing occurs when the CGPA improves to 2.40 or better and is maintained."
+    },
+    "graduationRequirements": {
+      "upperDivisionGPA": 2.0,
+      "prerequisiteGradeRequirement": "Computing science course entry requires a grade of C- or better in each prerequisite course. A minimum 2.40 CGPA is required for 200, 300 and 400 division CMPT courses."
+    },
+    "programRequirements": {
+      "lowerDivision": [
+        "CMPT 105W - Social Issues and Communication Strategies in Computing Science (3)",
+        "CMPT 120 - Introduction to Computing Science and Programming I (3)",
+        "CMPT 125 - Introduction to Computing Science and Programming II (3)",
+        "CMPT 210 - Probability and Computing (3)",
+        "CMPT 225 - Data Structures and Programming (3)",
+        "CMPT 276 - Introduction to Software Engineering (3)",
+        "CMPT 295 - Introduction to Computer Systems (4)",
+        "MACM 101 - Discrete Mathematics I (3)",
+        "STAT 271 - Probability and Statistics for Computing Science (3)",
+        "and one of",
+        "MATH 150 - Calculus I with Review (4)",
+        "MATH 151 - Calculus I (3)",
+        "MATH 154 - Mathematics for the Life Sciences I (3) **",
+        "MATH 157 - Calculus I for the Social Sciences (3) **",
+        "and one of",
+        "MATH 152 - Calculus II (3)",
+        "MATH 155 - Mathematics for the Life Sciences II (3) **",
+        "MATH 158 - Calculus II for the Social Sciences (3) **",
+        "and one of",
+        "MATH 232 - Applied Linear Algebra (3)",
+        "MATH 240 - ALgebra I:Linear Algebra (3)",
+        "** with a grade of at least B+, and with school permission."
+      ],
+      "upperDivision": [
+        "Students complete at least 45 upper division units including",
+        "CMPT 376W - Professional Responsibility and Technical Writing (3)",
+        "Students should consult an academic advisor before commencing upper division requirements."
+      ],
+      "electiveCourses": "In addition to the courses listed above, students should consult an academic advisor to plan the remaining required elective courses.",
+      "breadthRequirement": "Five courses from five of the six Table I areas of concentration must be completed including both of CMPT 300 - Operating Systems I (3) and CMPT 307 - Data Structures and Algorithms (3). CMPT 354 is also recommended."
+    },
+    "areasOfConcentration": {
+      "artificialIntelligence": [
+        "CMPT 310 - Introduction to Artificial Intelligence (3)",
+        "CMPT 340 - Biomedical Computing (3)",
+        "CMPT 410 - Machine Learning (3)",
+        "CMPT 411 - Knowledge Representation (3)",
+        "CMPT 413 - Computational Linguistics (3)",
+        "CMPT 417 - Intelligent Systems (3)",
+        "CMPT 419 - Special Topics in Artificial Intelligence (3)",
+        "CMPT 420 - Deep Learning (3)"
+      ],
+      "visualAndInteractiveComputing": [
+        "CMPT 361 - Introduction to Visual Computing (3)",
+        "CMPT 363 - User Interface Design (3)",
+        "CMPT 365 - Multimedia Systems (3)",
+        "CMPT 412 - Computer Vision (3)",
+        "CMPT 461 - Computational Photography and Image Manipulation (3)",
+        "CMPT 464 - Geometric Modelling in Computer Graphics (3)",
+        "CMPT 466 - Animation (3)",
+        "CMPT 467 - Visualization (3)",
+        "CMPT 469 - Special Topics in Computer Graphics (3)"
+      ],
+      "computingSystems": [
+        "CMPT 300 - Operating Systems I (3)",
+        "CMPT 305 - Computer Simulation and Modelling (3)",
+        "CMPT 371 - Data Communications and Networking (3)",
+        "CMPT 379 - Principles of Compiler Design (3)",
+        "CMPT 403 - System Security and Privacy (3)",
+        "CMPT 431 - Distributed Systems (3)",
+        "CMPT 433 - Embedded Systems (3)",
+        "CMPT 450 - Computer Architecture (3)",
+        "CMPT 471 - Networking II (3)",
+        "CMPT 479 - Special Topics in Computing Systems (3)",
+        "CMPT 499 - Special Topics in Computer Hardware (3)"
+      ],
+      "informationSystems": [
+        "CMPT 353 - Computational Data Science (3)",
+        "CMPT 354 - Database Systems I (3)",
+        "CMPT 362 - Mobile Applications Programming and Design (3)",
+        "CMPT 372 - Web II - Server-side Development (3)",
+        "CMPT 441 - Computational Biology (3)",
+        "CMPT 454 - Database Systems II (3)",
+        "CMPT 456 - Information Retrieval and Web Search (3)",
+        "CMPT 459 - Special Topics in Database Systems (3)",
+        "CMPT 474 - Web Systems Architecture (3)"
+      ],
+      "programmingLanguagesAndSoftware": [
+        "CMPT 373 - Software Development Methods (3)",
+        "CMPT 383 - Comparative Programming Languages (3)",
+        "CMPT 384 - Symbolic Computing (3)",
+        "CMPT 473 - Software Testing, Reliability and Security (3)",
+        "CMPT 475 - Requirements Engineering (3)",
+        "CMPT 477 - Introduction to Formal Verification (3)",
+        "CMPT 489 - Special Topics in Programming Languages (3)"
+      ],
+      "theoreticalComputingScience": [
+        "CMPT 307 - Data Structures and Algorithms (3)",
+        "CMPT 308 - Computability and Complexity (3)",
+        "CMPT 404 - Cryptography and Cryptographic Protocols (3)",
+        "CMPT 405 - Design and Analysis of Computing Algorithms (3)",
+        "CMPT 406 - Computational Geometry (3)",
+        "CMPT 407 - Computational Complexity (3)",
+        "CMPT 409 - Special Topics in Theoretical Computing Science (3)",
+        "CMPT 476 - Introduction to Quantum Algorithms (3)",
+        "MACM 300 - Introduction to Formal Languages and Automata with Applications (3)"
+      ]
+    },
+    "wqbGraduationRequirements": {
+      "writing": 6,
+      "quantitative": 6,
+      "breadth": {
+        "designated": { "B-Soc": 6, "B-Hum": 6, "B-Sci": 6 },
+        "additional": 6
+      }
+    }
+  }
+}
