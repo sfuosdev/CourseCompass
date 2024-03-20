@@ -1,8 +1,55 @@
-// import Link from "next/link";
-// import { useEffect, useState } from "react";
-
-// import { useState } from "react";
 import { motion } from "framer-motion";
+
+const TitleLabel = ({ sectionSchedule, idx }) => {
+  let title;
+  if (idx === 0) {
+    title = (
+      <div className="inline-block font-semibold text-[15px] h-[20%] mb-[5px]">
+        Lecture:
+      </div>
+    );
+  } else {
+    if (sectionSchedule[0].sectionCode === "LAB") {
+      title = (
+        <div className="inline-block font-semibold text-[15px] h-[25%] mb-[5px]">
+          Labs:
+        </div>
+      );
+    } else if (sectionSchedule[0].sectionCode === "TUT") {
+      title = (
+        <div className="inline-block font-semibold text-[15px] h-[25%] mb-[5px]">
+          Tutorials:
+        </div>
+      );
+    }
+  }
+
+  return title;
+};
+
+const ClassSchedule = ({ offering }) => {
+  const schedule = offering.courseSchedule.map((sectionSchedule, idx) => (
+    <div
+      key={`${offering.name}-${offering.sections[idx]}`}
+      className="flex flex-col mb-[10px]"
+    >
+      {idx <= 1 ? (
+        <TitleLabel sectionSchedule={sectionSchedule} idx={idx} />
+      ) : (
+        ""
+      )}
+      {offering.sections[idx]}:
+      {sectionSchedule.map((dailySchedule, idx2) => (
+        <div key={`${offering.name}-${offering.sections[idx]}-${idx2}`}>
+          {dailySchedule.days}: {dailySchedule.startTime}-
+          {dailySchedule.endTime}
+        </div>
+      ))}
+    </div>
+  ));
+
+  return schedule;
+};
 
 const ProfessorCard = ({ course }) => {
   const hoverAnimation = {
@@ -21,23 +68,10 @@ const ProfessorCard = ({ course }) => {
           key={offering.instructor}
         >
           <div className="text-[30px] font-medium">{offering.instructor}</div>
-          <div className="inline-block font-medium text-[15px] h-[5%] mb-[5px]">
+          <div className="inline-block font-medium text-[15px] h-[5%]">
             Class Schedule:
           </div>
-          {offering.courseSchedule.map((sectionSchedule, idx) => (
-            <div
-              key={`${offering.name}-${offering.sections[idx]}`}
-              className="flex flex-col mb-[10px]"
-            >
-              {offering.sections[idx]}:
-              {sectionSchedule.map((dailySchedule, idx2) => (
-                <div key={`${offering.name}-${offering.sections[idx]}-${idx2}`}>
-                  {dailySchedule.days}: {dailySchedule.startTime}-
-                  {dailySchedule.endTime}
-                </div>
-              ))}
-            </div>
-          ))}
+          <ClassSchedule offering={offering} />
         </motion.div>
       ))}
     </div>

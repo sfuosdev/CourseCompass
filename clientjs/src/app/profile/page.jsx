@@ -5,6 +5,7 @@ import ProfileCompletionList from "@/components/ProfileCompletionList";
 import FavouriteCoursesList from "@/components/FavouriteCoursesList";
 import { useState, useEffect } from "react";
 import { departments } from "@/components/LoginSignupModal";
+import Transcript from "./transcript/page";
 
 const userInfo = {
   fullname: "Peter Chan",
@@ -48,15 +49,8 @@ function ImportCoursesView() {
         </div>
         <div className="pb-9 font-normal text-[18px]">
           Import your course history to leave reviews by either uploading your
-          transcript or adding the courses manually{" "}
-          {
-            <a
-              href="/transcript"
-              className="underline underline-offset-3 text-primary-blue"
-            >
-              here
-            </a>
-          }
+          transcript or adding the courses manually
+          <Transcript />
         </div>
       </div>
     </div>

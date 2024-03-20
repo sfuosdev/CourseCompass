@@ -1,51 +1,67 @@
 "use client";
-import { useState } from 'react';
+import axios from "axios";
+import { useState, useEffect, useRef } from "react";
+//import SearchBar from '../test/page';
 import parsePDFToCourses from './pdfParser';
 
-function Page() {
+function Transcript() {
   const [parsedCourses, setParsedCourses] = useState(null);
   const [errorMessage, setErrorMessage] = useState('');
-  let [firstYear, setFirstYear] = useState(new Date().getFullYear());
-  let [lastYear, setLastYear] = useState(new Date().getFullYear());
+  const [yearRange, setYearRange] = useState({ firstYear: new Date().getFullYear(), lastYear: new Date().getFullYear() });
   const [addingCourse, setAddingCourse] = useState({ year: '', term: '', showInput: false });
 
   const addYear = (position) => {
     const updatedParsedCourses = { ...parsedCourses };
     const years = Object.keys(updatedParsedCourses);
-  
-    if (position === 'before') {
-      const newFirstYear = years.length > 0 ? firstYear - 1 : new Date().getFullYear();
-      updatedParsedCourses[newFirstYear.toString()] = { Spring: [], Summer: [], Fall: [] };
-      setFirstYear(newFirstYear);
-    } else if (position === 'after') {
-      const newLastYear = years.length > 0 ? lastYear + 1 : new Date().getFullYear();
-      updatedParsedCourses[newLastYear.toString()] = { Spring: [], Summer: [], Fall: [] };
-      setLastYear(newLastYear);
+    const currentYear = new Date().getFullYear();
+
+    if (years.length === 0) {
+      updatedParsedCourses[currentYear.toString()] = { Spring: [], Summer: [], Fall: [] };
+      setYearRange({ firstYear: currentYear, lastYear: currentYear });
+      setParsedCourses(updatedParsedCourses);
+      return;
     }
-  
+
+    const firstYear = Math.min(...years.map(year => parseInt(year)));
+    const lastYear = Math.max(...years.map(year => parseInt(year)));
+
+    if (position === 'before') {
+      const newFirstYear = firstYear - 1;
+      updatedParsedCourses[newFirstYear.toString()] = { Spring: [], Summer: [], Fall: [] };
+      setYearRange(prevState => ({ ...prevState, firstYear: newFirstYear }));
+    } else if (position === 'after') {
+      const newLastYear = lastYear + 1;
+      updatedParsedCourses[newLastYear.toString()] = { Spring: [], Summer: [], Fall: [] };
+      setYearRange(prevState => ({ ...prevState, lastYear: newLastYear }));
+    }
+
     setParsedCourses(updatedParsedCourses);
   };
+
 
   const removeYear = (position) => {
     const updatedParsedCourses = { ...parsedCourses };
     const years = Object.keys(updatedParsedCourses);
-    if (years.length === 0) {
-      setFirstYear(new Date().getFullYear());
-      setLastYear(new Date().getFullYear());
-      return;
-    }
+    const firstYear = years.length > 0 ? Math.min(...years.map(year => parseInt(year))) : new Date().getFullYear();
+    const lastYear = years.length > 0 ? Math.max(...years.map(year => parseInt(year))) : new Date().getFullYear();
+
     if (position === 'before') {
-      const firstYear = Math.min(...years);
-      delete updatedParsedCourses[firstYear.toString()];
-      setFirstYear(firstYear + 1);
+      const firstYearIndex = 0;
+      const newLastYear = firstYear - 1;
+      delete updatedParsedCourses[years[firstYearIndex]];
+      setYearRange(prevState => ({ ...prevState, lastYear: newLastYear }));
+
     } else if (position === 'after') {
-      const lastYear = Math.max(...years);
-      delete updatedParsedCourses[lastYear.toString()];
-      setLastYear(lastYear - 1);
+      const lastYearIndex = years.length - 1;
+      const newFirstYear = lastYear - 1;
+      delete updatedParsedCourses[years[lastYearIndex]];
+      setYearRange(prevState => ({ ...prevState, firstYear: newFirstYear }));
     }
     setParsedCourses(updatedParsedCourses);
   };
-  
+
+
+
   const handleParsePDF = async (file) => {
     try {
       const reader = new FileReader();
@@ -55,8 +71,8 @@ function Page() {
         if (courses && Object.keys(courses).length > 0) {
           setParsedCourses(courses);
           const transcriptYears = Object.keys(courses).map(yearTerm => parseInt(yearTerm.split(' ')[0]));
-          setFirstYear(Math.min(...transcriptYears));
-          setLastYear(Math.max(...transcriptYears));
+          const minYear = Math.min(...transcriptYears);
+          setYearRange(prevState => ({ ...prevState, firstYear: minYear }));
           setErrorMessage('');
         } else {
           setParsedCourses(null);
@@ -71,10 +87,11 @@ function Page() {
     }
   };
 
+
   const handleDrop = (event) => {
     event.preventDefault();
     const files = event.dataTransfer.files;
-    
+
     if (files.length > 0) {
       const file = files[0];
       if (file.type === 'application/pdf') {
@@ -85,7 +102,7 @@ function Page() {
       }
     }
   };
-  
+
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (file.type === 'application/pdf') {
@@ -109,16 +126,22 @@ function Page() {
   };
 
   const handleAddCourse = (year, term, newCourse) => {
+    // Need to do a check before sumbitting the result
     const updatedCourses = { ...parsedCourses };
     if (!updatedCourses[`${year} ${term}`]) {
       updatedCourses[`${year} ${term}`] = [];
     }
-    if (updatedCourses[`${year} ${term}`].length < 6) {
+
+    if (updatedCourses[`${year} ${term}`].includes(newCourse)) {
+      alert('Course already exists');
+      return;
+    }
+    if (updatedCourses[`${year} ${term}`].length < 5) {
       updatedCourses[`${year} ${term}`].push(newCourse);
       setParsedCourses(updatedCourses);
       setAddingCourse({ year: '', term: '', showInput: false });
     } else {
-      alert('Maximum 6 courses allowed per term');
+      alert('Maximum 5 courses allowed per term');
     }
   };
 
@@ -136,21 +159,21 @@ function Page() {
         </div>
       );
     }
-  
+
     if (parsedCourses === null) {
       return null;
     }
-  
+
     const years = {};
     Object.keys(parsedCourses).forEach(yearTerm => {
       const [year, term] = yearTerm.split(' ');
       if (!years[year]) {
         years[year] = { Spring: [], Summer: [], Fall: [] };
       }
-  
+
       years[year][term] = parsedCourses[yearTerm];
     });
-  
+
     return (
       <div>
         {Object.keys(years).map(year => (
@@ -169,11 +192,11 @@ function Page() {
                         </li>
                       ))
                     ) : (
-                      <li className="py-1">null term</li>
+                      <li className="py-1">Enter Course code `CMPT 125`</li>
                     )}
                     {addingCourse.showInput && addingCourse.year === year && addingCourse.term === term && (
                       <li>
-                        <input
+                        {/* <input
                           type="text"
                           placeholder="Add a course"
                           onKeyDown={(e) => {
@@ -182,7 +205,8 @@ function Page() {
                               e.target.value = '';
                             }
                           }}
-                        />
+                        /> */}
+                        <ManualCourseSearch handleAddCourse={handleAddCourse} year={year} term={term} />
                       </li>
                     )}
                     {years[year][term].length < 6 && (
@@ -199,7 +223,7 @@ function Page() {
       </div>
     );
   };
-  
+
 
   return (
     <div className="p-4">
@@ -231,4 +255,137 @@ function Page() {
   );
 }
 
-export default Page;
+const ManualCourseSearch = ({ handleAddCourse, year, term }) => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  const [showSearchResults, setShowSearchResults] = useState(false);
+  const [error, setError] = useState(null);
+  const searchContainerRef = useRef(null);
+  const debounceTimeoutRef = useRef(null);
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const handleClickOutside = (event) => {
+    if (
+      searchContainerRef.current &&
+      !searchContainerRef.current.contains(event.target)
+    ) {
+      setShowSearchResults(false);
+    }
+  };
+
+  const handleSearchBarFocus = () => {
+    setShowSearchResults(true);
+  };
+
+  const debounceSearch = (value) => {
+    clearTimeout(debounceTimeoutRef.current);
+    debounceTimeoutRef.current = setTimeout(() => {
+      fetchSearchResults(value);
+    }, 100); // Adjust the debounce delay as needed
+  };
+
+  const fetchSearchResults = async (value) => {
+    try {
+      const response = await axios.get(
+        `/api/search/searchCourses?searchTerm=${value}&searchMode=${'code'}`
+      );
+      const data = await response.data;
+      setSearchResults(data.courses);
+      setShowSearchResults(true);
+      setError(null);
+    } catch (error) {
+      console.error("Error fetching search results:", error);
+      setError("Error fetching search results");
+      setShowSearchResults(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      clearTimeout(debounceTimeoutRef.current); // Cleanup debounce timeout on unmount
+    };
+  }, [showSearchResults]);
+
+  useEffect(() => {
+    if (!"code") {
+      setError("No search mode selected");
+      setShowSearchResults(false);
+      return;
+    }
+
+    if (searchTerm.trim() !== "") {
+      debounceSearch(searchTerm.trim());
+    } else {
+      setShowSearchResults(false);
+    }
+
+    // Cleanup debounce timeout on new search term
+    return () => {
+      clearTimeout(debounceTimeoutRef.current);
+    };
+  }, [searchTerm]);
+
+  return (
+    <>
+      <input
+        type="text"
+        value={searchTerm}
+        onChange={handleSearch}
+        onFocus={handleSearchBarFocus}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+            handleAddCourse(year, term, e.target.value);
+            e.target.value = '';
+          }
+        }}
+        placeholder="Add a course"
+      // className={`relative p-[1rem] w-[70vw] md:w-[50vw] lg:w-[50vw] h-[2.7rem] mb-[-0.5rem] ${
+      // page === "LandPage" ? "rounded-md" : "rounded-full"
+      // } mt-[0.6rem] ml-[1rem] md:ml-[0rem] border border-black 
+      // bg-white text-black`}
+      />
+      {showSearchResults && searchTerm.length > 0 && (
+        <div className="overflow-auto overflow-x-hidden h-60"
+        // className={`${
+        //   page === "LandPage" ? "relative" : "absolute"
+        // } border-2 ml-[1rem] md:ml-[0rem] border-black bg-white rounded-md ${
+        //   page === "LandPage"
+        //     ? ""
+        //     : "ml-[4rem] sm:ml-[6rem] md:ml-[0rem] top-[9rem]"
+        // } z-10 w-full max-w-[70vw] md:max-w-[50vw] lg:max-w-[50vw] h-[20rem] overflow-y-auto shadow-lg shadow-gray-400`}
+        >
+          {searchResults.length > 0 ? (
+            <div>
+              {" "}
+              {/* Adjust max-width as needed */}
+              {searchResults.map((course) => (
+                <button
+                  key={course._id}
+                  onClick={() => handleAddCourse(year, term, `${course.dept} ${course.name}`)}
+                  className="block truncate px-4 py-2 border-b border-gray-200 hover:bg-gray-100"
+                >
+                  <span className="font-bold">
+                    {course.dept} {course.name}{" "}
+                  </span>
+                  - {course.title}
+                </button>
+              ))}
+            </div>
+          ) : (
+            <p className="text-center bold text-red-500 pt-[4rem]">
+              No results found
+            </p>
+          )}
+        </div>
+      )}
+    </>
+  );
+}
+
+export default Transcript;

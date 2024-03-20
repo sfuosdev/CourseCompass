@@ -1,5 +1,5 @@
 import { AutoTokenizer, AutoModel } from "@xenova/transformers";
-import { departments } from "../../../components/LoginSignUpModal";
+import { faculties } from "@/utils/faculties";
 import fs, { writeFileSync, readFileSync } from "fs";
 import dbConnect from "../../../app/utils/dbConnect";
 import Course from "../../../models/Course";
@@ -32,7 +32,7 @@ async function loadModel() {
 
   let model = await AutoModel.from_pretrained("Xenova/all-MiniLM-L6-v2");
   await dbConnect();
-  for (let dept of departments) {
+  for (let dept of faculties) {
     const deptEmbeddings = { dept: dept.value, courses: [] };
 
     const courses = await Course.find({ dept: dept.value });

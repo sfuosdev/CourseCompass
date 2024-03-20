@@ -1,0 +1,5033 @@
+{
+  "courses": [
+    {
+      "text": "101",
+      "value": "101",
+      "title": "Introduction to Criminology",
+      "offerings": [
+        {
+          "instructor": "Dawn Rault",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Richard Konarski",
+          "sections": [
+            "D900"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Criminology",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D109",
+          "value": "d109",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D110",
+          "value": "d110",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D111",
+          "value": "d111",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D112",
+          "value": "d112",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D113",
+          "value": "d113",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D114",
+          "value": "d114",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D115",
+          "value": "d115",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D116",
+          "value": "d116",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D117",
+          "value": "d117",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D118",
+          "value": "d118",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D119",
+          "value": "d119",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D120",
+          "value": "d120",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D900",
+          "value": "d900",
+          "title": "Introduction to Criminology",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D901",
+          "value": "d901",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D902",
+          "value": "d902",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D903",
+          "value": "d903",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D904",
+          "value": "d904",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D906",
+          "value": "d906",
+          "title": "Introduction to Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        }
+      ],
+      "description": "Topics will include: examination of different terms and concepts commonly used in criminology, such as crime, delinquency, deviance, criminal, victim, rehabilitation and treatment. Criminology as a body of knowledge and as a profession. Position and subject matter of criminology. Relationship between criminology and other academic disciplines. Specificity of criminology. Relationship between theory and practice. History and evolution of criminological thought. Elements of continuity and discontinuity between classical and modern theories of criminality. Levels of explanations in criminology. Practical applications of criminology. The foundations of a modern criminal policy. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Surrey",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "11:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "103",
+      "value": "103",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "offerings": [
+        {
+          "instructor": "Jennifer Wong",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Evan Mccuish",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "PSYC 100 and 102 are recommended.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D109",
+          "value": "d109",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D110",
+          "value": "d110",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D201",
+          "value": "d201",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D202",
+          "value": "d202",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D203",
+          "value": "d203",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D204",
+          "value": "d204",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D205",
+          "value": "d205",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D206",
+          "value": "d206",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D207",
+          "value": "d207",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D208",
+          "value": "d208",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D209",
+          "value": "d209",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D210",
+          "value": "d210",
+          "title": "Psychological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "An introduction to, and critical examination of, biogenetic, psychiatric, and psychological explanations of criminal and deviant behavior. Special attention will be given to the hypothesized links between criminality and genetics, physiology, the endocrine system, mental disorders, personality, moral development, and other forms of social learning. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "TUT",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "104",
+      "value": "104",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "offerings": [
+        {
+          "instructor": "Dawn Rault",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Richard Konarski",
+          "sections": [
+            "D900"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "SA 150 is recommended.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D109",
+          "value": "d109",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D110",
+          "value": "d110",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D900",
+          "value": "d900",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D901",
+          "value": "d901",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D902",
+          "value": "d902",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D903",
+          "value": "d903",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D904",
+          "value": "d904",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D905",
+          "value": "d905",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D906",
+          "value": "d906",
+          "title": "Sociological Explanations of Criminal and Deviant Behavior",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        }
+      ],
+      "description": "A survey of some major sociological perspectives on crime and deviance that will include both mainstream and critical theories. These will include: anomie, neutralization, control, group conflict, sub-cultural, ecological, functionalist and critical theories. Critical analysis of the assumptions upon which each theory is based. Examination of the similarities and differences between/among the various explanations.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Surrey",
+          "days": "Th",
+          "sectionCode": "TUT",
+          "startTime": "15:30",
+          "isExam": false,
+          "endTime": "16:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "131",
+      "value": "131",
+      "title": "Introduction to the Criminal Justice System - A Total System Approach",
+      "offerings": [
+        {
+          "instructor": "Danielle Murdoch",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Nikolay Shchitov",
+          "sections": [
+            "D900"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "We",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to the Criminal Justice System - A Total System Approach",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D900",
+          "value": "d900",
+          "title": "Introduction to the Criminal Justice System - A Total System Approach",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Introductory analysis of the structure and operation of the Canadian criminal justice system. Examination of the patterns of crime and victimization; police operations, discretion and decision making; the criminal courts, including sentencing; the corrections system, including correctional institutions and community-based models; the youth justice system. Patterns of contact and conflict between various social groups and the criminal justice system. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Surrey",
+          "days": "We",
+          "sectionCode": "LEC",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "135",
+      "value": "135",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "offerings": [
+        {
+          "instructor": "Graeme Bowbrick",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Tamara O'Doherty",
+          "sections": [
+            "D900"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D109",
+          "value": "d109",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D110",
+          "value": "d110",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D900",
+          "value": "d900",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D901",
+          "value": "d901",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D902",
+          "value": "d902",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D903",
+          "value": "d903",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D904",
+          "value": "d904",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D905",
+          "value": "d905",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D906",
+          "value": "d906",
+          "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        }
+      ],
+      "description": "A general introduction to the fundamental and competing principles of jurisprudence and to the basic legal institutions of Canada. Prepares students for those law and law related courses offered within the School of Criminology and will consider the history of Canadian law, the development of the Canadian constitution, the system of Canadian courts and the roles and responsibilities of members of the legal profession. In addition, the course will consider the nature of legal reasoning, the doctrine of precedent, principles of statutory interpretation and will also introduce the fields of contract, torts, administrative law, and family law. Also examines the process of law reform in Canada. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Surrey",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "210",
+      "value": "210",
+      "title": "Law, Youth and Young Offenders",
+      "offerings": [
+        {
+          "instructor": "Evan Mccuish",
+          "sections": [
+            "OL01"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101 and CRIM 131.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "OL01",
+          "value": "ol01",
+          "title": "Law, Youth and Young Offenders",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "100"
+        }
+      ],
+      "description": "An analysis of the definition and control of youthful misconduct in an historical and contemporary context. Attention is focused upon: the social construction of 'juvenile delinquency', the decline of the concept, and the emergence of the concept of the 'young offender'; the Young Offenders Act and related legislation; the growth of the welfare state and the role of social workers in 'policing' youth and families; explanations for the criminal behavior of young persons; state and private sector programs designed to deal with such behavior.",
+      "deliveryMethod": "Online",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "OLC",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "220",
+      "value": "220",
+      "title": "Research Methods in Criminology",
+      "offerings": [
+        {
+          "instructor": "Zachary Rowan",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Shannon Linning",
+          "sections": [
+            "OL01"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Any 100 division CRIM course is recommended.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Research Methods in Criminology",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "OL01",
+          "value": "ol01",
+          "title": "Research Methods in Criminology",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "100"
+        }
+      ],
+      "notes": "Students with credit for CRIM 120 may not take CRIM 220 for further credit.",
+      "description": "An introduction to criminological research that is intended to develop the student's research and analytical skills. Specifically, the course will focus on the theory of inquiry, the logic, and structure of criminological inquiry, research design, data gathering, analysis and reporting. ",
+      "deliveryMethod": "Online",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "OLC",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "230",
+      "value": "230",
+      "title": "Criminal Law",
+      "offerings": [
+        {
+          "instructor": "Amy Conroy",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Tamara O'Doherty",
+          "sections": [
+            "OL01"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 135.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Criminal Law",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Criminal Law",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Criminal Law",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Criminal Law",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Criminal Law",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Criminal Law",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Criminal Law",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Criminal Law",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "OL01",
+          "value": "ol01",
+          "title": "Criminal Law",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "100"
+        }
+      ],
+      "description": "Nature, purpose, scope, sources and basic principles of the criminal law. Study of certain fundamental legal concepts such as mens rea, negligence and strict liability. Analysis of the concept of criminal responsibility in Canada. Critical examination of the legislative policies expressed in the Criminal Code. Study of the basic elements of a criminal offence. Examination of the legal principles relating to certain specific crimes and to certain major defences. Impact of Canadian Charter of Rights and Freedoms on the criminal law.",
+      "deliveryMethod": "Online",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "OLC",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "241",
+      "value": "241",
+      "title": "Introduction to Corrections",
+      "offerings": [
+        {
+          "instructor": "Amanda Butler",
+          "sections": [
+            "D900"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 131.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D900",
+          "value": "d900",
+          "title": "Introduction to Corrections",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D901",
+          "value": "d901",
+          "title": "Introduction to Corrections",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D902",
+          "value": "d902",
+          "title": "Introduction to Corrections",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D903",
+          "value": "d903",
+          "title": "Introduction to Corrections",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "9"
+        }
+      ],
+      "description": "An examination of the organization, structure and operation of contemporary Canadian corrections. A consideration of the history and development of provincial and federal correctional systems. The role of sentencing in the correctional process and alternatives to confinement. Discussion of the social organization of correctional institutions, including the inmates, correctional officers, correctional treatment staff and administrators. Parole board decision making and the issues surrounding the re-entry of offenders into the community. Community-based corrections programs and outcomes.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Surrey",
+          "days": "Mo",
+          "sectionCode": "TUT",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "15:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "251",
+      "value": "251",
+      "title": "Introduction to Policing",
+      "offerings": [
+        {
+          "instructor": "Rylan Simpson",
+          "sections": [
+            "E900"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 131.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "E900",
+          "value": "e900",
+          "title": "Introduction to Policing",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "9"
+        }
+      ],
+      "notes": "Students with credit for CRIM 151 may not take this course for further credit.",
+      "description": "An examination of the organization and operation of contemporary Canadian policing. Consideration of the history and development of policing in Canada, the role of the police in Canadian society and the police occupation, including recruitment and training. Discussion of police decision making and the exercise of discretion, police powers, and structures of accountability. Managing the police organization. Examination of police-community relations and crime prevention initiatives.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Surrey",
+          "days": "Th",
+          "sectionCode": "LEC",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "19:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "300W",
+      "value": "300w",
+      "title": "Current Theories and Perspectives in Criminology",
+      "offerings": [
+        {
+          "instructor": "Alexandra Lysova",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D106",
+          "value": "d106",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D107",
+          "value": "d107",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D108",
+          "value": "d108",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D109",
+          "value": "d109",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D110",
+          "value": "d110",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D111",
+          "value": "d111",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D112",
+          "value": "d112",
+          "title": "Current Theories and Perspectives in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CRIM 300 may not take this course for further credit.",
+      "description": "A detailed examination of current theories and perspectives in criminology. The content of the course will change with developments in the area. Students can expect to study biological, psychological and sociological theories and perspectives, as well as those from other relevant disciplines and fields of inquiry (e.g. geography, political science and cultural studies).",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "302",
+      "value": "302",
+      "title": "Critical Approaches to Crime and Deviance",
+      "offerings": [
+        {
+          "instructor": "Tamara O'Doherty",
+          "sections": [
+            "B100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "B100",
+          "value": "b100",
+          "title": "Critical Approaches to Crime and Deviance",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B101",
+          "value": "b101",
+          "title": "Critical Approaches to Crime and Deviance",
+          "classType": "n",
+          "sectionCode": "OLC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Critique of traditional criminological theory and of the conventional approaches to the problems of crime and punishment. Critique of classical etiological criminology. Examination of the relationships between crime, class and power. The criminal as a scapegoat for the system. The stereotype of the criminal. Street crime vs. corporation and state crime. Criticism of treatment ideology and techniques. Comparison of conservative and radical criminal policy. The controversy about the possibility of a value-free social science and about the political commitment of the social scientist.",
+      "deliveryMethod": "Blended",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "LEC",
+          "startTime": "9:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "303",
+      "value": "303",
+      "title": "Historical Reactions to Crime and Deviance",
+      "offerings": [
+        {
+          "instructor": "Mackenzie Hart",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Any 100 division CRIM course.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Historical Reactions to Crime and Deviance",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D201",
+          "value": "d201",
+          "title": "Historical Reactions to Crime and Deviance",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        }
+      ],
+      "notes": "Students with credit for CRIM 203 may not take this course for further credit.",
+      "description": "Historical review of society's reaction to crime and deviance, relating this history to religious, political, social and philosophical movements and schools of thought. Consideration of the history and evolution of punishment and penal methods and the historical forces influencing the development, implementation, and modification of these methods.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "TUT",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "311",
+      "value": "311",
+      "title": "Social Inequalities and the Criminal Justice System",
+      "offerings": [
+        {
+          "instructor": "Valerie Spicer",
+          "sections": [
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "E100",
+          "value": "e100",
+          "title": "Social Inequalities and the Criminal Justice System",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E101",
+          "value": "e101",
+          "title": "Social Inequalities and the Criminal Justice System",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E102",
+          "value": "e102",
+          "title": "Social Inequalities and the Criminal Justice System",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E103",
+          "value": "e103",
+          "title": "Social Inequalities and the Criminal Justice System",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E104",
+          "value": "e104",
+          "title": "Social Inequalities and the Criminal Justice System",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E105",
+          "value": "e105",
+          "title": "Social Inequalities and the Criminal Justice System",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E106",
+          "value": "e106",
+          "title": "Social Inequalities and the Criminal Justice System",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "An analysis of the intersections between social inequalities and the criminal justice system through an examination of systematic and structural racism, discrimination, and oppression. Students will critically analyze the experiences of different groups (across race, ethnicity, religion, class, gender, sexual orientation, (dis)ability, health, among others) and their interactions with the criminal justice system and access to justice through an exploration of justice-related policies, legislation, and practices.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "TUT",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "13:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "314",
+      "value": "314",
+      "title": "Mental Disorder, Criminality and the Law",
+      "offerings": [
+        {
+          "instructor": "Nikolay Shchitov",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101. Recommended: CRIM 131.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Mental Disorder, Criminality and the Law",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Critical examination of the impact of psychiatry and related clinical professions on the criminal justice system. Relationship between institutions of mental health and legal control. The relevance of psychiatric theory and decision-making for the processing of mentally disordered offenders. The role of forensic clinicians in the courts, prisons, mental hospitals and related agencies. Specific issues addressed in this course will include psychiatric assessment, criminal responsibility, fitness to stand trial, prediction of dangerousness, treatment of mentally ill criminals and the penal and therapeutic commitment of the insane.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "315",
+      "value": "315",
+      "title": "Restorative Justice",
+      "offerings": [
+        {
+          "instructor": "Brenda Morrison",
+          "sections": [
+            "B100",
+            "B100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "OLC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "OLC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "45 units.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "B100",
+          "value": "b100",
+          "title": "Restorative Justice",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "B101",
+          "value": "b101",
+          "title": "Restorative Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "B102",
+          "value": "b102",
+          "title": "Restorative Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "B103",
+          "value": "b103",
+          "title": "Restorative Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "B104",
+          "value": "b104",
+          "title": "Restorative Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "B105",
+          "value": "b105",
+          "title": "Restorative Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "B106",
+          "value": "b106",
+          "title": "Restorative Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "The course will contrast restorative justice with the dominant adversarial/retributive/punitive model of justice through a critical analysis of these two paradigms of justice. Several key principles, assumptions, and concepts necessary for understanding the foundation and practice of restorative justice will be introduced and explored.",
+      "deliveryMethod": "Blended",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "19:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "318",
+      "value": "318",
+      "title": "Special Topics in Criminology",
+      "offerings": [
+        {
+          "instructor": "Dawn Rault",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Vienna Lam",
+          "sections": [
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Special Topics in Criminology",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Special Topics in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Special Topics in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Special Topics in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Special Topics in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E100",
+          "value": "e100",
+          "title": "Special Topics in Criminology",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E101",
+          "value": "e101",
+          "title": "Special Topics in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E102",
+          "value": "e102",
+          "title": "Special Topics in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E103",
+          "value": "e103",
+          "title": "Special Topics in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E104",
+          "value": "e104",
+          "title": "Special Topics in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E106",
+          "value": "e106",
+          "title": "Special Topics in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "A critical analysis of specific areas of criminology or criminal justice. The subjects covered will change from term to term depending on the specific interests of faculty, or students and current issues in criminology.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "TUT",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "320",
+      "value": "320",
+      "title": "Quantitative Research Methods in Criminology",
+      "offerings": [
+        {
+          "instructor": "Martin Andresen",
+          "sections": [
+            "B100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Maaike Helmus",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101; one of CRIM 120 or 220. CRIM 320 may be taken concurrently with CRIM 321.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "B100",
+          "value": "b100",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B101",
+          "value": "b101",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B103",
+          "value": "b103",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B104",
+          "value": "b104",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B105",
+          "value": "b105",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B106",
+          "value": "b106",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B107",
+          "value": "b107",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B108",
+          "value": "b108",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B109",
+          "value": "b109",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B110",
+          "value": "b110",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D201",
+          "value": "d201",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D202",
+          "value": "d202",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D203",
+          "value": "d203",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D204",
+          "value": "d204",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D205",
+          "value": "d205",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D206",
+          "value": "d206",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D207",
+          "value": "d207",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D208",
+          "value": "d208",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D209",
+          "value": "d209",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D210",
+          "value": "d210",
+          "title": "Quantitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "A detailed examination of the quantitative research methods and techniques most frequently used in criminological research. Advantages and shortcomings of each method and the appropriateness of each technique for criminological research. Problems of pure and applied research. Specific issues of interdisciplinary research. Critical evaluation of the quantitative methods used in certain major criminological studies.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "TUT",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "321",
+      "value": "321",
+      "title": "Qualitative Research Methods in Criminology",
+      "offerings": [
+        {
+          "instructor": "Sheri Fabian",
+          "sections": [
+            "B100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Rachelle Louden",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "B100",
+          "value": "b100",
+          "title": "Qualitative Research Methods in Criminology",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B101",
+          "value": "b101",
+          "title": "Qualitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "OLC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Qualitative Research Methods in Criminology",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D201",
+          "value": "d201",
+          "title": "Qualitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D202",
+          "value": "d202",
+          "title": "Qualitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D203",
+          "value": "d203",
+          "title": "Qualitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D204",
+          "value": "d204",
+          "title": "Qualitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D205",
+          "value": "d205",
+          "title": "Qualitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D206",
+          "value": "d206",
+          "title": "Qualitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D208",
+          "value": "d208",
+          "title": "Qualitative Research Methods in Criminology",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "A detailed examination and application of qualitative research methods and techniques most frequently used in criminological research. Advantages and disadvantages of each method and the appropriateness of each technique for criminological research. Ethics of criminological research. Specific issues of interdisciplinary research. Critical evaluation of qualitative methods used in certain major criminological studies.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "TUT",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "330",
+      "value": "330",
+      "title": "Criminal Procedure and Evidence",
+      "offerings": [
+        {
+          "instructor": "David Macalister",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Helene Love",
+          "sections": [
+            "OL01"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101 and 230.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Criminal Procedure and Evidence",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "OL01",
+          "value": "ol01",
+          "title": "Criminal Procedure and Evidence",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "100"
+        }
+      ],
+      "description": "Critical examination of selected topics in criminal procedure and evidence, including jurisdiction, police powers of search and seizure, the right to counsel and pre-trial and trial procedures. Brief survey of the system of rules and standards by means of which the admissibility of evidence is determined. Close examination of the Charter of Rights and Freedoms and its impact on criminal procedure and evidence.",
+      "deliveryMethod": "Online",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "OLC",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "332",
+      "value": "332",
+      "title": "Sociology of Law",
+      "offerings": [
+        {
+          "instructor": "Amy Conroy",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "SEM",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101 and 135.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Sociology of Law",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Introduction to the theory of sociology of law. Law and social structure. Law as a product of a social system and as an instrument of social change. Social functions of the law. Relationship between law and the structure and function of various other social institutions. The process of law-making. Process by which various interests become translated into legal rules. The social reality of the law; the law in action. Social sciences findings into the operation and practice of the law. Critical and feminist perspectives on law. Public knowledge, awareness, opinions and attitudes to the law, sanctions and the criminal justice system.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "SEM",
+          "startTime": "11:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "340",
+      "value": "340",
+      "title": "Criminal Justice Policy Making and Policy Analysis",
+      "offerings": [
+        {
+          "instructor": "Jennifer Wong",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "We",
+                "sectionCode": "SEM",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101 and 220.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Criminal Justice Policy Making and Policy Analysis",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "An applied course exploring criminology/criminal justice policy problems and how to identify effective solutions for decisionmakers. Uses case studies and a variety of in-class examples to practice the various steps involved in policy analysis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "SEM",
+          "startTime": "9:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "343",
+      "value": "343",
+      "title": "Correctional Practice",
+      "offerings": [
+        {
+          "instructor": "Danielle Murdoch",
+          "sections": [
+            "B100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101. Recommended: CRIM 241.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "B100",
+          "value": "b100",
+          "title": "Correctional Practice",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B101",
+          "value": "b101",
+          "title": "Correctional Practice",
+          "classType": "n",
+          "sectionCode": "OLC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "An in-depth consideration of a range of factors influencing contemporary correctional practice. The fundamental tension between the interests of offenders and the requirements of those managing correctional programs; the context provided by underlying theoretical assumptions about correctional practice and by influences such as public perceptions, politics and the economy.",
+      "deliveryMethod": "Blended",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "LEC",
+          "startTime": "10:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "344",
+      "value": "344",
+      "title": "Sentencing: Theory, Law and Practice",
+      "offerings": [
+        {
+          "instructor": "David Macalister",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101 and CRIM 135.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Sentencing: Theory, Law and Practice",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Sentencing: Theory, Law and Practice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Sentencing: Theory, Law and Practice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Sentencing: Theory, Law and Practice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Sentencing: Theory, Law and Practice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students who have taken CRIM 416 in Spring 2019 and CRIM 414 (Spring 2011, Spring 2012, Spring 2013, and Fall 2015), under the title \"Sentencing: Theory, Law and Practice\" may not take this course for further credit.",
+      "description": "Explores sentencing theory, the law applicable to sentencing, the practice of sentencing, and public perceptions. Looks at reforms of sentencing practice. The legal framework governing sentencing practices will be closely analyzed. However, a multidisciplinary approach will be taken, incorporating legal and social science perspectives.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "TUT",
+          "startTime": "18:30",
+          "isExam": false,
+          "endTime": "19:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "346",
+      "value": "346",
+      "title": "Current Issues in Corrections",
+      "offerings": [
+        {
+          "instructor": "Amanda Butler",
+          "sections": [
+            "B100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "10:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101. Recommended: CRIM 241",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "B100",
+          "value": "b100",
+          "title": "Current Issues in Corrections",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B101",
+          "value": "b101",
+          "title": "Current Issues in Corrections",
+          "classType": "n",
+          "sectionCode": "OLC",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "In-depth critical assessment of contemporary issues faced by criminologists in relation to correctional operations and programming.  Discusses current practices in corrections, including offenders' classification, criminological assessment, management of exceptional offenders and evidence-based programs offered to offenders.",
+      "deliveryMethod": "Blended",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "OLC",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "351",
+      "value": "351",
+      "title": "Police Accountability and Ethics",
+      "offerings": [
+        {
+          "instructor": "Keiron McConnell",
+          "sections": [
+            "D900"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101 and 251.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D900",
+          "value": "d900",
+          "title": "Police Accountability and Ethics",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Examines police accountability including the expected ethical conduct of police, police powers, police decision-making, the exercise of discretion, and the structure of accountability. Specific emphasis on police codes of ethics, core values of police agencies, the function of internal investigations, and the role of civilian review.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Surrey",
+          "days": "Fr",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "355",
+      "value": "355",
+      "title": "The Forensic Sciences",
+      "offerings": [
+        {
+          "instructor": "Suzanna Michener",
+          "sections": [
+            "E100",
+            "E200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "19:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "45 units.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "E100",
+          "value": "e100",
+          "title": "The Forensic Sciences",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E101",
+          "value": "e101",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E102",
+          "value": "e102",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E103",
+          "value": "e103",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E104",
+          "value": "e104",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E105",
+          "value": "e105",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E106",
+          "value": "e106",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E107",
+          "value": "e107",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E108",
+          "value": "e108",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E109",
+          "value": "e109",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E200",
+          "value": "e200",
+          "title": "The Forensic Sciences",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E201",
+          "value": "e201",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E202",
+          "value": "e202",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E203",
+          "value": "e203",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E204",
+          "value": "e204",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E205",
+          "value": "e205",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E206",
+          "value": "e206",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E209",
+          "value": "e209",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        },
+        {
+          "text": "E210",
+          "value": "e210",
+          "title": "The Forensic Sciences",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Examines the use and interpretation of physical forensic evidence in court. It will critically examine and evaluate the major forensic sciences used in criminal investigations today, as well as look at the crime scene. Subjects examined will include forensic pathology, odontology, biology, DNA evidence, firearms evidence, toxicology chemistry and questioned documents. Techniques will be illustrated with case studies.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "We",
+          "sectionCode": "TUT",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "356",
+      "value": "356",
+      "title": "The Forensic Sciences II",
+      "offerings": [
+        {
+          "instructor": "Lynne Bell",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "45 units.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "The Forensic Sciences II",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "The Forensic Sciences II",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "The Forensic Sciences II",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "The Forensic Sciences II",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "The Forensic Sciences II",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Introduces the methodological principles of analytical procedures and applications relevant to 21st century criminalistics as applied to skeletonized remains.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "16:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "370",
+      "value": "370",
+      "title": "Directed Readings",
+      "offerings": [
+        {
+          "instructor": "Curt Griffiths",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Richard Frank",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Garth Davies",
+          "sections": [
+            "D300"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "David Macalister",
+          "sections": [
+            "D400"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Directed Readings",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Directed Readings",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        },
+        {
+          "text": "D300",
+          "value": "d300",
+          "title": "Directed Readings",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "3"
+        },
+        {
+          "text": "D400",
+          "value": "d400",
+          "title": "Directed Readings",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "4"
+        }
+      ],
+      "description": "Independent readings in a selected field of study, under the direction of a single faculty member. Papers will be required. Variable units: 1, 2, 3.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "406",
+      "value": "406",
+      "title": "Family Violence and Criminal Justice",
+      "offerings": [
+        {
+          "instructor": "Alexandra Lysova",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "LEC",
+                "startTime": "12:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Family Violence and Criminal Justice",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Family Violence and Criminal Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Family Violence and Criminal Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Family Violence and Criminal Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Family Violence and Criminal Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Family Violence and Criminal Justice",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students who have taken CRIM 416 in Fall 2017 or Fall 2018, CRIM 319 in Spring 2018, under the title \"Family Violence & Criminal Justice\" may not take this course for further credit.",
+      "description": "Examines the social and cultural context of family violence and legal and social service interventions to prevent this violence. Topics may include: child and elder abuse and neglect, sibling abuse, violence against women, victimization of men, violence in same-sex couples, the police response, courts and corrections.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "18:30",
+          "isExam": false,
+          "endTime": "19:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "416",
+      "value": "416",
+      "title": "Current Issues in Criminology and Criminal Justice",
+      "offerings": [
+        {
+          "instructor": "Brenda Morrison",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Vancouver",
+                "days": "Th",
+                "sectionCode": "SEM",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "11:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Zachary Rowan",
+          "sections": [
+            "D200"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Current Issues in Criminology and Criminal Justice",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Current Issues in Criminology and Criminal Justice",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "A critical analysis of certain 'hot' issues in criminology and criminal justice. The topics covered change from term to term. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "417",
+      "value": "417",
+      "title": "Current Issues in Criminology and Criminal Justice",
+      "offerings": [
+        {
+          "instructor": "Chisen Goto",
+          "sections": [
+            "D900"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "SEM",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        },
+        {
+          "instructor": "Ryan Prox",
+          "sections": [
+            "D900",
+            "D900"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "SEM",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ],
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Fr",
+                "sectionCode": "SEM",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D900",
+          "value": "d900",
+          "title": "Current Issues in Criminology and Criminal Justice",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "9"
+        },
+        {
+          "text": "D901",
+          "value": "d901",
+          "title": "Current Issues in Criminology and Criminal Justice",
+          "classType": "n",
+          "sectionCode": "LAB",
+          "associatedClass": "9"
+        }
+      ],
+      "description": "A critical analysis of certain 'hot' issues in criminology and criminal justice. The topics covered change from term to term. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Surrey",
+          "days": "Fr",
+          "sectionCode": "LAB",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "13:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "418",
+      "value": "418",
+      "title": "Current Issues in Criminology and Criminal Justice",
+      "offerings": [
+        {
+          "instructor": "Rylan Simpson",
+          "sections": [
+            "D900"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Surrey",
+                "days": "Th",
+                "sectionCode": "SEM",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D900",
+          "value": "d900",
+          "title": "Current Issues in Criminology and Criminal Justice",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "9"
+        }
+      ],
+      "description": "A critical analysis of certain 'hot' issues in criminology and criminal justice. The topics covered change from term to term. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Surrey",
+          "days": "Th",
+          "sectionCode": "SEM",
+          "startTime": "11:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "429",
+      "value": "429",
+      "title": "Indigenous Peoples and International Law",
+      "offerings": [
+        {
+          "instructor": "Ted Palys",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101 or FNST 101 or 201 or permission of instructor.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Indigenous Peoples and International Law",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CRIM 416, or 418 under the title \"Indigenous Peoples and International Law\" or \"Indigenous Peoples and Evolving International Relations\", or FNST 429 may not take this course for further credit.",
+      "description": "An examination of how relations between indigenous and non-indigenous peoples framed and were framed by the development of international law from the 15th century onward.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "433",
+      "value": "433",
+      "title": "Communities and Crime",
+      "offerings": [
+        {
+          "instructor": "Shannon Linning",
+          "sections": [
+            "B100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "16:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "B100",
+          "value": "b100",
+          "title": "Communities and Crime",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B101",
+          "value": "b101",
+          "title": "Communities and Crime",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B102",
+          "value": "b102",
+          "title": "Communities and Crime",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B103",
+          "value": "b103",
+          "title": "Communities and Crime",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B104",
+          "value": "b104",
+          "title": "Communities and Crime",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "B105",
+          "value": "b105",
+          "title": "Communities and Crime",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for this course as CRIM 418 may not take this course for further credit.",
+      "description": "Examines communities and neighborhoods as contexts for thinking about a wide range of criminological issues including crime, fear, victimization, policing, and policy. Theoretical explanations and applied research will be used to explore how and why \"community\" is important for understanding crime and criminal justice.",
+      "deliveryMethod": "Blended",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "12:30",
+          "isExam": false,
+          "endTime": "13:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "452",
+      "value": "452",
+      "title": "Skeletal Pathology and Criminalistics",
+      "offerings": [
+        {
+          "instructor": "Lynne Bell",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101. Recommended: CRIM 357.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Skeletal Pathology and Criminalistics",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students who have taken this course as CRIM 417 may not take this course for further credit.",
+      "description": "The examination of disease processes which affect and reveal themselves in the human skeleton at the level of surface morphology, radiology and histology and other relevant analytical methodologies relevant to criminalistics and human identification.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "453",
+      "value": "453",
+      "title": "Policing Illegal Drug Markets",
+      "offerings": [
+        {
+          "instructor": "Keiron McConnell",
+          "sections": [
+            "E100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "LEC",
+                "startTime": "16:30",
+                "isExam": false,
+                "endTime": "18:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "E100",
+          "value": "e100",
+          "title": "Policing Illegal Drug Markets",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E101",
+          "value": "e101",
+          "title": "Policing Illegal Drug Markets",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E102",
+          "value": "e102",
+          "title": "Policing Illegal Drug Markets",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E103",
+          "value": "e103",
+          "title": "Policing Illegal Drug Markets",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E104",
+          "value": "e104",
+          "title": "Policing Illegal Drug Markets",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E105",
+          "value": "e105",
+          "title": "Policing Illegal Drug Markets",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "E106",
+          "value": "e106",
+          "title": "Policing Illegal Drug Markets",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Provides an overview of the theoretical, analytical, and ethical issues related to drug law enforcement. Examines the strategies used by the police in responding to the challenges posed by illegal drug markets.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "TUT",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "18:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "459",
+      "value": "459",
+      "title": "Organized Crime",
+      "offerings": [
+        {
+          "instructor": "Keiron McConnell",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "LEC",
+                "startTime": "8:30",
+                "isExam": false,
+                "endTime": "10:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 101.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Organized Crime",
+          "classType": "e",
+          "sectionCode": "LEC",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Organized Crime",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D102",
+          "value": "d102",
+          "title": "Organized Crime",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D103",
+          "value": "d103",
+          "title": "Organized Crime",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D104",
+          "value": "d104",
+          "title": "Organized Crime",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D105",
+          "value": "d105",
+          "title": "Organized Crime",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CRIM 416 in  Spring 2009 or CRIM 313 in Fall 2009 may not take this course for further credit.",
+      "description": "Examines the many forms of organized crime, including theories and models. Explores specific activities involving organized criminals, traditional organized crime, street gangs and motorcycle gangs, and criminal justice responses to organized crime.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "TUT",
+          "startTime": "13:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "470",
+      "value": "470",
+      "title": "Directed Studies",
+      "offerings": [
+        {
+          "instructor": "Curt Griffiths",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "IND",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Directed Studies",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D200",
+          "value": "d200",
+          "title": "Directed Studies",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Independent research in a selected criminological area, under the direction and supervision of at least one faculty member. A research report is required.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "485",
+      "value": "485",
+      "title": "Professional Development - Criminal Justice Practice",
+      "offerings": [
+        {
+          "instructor": "Helene Love",
+          "sections": [
+            "OL01"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "OLC",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Permission of the school, and minimum 90 units and CGPA of 2.75. Applicants must be declared Criminology majors.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "OL01",
+          "value": "ol01",
+          "title": "Professional Development - Criminal Justice Practice",
+          "classType": "e",
+          "sectionCode": "OLC",
+          "associatedClass": "100"
+        }
+      ],
+      "notes": "Students with credit for CRIM 369 may not take this course for further credit.",
+      "description": "Workplace skills and ethical issues confronting the professional in the criminal justice system are examined, including: communication and conflict resolution; confidentiality, conflict of interest; professionalism and professional ethics; team work and time management. Completion of this course does not guarantee admission to Field Placement.",
+      "deliveryMethod": "Online",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "OLC",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "486",
+      "value": "486",
+      "title": "Field Placement - Agency - Part Time",
+      "offerings": [
+        {
+          "instructor": "Helene Love",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "INT",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Permission of the school, and minimum 90 units and CGPA of 2.75. Applicants must be declared Criminology majors and must be enrolled in or have completed CRIM 320, 321 and 485. Corequisite: CRIM 488. A criminal record check may be required dependent on agency.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Field Placement - Agency - Part Time",
+          "classType": "e",
+          "sectionCode": "INT",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CRIM 462, 487 or 489 may not take this course for further credit.",
+      "description": "Supervised three month part time (15-20 hours per week) field practicum in selected criminal justice agencies. Field Placement - Agency - Part Time is a pass/fail course assessed by the agency at which the student completes the practicum.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "INT",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "487",
+      "value": "487",
+      "title": "Field Placement - Agency - Full Time",
+      "offerings": [
+        {
+          "instructor": "Helene Love",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "INT",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 485, a minimum of 90 units and CGPA of 2.75, and/or permission of the School. Applicants must be declared Criminology majors. Corequisite: CRIM 489. A criminal record check may be required dependent on agency.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Field Placement - Agency - Full Time",
+          "classType": "e",
+          "sectionCode": "INT",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CRIM 462, 486 or 488 may not take this course for further credit.",
+      "description": "Supervised three month full time (35-40 hours per week) field practicum in selected criminal justice agencies. Field Placement - Agency - FT is a pass/fail course assessed by the agency at which the student completes the practicum.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "INT",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "488",
+      "value": "488",
+      "title": "Field Placement - Academic - Part Time",
+      "offerings": [
+        {
+          "instructor": "Helene Love",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "SEM",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "Permission of the school, CRIM 485, a minimum of 90 units and CGPA of 2.75. Applicants must be declared Criminology majors. Corequisite: CRIM 486. A criminal record check may be required dependent on agency.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Field Placement - Academic - Part Time",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CRIM 462, 487 or 489 may not take this course for further credit.",
+      "description": "Supervised three month part time (15-20 hours per week) field practicum in selected criminal justice agencies. Students are required to complete a series of reports addressing theoretical and practical issues relating to their placement as well as to attend regular feedback seminar discussions with faculty supervisors and other field practicum students.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "SEM",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "489",
+      "value": "489",
+      "title": "Field Placement - Academic - Full Time",
+      "offerings": [
+        {
+          "instructor": "Helene Love",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "days": "",
+                "sectionCode": "SEM",
+                "isExam": false,
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 485, a minimum of 90 units and CGPA of 2.75, and/or permission of the School. Applicants must be declared Criminology majors. Corequisite: CRIM 487. A criminal record check may be required dependent on agency.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Field Placement - Academic - Full Time",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "notes": "Students with credit for CRIM 462, 486 or 488 may not take this course for further credit.",
+      "description": "Supervised three month full time (35-40 hours per week) field practicum in selected criminal justice agencies. Students are required to complete a series of reports addressing theoretical and practical issues relating to their placement as well as to attend regular feedback seminar discussions with faculty supervisors and other field practicum students.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "SEM",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "499",
+      "value": "499",
+      "title": "Honours Thesis II",
+      "offerings": [
+        {
+          "instructor": "Danielle Murdoch",
+          "sections": [
+            "D100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "SEM",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "A minimum grade of B in CRIM 490 and 491 is required.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "D100",
+          "value": "d100",
+          "title": "Honours Thesis II",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        },
+        {
+          "text": "D101",
+          "value": "d101",
+          "title": "Honours Thesis II",
+          "classType": "n",
+          "sectionCode": "TUT",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "An honours thesis is a research report written under the supervision of a faculty member, a copy of which is to be permanently lodged in the School of Criminology. Students are required to attend a weekly seminar at which various issues associated with the linking of theory and method are examined and where students can both discuss their progress and share their research experiences. On completion, the thesis is to be orally defended in a school seminar. Open only to students who have been admitted to the criminology honours program. Students are not permitted to take other courses while enrolled in this course.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "TUT",
+          "startTime": "8:30",
+          "isExam": false,
+          "endTime": "9:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "801",
+      "value": "801",
+      "title": "Criminological Theory II",
+      "offerings": [
+        {
+          "instructor": "Eric Beauregard",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "SEM",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 800, or permission of the instructor.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Criminological Theory II",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Advanced topics in criminological theory. Topics for in-depth analysis will be selected according to the availability and interest in specific course instructors. The course will emphasize theoretical construction and development, the importance of theory, and how it structure criminological thought. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "SEM",
+          "startTime": "9:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "812",
+      "value": "812",
+      "title": "Criminal Networks",
+      "offerings": [
+        {
+          "instructor": "Martin Bouchard",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "SEM",
+                "startTime": "11:30",
+                "isExam": false,
+                "endTime": "14:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Criminal Networks",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Examines the social environment of offenders through a criminal network perspective. Emphasizes how analyzing delinquency through the lens of networks can make theoretical and empirical contributions to the field.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "SEM",
+          "startTime": "11:30",
+          "isExam": false,
+          "endTime": "14:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "861",
+      "value": "861",
+      "title": "Research Methods II: Quantitative Methods",
+      "offerings": [
+        {
+          "instructor": "Maaike Helmus",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Th",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Research Methods II: Quantitative Methods",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "The coverage of a range of statistical techniques, including linear regression, logistic regression, and data reduction techniques such as cluster and factor analysis. The purposes, assumptions, and conduct of such analyses using a statistical software package for social sciences (e.g. SPSS, Stata, R) will be covered. Attention will be given to the decisions involved in data exploration and preparation for statistical modeling purposes. Students enrolling in this course are expected to have a solid background in undergraduate quantitative research methods, equivalent to CRIM 320.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Th",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "862",
+      "value": "862",
+      "title": "Research Methods III: Qualitative Methods",
+      "offerings": [
+        {
+          "instructor": "Ted Palys",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Fr",
+                "sectionCode": "SEM",
+                "startTime": "9:30",
+                "isExam": false,
+                "endTime": "12:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Research Methods III: Qualitative Methods",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "A range of research techniques generally subsumed under the rubric of qualitative research including field research, interview techniques, historical and legal research, and documentary analysis. Emphasis will be on the logic underlying such inquiry, the advantages and limitations associated with different sources of information and procedures, and the processes by which analytical rigor is achieved. Students enrolling in this course are expected to have a solid background in undergraduate qualitative research methods, equivalent to CRIM 321.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Fr",
+          "sectionCode": "SEM",
+          "startTime": "9:30",
+          "isExam": false,
+          "endTime": "12:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "863",
+      "value": "863",
+      "title": "Research Methods IV: Advanced Quantitative Methods",
+      "offerings": [
+        {
+          "instructor": "Martin Andresen",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Mo",
+                "sectionCode": "SEM",
+                "startTime": "17:30",
+                "isExam": false,
+                "endTime": "20:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "CRIM 861, or permission of the instructor.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Research Methods IV: Advanced Quantitative Methods",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "A survey of advanced statistical techniques in criminological research. Specific topics may include: limited (e.g., categorical, ordinal, and count) dependent variables, multi-level modeling, longitudinal data techniques, spatial data analysis, missing values analysis, and propensity score matching. Attention will be given to the decisions involved in data exploration and preparation for statistical modeling purposes using the appropriate statistical software. There is an emphasis on conceptual foundations and application. A strong background in regression-based techniques is assumed.",
+      "deliveryMethod": "Blended",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Mo",
+          "sectionCode": "SEM",
+          "startTime": "17:30",
+          "isExam": false,
+          "endTime": "20:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "870",
+      "value": "870",
+      "title": "Directed Readings",
+      "offerings": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Directed Readings",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Directed Readings",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Intensive readings under the supervision of a faculty member, in areas of interest related to the student's program.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "872",
+      "value": "872",
+      "title": "Selected Topics",
+      "offerings": [
+        {
+          "instructor": "Zachary Rowan",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Selected Topics",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Concentrated studies in areas of student specialization.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "873",
+      "value": "873",
+      "title": "Selected Topics",
+      "offerings": [
+        {
+          "instructor": "Ted Palys",
+          "sections": [
+            "G100"
+          ],
+          "courseSchedule": [
+            [
+              {
+                "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+                "campus": "Burnaby",
+                "days": "Tu",
+                "sectionCode": "SEM",
+                "startTime": "14:30",
+                "isExam": false,
+                "endTime": "17:20",
+                "startDate": "Mon Jan 08 00:00:00 PST 2024"
+              }
+            ]
+          ]
+        }
+      ],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Selected Topics",
+          "classType": "e",
+          "sectionCode": "SEM",
+          "associatedClass": "1"
+        }
+      ],
+      "description": "Concentrated studies in areas of student specialization.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "campus": "Burnaby",
+          "days": "Tu",
+          "sectionCode": "SEM",
+          "startTime": "14:30",
+          "isExam": false,
+          "endTime": "17:20",
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "890",
+      "value": "890",
+      "title": "PhD Thesis Prospectus",
+      "offerings": [],
+      "prerequisites": "CRIM 897.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "PhD Thesis Prospectus",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "PhD Thesis Prospectus",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Development and presentation of proposal for PhD thesis research. Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "897",
+      "value": "897",
+      "title": "Comprehensive Exam",
+      "offerings": [],
+      "prerequisites": "Completion of all course work within the PhD program.",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "Comprehensive Exam",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "Comprehensive Exam",
+          "classType": "e",
+          "sectionCode": "IND",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "A one term course that will allow students to complete the comprehensive exam process. ",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "IND",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "898",
+      "value": "898",
+      "title": "MA Thesis",
+      "offerings": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "MA Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "MA Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    },
+    {
+      "text": "899",
+      "value": "899",
+      "title": "PhD Thesis",
+      "offerings": [],
+      "prerequisites": "",
+      "corequisites": "",
+      "sections": [
+        {
+          "text": "G100",
+          "value": "g100",
+          "title": "PhD Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "1"
+        },
+        {
+          "text": "G200",
+          "value": "g200",
+          "title": "PhD Thesis",
+          "classType": "e",
+          "sectionCode": "CAP",
+          "associatedClass": "2"
+        }
+      ],
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "deliveryMethod": "In Person",
+      "courseSchedule": [
+        {
+          "endDate": "Fri Apr 12 00:00:00 PDT 2024",
+          "days": "",
+          "sectionCode": "CAP",
+          "isExam": false,
+          "startDate": "Mon Jan 08 00:00:00 PST 2024"
+        }
+      ]
+    }
+  ]
+}
