@@ -1,7 +1,7 @@
 "use client";
 import axios from "axios";
 import { useState, useEffect, useRef } from "react";
-import SearchBar from '../test/page';
+//import SearchBar from '../test/page';
 import parsePDFToCourses from './pdfParser';
 
 function Transcript() {
