@@ -44,7 +44,7 @@ const Page = () => {
       {searchResult.map(
         (course, idx) =>
           idx < 5 ? (
-            <div className="mb-[5px]">
+            <div className="mb-[5px]" key={`${course + idx}`}>
               {course.courseCode} - {course.title}
             </div>
           ) : (
