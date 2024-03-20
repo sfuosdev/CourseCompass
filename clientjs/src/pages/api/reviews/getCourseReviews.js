@@ -1,6 +1,7 @@
 import dbConnect from "../../../app/utils/dbConnect";
 import Review from "../../../models/Review";
 import Course from "../../../models/Course";
+import User from "../../../models/User";
 
 export default async function handler(req, res) {
   await dbConnect();

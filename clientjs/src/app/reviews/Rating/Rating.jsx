@@ -39,7 +39,7 @@ const IconComponent = ({ type, width, height }) => {
           strokeLinejoin="round"
         />
       </svg>
-    )
+    ),
   };
 
   return imageDataSource[type];
@@ -48,16 +48,16 @@ const IconComponent = ({ type, width, height }) => {
 const SIZES = {
   SMALL: {
     key: "s",
-    size: 10
+    size: 10,
   },
   MEDIUM: {
     key: "m",
-    size: 18
+    size: 18,
   },
   LARGE: {
     key: "l",
-    size: 28
-  }
+    size: 28,
+  },
 };
 
 const OUT_OF_VALUE = 5;
@@ -68,7 +68,7 @@ const Rating = (props) => {
     ratingInPercent,
     showOutOf,
     enableUserInteraction,
-    onClick
+    onClick,
   } = props;
 
   const [activeStar, setActiveStar] = useState(-1);
@@ -84,8 +84,8 @@ const Rating = (props) => {
     iconSize === SIZES.SMALL.key
       ? SIZES.SMALL.size
       : iconSize === SIZES.MEDIUM.key
-        ? SIZES.MEDIUM.size
-        : SIZES.LARGE.size;
+      ? SIZES.MEDIUM.size
+      : SIZES.LARGE.size;
 
   const RatingHighlighted = (
     <IconComponent type={"ratingHighlighted"} width={size} height={size} />
@@ -132,7 +132,7 @@ const Rating = (props) => {
           style={{
             width: getStar(index),
             overflow: "hidden",
-            position: "absolute"
+            position: "absolute",
           }}
         >
           {RatingHighlighted}
@@ -159,7 +159,7 @@ const Rating = (props) => {
           style={{
             width: index <= activeStar ? "100%" : "0%",
             overflow: "hidden",
-            position: "absolute"
+            position: "absolute",
           }}
         >
           {RatingHighlighted}
@@ -185,7 +185,7 @@ Rating.propTypes = {
   iconSize: string,
   showOutOf: bool.isRequired,
   enableUserInteraction: bool.isRequired,
-  onClick: func
+  onClick: func,
 };
 
 Rating.defaultProps = {
@@ -193,7 +193,7 @@ Rating.defaultProps = {
   iconSize: SIZES.LARGE.key,
   onClick: () => null,
   showOutOf: false,
-  enableUserInteraction: false
+  enableUserInteraction: false,
 };
 
 export default Rating;

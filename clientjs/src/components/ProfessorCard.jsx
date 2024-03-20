@@ -2,12 +2,21 @@
 // import { useEffect, useState } from "react";
 
 // import { useState } from "react";
+import { motion } from "framer-motion";
 
 const ProfessorCard = ({ course }) => {
+  const hoverAnimation = {
+    scale: 1.05, // Slightly enlarge the card on hover
+    transition: {
+      duration: 0.3, // Duration of the animation
+      type: "spring", // Type of the animation
+    },
+  };
   return (
     <div className={`flex flex-row gap-[20px]`}>
       {course?.offerings?.map((offering) => (
-        <div
+        <motion.div
+          whileHover={hoverAnimation}
           className="flex flex-col round rounded-2xl w-[270px] h-[360px] bg-[#F3F4FA] pl-[18px] pr-[18px] pt-[25px] hover:bg-[#AAC2FD] hover:shadow-lg focus-within:bg-[#AAC2FD] overflow-y-auto"
           key={offering.instructor}
         >
@@ -29,7 +38,7 @@ const ProfessorCard = ({ course }) => {
               ))}
             </div>
           ))}
-        </div>
+        </motion.div>
       ))}
     </div>
   );

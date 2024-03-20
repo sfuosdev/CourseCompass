@@ -9,10 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@xenova/transformers": "^2.14.0",
     "axios": "^1.6.3",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
-    "framer-motion": "^10.16.5",
+    "framer-motion": "^10.18.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.0.3",
     "next": "^14.0.3",
