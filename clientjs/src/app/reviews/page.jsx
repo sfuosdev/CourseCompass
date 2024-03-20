@@ -9,7 +9,8 @@ import { usePathname, useSearchParams } from 'next/navigation'
 const Review = () => {
   const [routerReady, setRouterReady] = useState(false);
   const router = useRouter();
-  const [ratingValue, setRatingValue] = useState(undefined);
+  const [difficultRatingValue, setDifficultRatingValue] = useState(undefined);
+  const [usefulRatingValue, setUsefulRatingValue] = useState(undefined);
 
   const pathname = usePathname()
   const searchParams = useSearchParams()
@@ -54,7 +55,7 @@ const Review = () => {
     }
     const courseCode = formData.course;
 
-    console.log('Submitting review:', formData, 'Rating:', ratingValue);
+    console.log('Submitting review:', formData, 'Difficultly Rating:', difficultRatingValue, 'Usefulness Rating:', usefulRatingValue);
 
     try {
       const response = await fetch('/api/reviews/addReview', {
@@ -65,8 +66,8 @@ const Review = () => {
         body: JSON.stringify({
           userId: userId,
           courseCode: courseCode,
-          difficultyRating: ratingValue,
-          usefulnessRating: ratingValue,
+          difficultyRating: difficultRatingValue,
+          usefulnessRating: usefulRatingValue,
           comment: formData.courseExperience
         })
       });
@@ -86,8 +87,11 @@ const Review = () => {
     }
   };
 
-  const handleRatingAction = (value) => {
-    setRatingValue(value);
+  const handleDifficultRatingAction = (value) => {
+    setDifficultRatingValue(value);
+  };
+  const handleUsefulRatingAction = (value) => {
+    setUsefulRatingValue(value);
   };
 
   return (
@@ -134,7 +138,7 @@ const Review = () => {
                 iconSize="l"
                 showOutOf={true}
                 enableUserInteraction={true}
-                onClick={handleRatingAction}
+                onClick={handleDifficultRatingAction}
               />
             </div>
           </div>
@@ -147,7 +151,7 @@ const Review = () => {
                 iconSize="l"
                 showOutOf={true}
                 enableUserInteraction={true}
-                onClick={handleRatingAction}
+                onClick={handleUsefulRatingAction}
               />
             </div>
           </div>
