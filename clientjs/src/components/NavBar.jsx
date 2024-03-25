@@ -80,7 +80,6 @@ const Navbar = ({ showSearchBar }) => {
               <div className="absolute top-full right-4 bg-primary-yellow border border-gray-300 shadow-md rounded-md mt-1 py-2">
                 <Link href="/profile"><div className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer">Profile</div></Link>
                 <Link href="/reviews"><div className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer">Leave a Review</div></Link>
-                <Link href="/tuition-calculator"><div className="block px-4 py-2 text-gray-800 hover:bg-gray-200 cursor-pointer">Tuition Calculator</div></Link>
                 <button className="block flex items-start px-4 py-2 w-full text-red-500 hover:bg-gray-200 cursor-pointer" onClick={handleLogout}>Logout</button>
               </div>
             )}
