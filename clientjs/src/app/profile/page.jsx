@@ -186,9 +186,18 @@ export default function Profile() {
   if (error) return <div>Error: {error}</div>;
   if (!userData) return <div>No user data found</div>;
 
+  const getDepartmentName = (value) => {
+    const department = departments.find((dept) => dept.value === value);
+    return department ? department.name : value; // Return the full name if found, otherwise return the abbreviation
+  };
   return (
     <div>
       <ProfileHero fullname={userData.username} email={userData.email} />
+
+      <div>
+        <p>Majors: {userData.majors.map((major) => getDepartmentName(major))}</p>
+        <p>Minors: {userData.minors.map((minor) => getDepartmentName(minor))}</p>
+      </div>
 
       <div className="flex flex-col md:flex-row">
         <div className="w-screen md:w-[70%]">
