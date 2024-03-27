@@ -6,6 +6,7 @@ import FavouriteCoursesList from "@/components/FavouriteCoursesList";
 import { useState, useEffect } from "react";
 import { departments } from "@/components/LoginSignupModal";
 import Transcript from "./transcript/page";
+import CalendarPage from "./schedule/page";
 
 const userInfo = {
   fullname: "Peter Chan",
@@ -134,7 +135,7 @@ function MajorInfoView() {
 function SwitchComponent({ viewSelector, majors, minors }) {
   switch (viewSelector) {
     case 1:
-      return <UploadScheduleView />;
+      return <CalendarPage />;
     case 2:
       return <ImportCoursesView />;
     case 3:
