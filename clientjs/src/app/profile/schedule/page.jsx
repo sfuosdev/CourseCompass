@@ -7,9 +7,14 @@ const CalendarPage = () => {
     const calendarRef = useRef(null);
     const [expandedEventId, setExpandedEventId] = useState(null);
     const [events, setEvents] = useState(() => {
-        const savedEvents = localStorage.getItem('calendarEvents');
-        return savedEvents ? JSON.parse(savedEvents) : [];
+        if (typeof window !== 'undefined') {
+            const savedEvents = localStorage.getItem('calendarEvents');
+            return savedEvents ? JSON.parse(savedEvents) : [];
+        }
+        return [];
     });
+
+
     const [newEvent, setNewEvent] = useState({ title: '', location: '', section: '', start: '', end: '', color: '' });
 
     useEffect(() => {
