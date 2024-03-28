@@ -29,15 +29,15 @@ const ViewWithHistory = () => {
         <div className="flex -mt-4 mb-6">
             <div className="basis-3/12 w-full bg-[#60a5fa]">
                 <div className="flex flex-col justify-between h-5/6 text-[20px] font-[500] py-4 pl-4">
-                    <div className="">
-                        Advising History
+                    <div className="text-md">
+                        {`Advising History`}
                     </div>
-                    <div className="flex flex-cols overflow-auto flex-wrap text-[18px] pr-3">
+                    <div className="flex flex-col overflow-auto flex-wrap text-[18px] pr-3">
                         {historyCard("List of past conversations with the AI Academic advising dfsdsfsdgasdgjnjsdngjnj enjgndjgdjngdjfndjfn dnjfdnjfnjdnf jfndnfdnfdnfdn")}
                         {historyCard("List of past conversations with the AI Academic advising dfsdsfs dgasdgjnjsdngjnjenjgndjgdj ngdjfndjfndnjfd njfnjdnfjfndnfdnfdnfdn")}
                     </div>
-                    <div className="">
-                        Link to "school" advisor contacts
+                    <div className="text-md">
+                        {`Link to "school" advisor contacts`}
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ const ViewWithHistory = () => {
                         {UserMessageBubble("A Question they have asked to the advisor bot")}
                         {BotMessageBubble("Something here to answer the question being asked")}
                         {viewDialogs.map(userMessages => (
-                            <div className="flex flex-row-reverse my-1 p-1 rounded-lg bg-primary-whiteBlue w-full h-auto">
+                            <div key={userMessages} className="flex flex-row-reverse my-1 p-1 rounded-lg bg-primary-whiteBlue w-full h-auto">
                                 <div className="rounded-full flex-shrink-0 w-[30px] h-[30px] bg-secondary-gray">
                                     {botpic}
                                 </div>
@@ -132,7 +132,7 @@ const ViewWithoutHistory = () => {
                     {UserMessageBubble("A Question they have asked to the advisor bot")}
                     {BotMessageBubble("Something here to answer the question being asked")}
                     {viewDialogs.map(userMessages => (
-                        <div className="flex flex-row-reverse my-1 p-1 rounded-lg bg-primary-whiteBlue w-full h-auto">
+                        <div key={userMessages} className="flex flex-row-reverse my-1 p-1 rounded-lg bg-primary-whiteBlue w-full h-auto">
                             <div className="rounded-full flex-shrink-0 w-[30px] h-[30px] bg-secondary-gray">
                                 {botpic}
                             </div>

@@ -2,6 +2,7 @@
 import { ScrollToTopButton } from "@/components/LandingPage";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Review from "@/components/ReviewList";
 
 async function fetchInstructor(instructorName) {
     try {
