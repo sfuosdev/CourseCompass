@@ -40,7 +40,7 @@ const LandPage = () => {
   };
 
   return (
-    <div className="relative top-[-1rem] mt-[1rem] border-primary-white border bg-primary-white flex flex-col items-center justify-center p-[1rem] space-y-4 lg:space-y-5 scale-135">
+    <div className="relative  mt-[5rem] border-primary-white border bg-primary-white flex flex-col items-center justify-center p-[1rem] space-y-4 lg:space-y-5 scale-135">
       {/* <button onClick={importCourses} className="text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2">
         Import SFU Courses
       </button> */}
