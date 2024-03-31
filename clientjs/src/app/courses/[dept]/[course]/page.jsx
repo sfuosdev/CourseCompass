@@ -70,6 +70,28 @@ const Page = ({ params }) => {
     router.push(`/reviews?courseCode=${courseCode}`);
   };
 
+  const addFavoriteCourse = async () => {
+    // Retrieve the user ID from local storage
+    const userId = localStorage.getItem('user_id');
+    const courseCode = course.courseCode; // Assuming `course` state contains the course code
+  
+    if (!userId) {
+      console.error('User ID not found');
+      alert('You must be logged in to add favorites.');
+      return;
+    }
+  
+    try {
+      const response = await axios.post('/api/user/addFavoriteCourse', { userId, courseCode });
+      alert(response.data.message); // Provide user-friendly feedback
+      // Optionally, update the state or UI to reflect the change
+    } catch (error) {
+      console.error("Error adding favorite course:", error.response ? error.response.data.error : error.message);
+      alert("Failed to add the course to favorites."); // User-friendly error message
+    }
+  };
+  
+
   const View = () => {
     switch (statusCode) {
       case 201:
@@ -105,6 +127,12 @@ const Page = ({ params }) => {
               <h1 className="text-3xl text-[#4570E6] underline underline-offset-4">
                 {course.title || "Loading..."}
               </h1>
+              <button
+                onClick={addFavoriteCourse}
+                className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Add to Favorites
+              </button>
               <p className="text-base mt-[30px] text-justify">
                 {course.courseDetails || "Description loading..."}
               </p>

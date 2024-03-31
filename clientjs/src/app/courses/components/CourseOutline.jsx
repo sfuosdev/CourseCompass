@@ -19,6 +19,7 @@ const CourseOutline = (outline) => {
         {outline?.courseSchedule?.map(
           (courseSchedule, index) => (
             <CourseScheduleInfo {...courseSchedule} key={index + 50} />
+            
           )
         )}
       </div>
