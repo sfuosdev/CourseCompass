@@ -45,19 +45,24 @@ async function fetchReviews(courseId) {
 }
 
 const Page = ({ params }) => {
+  
   const [course, setCourse] = useState({});
   const [reviews, setReviews] = useState([]);
   const [statusCode, setStatusCode] = useState();
   const [coursesList, setCoursesList] = useState([]);
+  const [canReview, setCanReview] = useState(false);
   const router = useRouter();
+  
 
   useEffect(() => {
     let courseCode = params.course.toLowerCase();
-    fetchCourse(courseCode).then((res) => {
+    fetchCourse(courseCode).then(async (res) => {
       if (res.status === 200) {
         setStatusCode(res.status);
         setCourse(res.data);
         fetchReviews(res.data._id).then((reviews) => setReviews(reviews)); // Fetch reviews once course is loaded
+        const completed = await hasUserCompletedCourse(courseCode); // Check if user has completed this course
+        setCanReview(completed); // Update state based on whether user completed the course
       } else {
         setStatusCode(res.status);
         setCoursesList(res.data);
@@ -68,6 +73,22 @@ const Page = ({ params }) => {
   const handleLeaveReviewClick = () => {
     let courseCode = params.course.toLowerCase();
     router.push(`/reviews?courseCode=${courseCode}`);
+  };
+
+  const hasUserCompletedCourse = async (courseCode) => {
+    try {
+      const userId = localStorage.getItem('user_id'); // Retrieve the user ID
+      if (!userId) {
+        console.warn('User ID not found');
+        return false;
+      }
+      const response = await axios.get(`/api/user/getAllTakenCourses?userId=${userId}`);
+      console.log("Completed courses:", response.data.completedCourses);
+      return response.data.completedCourses.some(course => course.courseCode.toLowerCase() === courseCode.toLowerCase());
+    } catch (error) {
+      console.error("Error checking completed courses:", error);
+      return false;
+    }
   };
 
   const addFavoriteCourse = async () => {
@@ -157,12 +178,14 @@ const Page = ({ params }) => {
               ) : (
                 <p>No reviews yet.</p>
               )}
-              <button
-                onClick={handleLeaveReviewClick}
-                className="mt-6 text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2"
-              >
-                Leave a review
-              </button>
+              {canReview && (
+                <button
+                  onClick={handleLeaveReviewClick}
+                  className="mt-6 text-white rounded bg-primary-blue hover:text-black hover:bg-primary-yellow p-2"
+                >
+                  Leave a review
+                </button>
+              )}
             </div>
             <div className="lg:w-[30%] mt-[50px] lg:mt-0">
               <h1 className="text-xl lg:text-2xl">CONSIDERATIONS</h1>
