@@ -16,6 +16,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <title>Course Compass</title>
+      <meta name="description" content="Course Compass" />
       <link rel="icon" href="/profile-picture.jpg" sizes="any" />
       <body className="font-Inter">
         <Chat />
