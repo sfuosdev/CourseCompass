@@ -24,12 +24,7 @@ const convertToPercent = (rating) => (rating / 5) * 100;
 // 5-7 Month
 // 8-10 Day
 // Set to MM/DD/YYYY
-const convertDate = (date) =>
-  date.toString().slice(5, 7) +
-  "/" +
-  date.toString().slice(8, 10) +
-  "/" +
-  date.toString().slice(0, 4);
+const convertDate = (date) => (date.toString().slice(5,7) + "/" + date.toString().slice(8,10) + "/" + date.toString().slice(0,4));
 
 // Assuming "user" and the "review" have the same ID numbers
 // Going to assume that the "review" and "user" are parsed
@@ -61,25 +56,24 @@ const Review = ({ review }) => {
     } else setdownvotesCounter(downvotesCounter - 1);
   }
 
-  const view = (
-    <>
-      <button
-        className="px-2 text-[12px] md:text-[20px]"
-        onClick={handleUpVotes}
-      >
-        {`${upvotes == true ? upArrows[1] : upArrows[0]}`}{" "}
-        <span className="text-[8px] md:text-[12px]">{upvotesCounter}</span>
-      </button>
-      {/* Remove space next to span to put 1000 on the right of arrow */}
-      <button
-        className="px-2 text-[12px] md:text-[20px]"
-        onClick={handleDownVotes}
-      >
-        {downvotes == true ? downArrows[1] : downArrows[0]}{" "}
-        <span className="text-[8px] md:text-[12px]">{downvotesCounter}</span>
-      </button>
-    </>
-  );
+  const view =
+      (<>
+        <button
+          className="px-2 text-[12px] md:text-[20px]"
+          onClick={handleUpVotes}
+        >
+          {`${upvotes == true ? upArrows[1] : upArrows[0]}`}{" "}
+          <span className="text-[8px] md:text-[12px]">{upvotesCounter}</span>
+        </button>
+        {/* Remove space next to span to put 1000 on the right of arrow */}
+        <button
+          className="px-2 text-[12px] md:text-[20px]"
+          onClick={handleDownVotes}
+        >
+          {downvotes == true ? downArrows[1] : downArrows[0]}{" "}
+          <span className="text-[8px] md:text-[12px]">{downvotesCounter}</span>
+        </button>
+      </>)
 
   return (
     <div className="relative md:p-4 md:w-full flex flex-row border-b-2 border-black hover:bg-gray">
@@ -125,6 +119,6 @@ const Review = ({ review }) => {
       </div>
     </div>
   );
-};
+}
 
 export default Review;
