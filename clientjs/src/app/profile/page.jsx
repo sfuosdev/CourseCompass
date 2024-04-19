@@ -7,7 +7,6 @@ import { useState, useEffect } from "react";
 import { departments } from "@/components/LoginSignupModal";
 import Transcript from "./transcript/page";
 import CalendarPage from "./schedule/page";
-import AddFriendModal from "./components/addFriendModal";
 
 const userInfo = {
   fullname: "Peter Chan",
@@ -195,15 +194,10 @@ export default function Profile() {
   return (
     <div>
       <ProfileHero fullname={userData.username} email={userData.email} />
-      <AddFriendModal />
 
       <div>
-        <p>
-          Majors: {userData.majors.map((major) => getDepartmentName(major))}
-        </p>
-        <p>
-          Minors: {userData.minors.map((minor) => getDepartmentName(minor))}
-        </p>
+        <p>Majors: {userData.majors.map((major) => getDepartmentName(major))}</p>
+        <p>Minors: {userData.minors.map((minor) => getDepartmentName(minor))}</p>
       </div>
 
       <div className="flex flex-col md:flex-row">
