@@ -66,7 +66,7 @@ const Navbar = ({ showSearchBar }) => {
           <>
             <a href="/profile"> {/* Ensure the image is wrapped in an <a> tag for proper Link functionality */}
               <img
-                src="/profile-picture.jpg" // Replace with dynamic path if necessary
+                src="/profile-picture.jpg" // Replace npmwith dynamic path if necessary
                 alt="Profile picture"
                 className="rounded-full mr-[0.5rem] w-[8vw] md:w-[5vw] lg:w-[4vw] h-auto min-h-[3rem] min-w-[3rem] border border-black cursor-pointer"
               />

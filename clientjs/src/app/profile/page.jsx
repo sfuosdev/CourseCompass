@@ -6,6 +6,7 @@ import FavouriteCoursesList from "@/components/FavouriteCoursesList";
 import { useState, useEffect } from "react";
 import { departments } from "@/components/LoginSignupModal";
 import Transcript from "./transcript/page";
+import CalendarPage from "./schedule/page";
 
 const userInfo = {
   fullname: "Peter Chan",
@@ -134,7 +135,7 @@ function MajorInfoView() {
 function SwitchComponent({ viewSelector, majors, minors }) {
   switch (viewSelector) {
     case 1:
-      return <UploadScheduleView />;
+      return <CalendarPage />;
     case 2:
       return <ImportCoursesView />;
     case 3:
@@ -186,9 +187,18 @@ export default function Profile() {
   if (error) return <div>Error: {error}</div>;
   if (!userData) return <div>No user data found</div>;
 
+  const getDepartmentName = (value) => {
+    const department = departments.find((dept) => dept.value === value);
+    return department ? department.name : value; // Return the full name if found, otherwise return the abbreviation
+  };
   return (
     <div>
       <ProfileHero fullname={userData.username} email={userData.email} />
+
+      <div>
+        <p>Majors: {userData.majors.map((major) => getDepartmentName(major))}</p>
+        <p>Minors: {userData.minors.map((minor) => getDepartmentName(minor))}</p>
+      </div>
 
       <div className="flex flex-col md:flex-row">
         <div className="w-screen md:w-[70%]">

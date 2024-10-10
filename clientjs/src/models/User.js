@@ -1,5 +1,14 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
+const CompletedCourseSchema = new mongoose.Schema({
+    course: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Course',
+      required: true
+    },
+    semesterCompleted: String,
+    yearCompleted: Number,
+});
 
 const UserSchema = new mongoose.Schema({
     username: {
@@ -45,20 +54,9 @@ const UserSchema = new mongoose.Schema({
         default: [],
     },
     
-    completedCourses: {
-        type: [{
-            course: {
-                type: mongoose.Schema.Types.ObjectId,
-                ref: 'Course',
-                required: true
-            },
-            grade: String,
-            semesterCompleted: String,
-            yearCompleted: Number,
-    
-        }],
-        default: [],
-    },
+    completedCourses: [CompletedCourseSchema],
+
+
     favoriteCourses: { // Adding favorite courses
         type: [{
             type: mongoose.Schema.Types.ObjectId,
@@ -82,5 +80,7 @@ UserSchema.pre('save', async function (next) {
 UserSchema.methods.matchPassword = async function (enteredPassword) {
     return await bcrypt.compare(enteredPassword, this.password);
 };
+
+
 
 export default mongoose.models.User || mongoose.model('User', UserSchema);

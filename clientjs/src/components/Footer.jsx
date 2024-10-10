@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex flex-col">
         <Link href="/">Home</Link>
         <Link href="/about">About Us</Link>
-        <Link href="#">Contact Us</Link>
+        <Link href="/contactus">Contact Us</Link>
       </div>
       <p>Copyright CourseCompass© 2023</p>
     </footer>

@@ -174,6 +174,63 @@ function Transcript() {
       years[year][term] = parsedCourses[yearTerm];
     });
 
+    const handleSubmit = async () => {
+      const userId = localStorage.getItem('user_id');
+    
+      if (!userId) {
+        alert("User ID is missing.");
+        return;
+      }
+    
+      if (!parsedCourses || Object.keys(parsedCourses).length === 0) {
+        alert("No courses to submit.");
+        return;
+      }
+    
+      // Flatten the courses structure to get only course arrays
+      const courseArrays = Object.entries(parsedCourses).flatMap(([yearTerm, coursesOrTerms]) => {
+        if (Array.isArray(coursesOrTerms)) {
+          // If it's directly an array of courses for a specific term
+          return [{ yearTerm, courses: coursesOrTerms }];
+        } else {
+          // If it's an object of terms, each containing an array of courses
+          return Object.entries(coursesOrTerms).map(([term, courses]) => ({
+            yearTerm: `${yearTerm} ${term}`,
+            courses,
+          }));
+        }
+      });
+    
+      // Iterate over each flattened course array to submit
+      const submitPromises = courseArrays.flatMap(({ yearTerm, courses }) => {
+        const [year, term] = yearTerm.split(' ');
+        return courses.map(course => {
+          const data = {
+            userId,
+            courseCode: course, // Adjust based on your actual course data structure
+            semester: term,
+            year,
+          };
+        
+    
+          return axios.post('/api/user/addTakenCourse', data)
+            .then(response => console.log(`${course} added successfully`))
+            .catch(error => console.error(`Error adding ${course}:`, error));
+        });
+      });
+    
+      Promise.all(submitPromises)
+        .then(() => alert("All courses submitted success!"))
+        .catch(error => {
+          console.error("Error submitting some courses:", error);
+          alert("An error occurred while submitting some courses.");
+        });
+    };
+    
+    
+    
+  
+
     return (
       <div>
         {Object.keys(years).map(year => (
@@ -220,6 +277,9 @@ function Transcript() {
             </div>
           </div>
         ))}
+         <button onClick={handleSubmit} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+            Submit Courses
+          </button>
       </div>
     );
   };
@@ -331,6 +391,7 @@ const ManualCourseSearch = ({ handleAddCourse, year, term }) => {
     };
   }, [searchTerm]);
 
+  
   return (
     <>
       <input
@@ -382,6 +443,7 @@ const ManualCourseSearch = ({ handleAddCourse, year, term }) => {
               No results found
             </p>
           )}
+         
         </div>
       )}
     </>
