@@ -178,9 +178,17 @@ const LoginSignupModal = ({ onClose, onLoginSuccess }) => {
           onClose(); // Close the modal on successful signup
         }
       } else {
+        /*
         console.error(
           isLoginActive ? "Login error:" : "Signup error:",
           data.error
+        );
+        */
+        // Alert signup error
+        alert(
+          isLoginActive
+            ? `Login error: ${data.error}`
+            : `Signup error: ${data.error}`
         );
       }
     } catch (error) {
