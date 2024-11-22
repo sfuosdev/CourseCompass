@@ -64,11 +64,11 @@ const Navbar = ({ showSearchBar }) => {
       <div className="inline-flex mt-[1rem] pr-[0.125rem] sm:pr-[2rem]">
         {isLoggedIn ? (
           <>
-            <a href="/profile"> {/* Ensure the image is wrapped in an <a> tag for proper Link functionality */}
+            <a href="/profile" className='mb-1'> {/* Ensure the image is wrapped in an <a> tag for proper Link functionality */}
               <img
                 src="/profile-picture.jpg" // Replace npmwith dynamic path if necessary
                 alt="Profile picture"
-                className="rounded-full mr-[0.5rem] w-[8vw] md:w-[5vw] lg:w-[4vw] h-auto min-h-[3rem] min-w-[3rem] border border-black cursor-pointer"
+                className="rounded-full mr-[0.5rem] w-[6vw] md:w-[4vw] lg:w-[3vw] h-auto min-h-[3rem] min-w-[3rem] border border-black cursor-pointer"
               />
             </a>
             <button onClick={toggleMenu} ref={buttonRef} className={`transition-transform ${showMenu ? "rotate-180" : ""}`}>
